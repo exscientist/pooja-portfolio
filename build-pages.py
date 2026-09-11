@@ -151,7 +151,7 @@ ABOUT = """
       <p>I&rsquo;ve been the first bencher asking the 1 question every kid prayed I wouldn&rsquo;t ask, and the last bencher drawing the Picasso of her life in crayons and getting it stained with oil because her lunchbox wasn&rsquo;t air tight.</p>
       <p>Somewhere between the two, I became a scientist, storyteller, community builder and professional collector of strange little things.</p>
       <p>I&rsquo;ve spent years learning how to look closely. Now I make things worth looking at.</p>
-      <p style="margin-top:24px"><a class="u" href="../my-work/">see my work &rarr;</a></p>
+      <p style="margin-top:24px"><a class="u" href="../my-work/">see my work &rarr;</a><br><a class="u" href="../project-management/" style="display:inline-block;margin-top:8px">how I run projects &rarr;</a></p>
     </div>
     <figure style="margin:0">
       <div class="paper tilt-r"><span class="tape"></span>
@@ -173,7 +173,8 @@ MY_WORK = """
   <div class="wrap">
     <div class="center">
       <h1>[my work]</h1>
-      <p>research, strategy and content direction for Minimalist × Hindustan Unilever.</p>
+      <p>research, strategy and content direction for Minimalist × Unilever.</p>
+      <p><a class="u" href="../project-management/">how I run projects &rarr;</a></p>
       <div class="stats" style="justify-content:center">
         <div><b>22.8M</b><span>views across all videos</span></div>
         <div><b>35.4K</b><span>likes across all videos</span></div>
@@ -235,8 +236,9 @@ MY_WORK = """
   <div class="wrap">
     <h2 style="color:#111">[worked with]</h2>
     <div class="logos">
-      <span>Minimalist</span><span>Hindustan Unilever</span>
+      <span>Minimalist</span><span>Unilever</span>
     </div>
+    <p style="margin-top:36px"><a class="u" href="../project-management/" style="font-weight:700;font-size:18px">the project management side of this work &rarr;</a></p>
   </div>
 </section>
 </div>
@@ -484,7 +486,7 @@ PAGE_META = {
     "about":   ("About | Sabhyabacchi", "about",
                 "A scientist. A paradox. A storyteller with a camera and crayons in her hands. Previously in STEM: DRDO, ISRO, Oxford, IISc."),
     "my-work": ("My work | Sabhyabacchi", "work",
-                "Research, strategy and content direction for Minimalist × Hindustan Unilever: 22.8M views, 35.4K likes, 3 product launches informed."),
+                "Research, strategy and content direction for Minimalist × Unilever: 22.8M views, 35.4K likes, 3 product launches informed."),
     "project-management": ("Project management | Sabhyabacchi", "pm",
                 "Brief, scope, build, test, launch. Three product launches, five client accounts at once, six countries, and a scientist's eye for the technical bits."),
     "contact": ("Contact | Sabhyabacchi", "contact",
