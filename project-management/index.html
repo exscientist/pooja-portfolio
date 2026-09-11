@@ -5,7 +5,7 @@
     <!-- This is Squarespace. --><!-- gopher-plane-6e33 -->
 <base href="">
 <meta charset="utf-8">
-<title>About | Sabhyabacchi</title>
+<title>Project management | Sabhyabacchi</title>
 <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"><link rel="icon" type="image/x-icon" media="(prefers-color-scheme: light)" href="https://images.squarespace-cdn.com/content/v1/6a17950c1a50305b05320bcb/6fcdf553-482e-4eb4-bb4c-cad751a06b30/favicon.ico">
 <link rel="icon" type="image/x-icon" media="(prefers-color-scheme: dark)" href="https://images.squarespace-cdn.com/content/v1/6a17950c1a50305b05320bcb/7f45dfd8-f30d-4bfb-ab00-d5866f7878e9/favicon.ico">
 
@@ -14,18 +14,18 @@
 
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="description" content="A scientist. A paradox. A storyteller with a camera and crayons in her hands. Previously in STEM: DRDO, ISRO, Oxford, IISc.">
+<meta name="description" content="Brief, scope, build, test, launch. Three product launches, five client accounts at once, six countries, and a scientist's eye for the technical bits.">
 <meta property="og:site_name" content="Sabhyabacchi">
 <meta property="og:type" content="website">
-<meta property="og:title" content="About | Sabhyabacchi">
-<meta property="og:description" content="A scientist. A paradox. A storyteller with a camera and crayons in her hands. Previously in STEM: DRDO, ISRO, Oxford, IISc.">
-<meta property="og:url" content="https://sabhyabacchi.com/about/">
-<meta property="og:image" content="https://sabhyabacchi.com/assets/og/about.jpg">
+<meta property="og:title" content="Project management | Sabhyabacchi">
+<meta property="og:description" content="Brief, scope, build, test, launch. Three product launches, five client accounts at once, six countries, and a scientist's eye for the technical bits.">
+<meta property="og:url" content="https://sabhyabacchi.com/project-management/">
+<meta property="og:image" content="https://sabhyabacchi.com/assets/og/pm.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta name="twitter:title" content="About | Sabhyabacchi">
-<meta name="twitter:description" content="A scientist. A paradox. A storyteller with a camera and crayons in her hands. Previously in STEM: DRDO, ISRO, Oxford, IISc.">
-<meta name="twitter:image" content="https://sabhyabacchi.com/assets/og/about.jpg">
+<meta name="twitter:title" content="Project management | Sabhyabacchi">
+<meta name="twitter:description" content="Brief, scope, build, test, launch. Three product launches, five client accounts at once, six countries, and a scientist's eye for the technical bits.">
+<meta name="twitter:image" content="https://sabhyabacchi.com/assets/og/pm.jpg">
 <link rel="preconnect" href="https://images.squarespace-cdn.com">
 <link rel="preconnect" href="https://file.squarespace-cdn.com" crossorigin="">
 <style data-sqsp-font-ids="6a31393d494e3c6626e63daa,6a3137d3494e3c6626e63abc">
@@ -741,7 +741,7 @@
 
   
     <div class="header-nav-item header-nav-item--collection">
-      <a href="../about/" data-animation-role="header-element" class="header-nav-item--active" aria-current="page">
+      <a href="../about/" data-animation-role="header-element">
         About
       </a>
     </div>
@@ -762,7 +762,7 @@
 
   
     <div class="header-nav-item header-nav-item--collection">
-      <a href="../project-management/" data-animation-role="header-element">
+      <a href="../project-management/" data-animation-role="header-element" class="header-nav-item--active" aria-current="page">
         Projects
       </a>
     </div>
@@ -897,7 +897,7 @@
 
   
     <div class="header-nav-item header-nav-item--collection">
-      <a href="../about/" data-animation-role="header-element" class="header-nav-item--active" aria-current="page">
+      <a href="../about/" data-animation-role="header-element">
         About
       </a>
     </div>
@@ -918,7 +918,7 @@
 
   
     <div class="header-nav-item header-nav-item--collection">
-      <a href="../project-management/" data-animation-role="header-element">
+      <a href="../project-management/" data-animation-role="header-element" class="header-nav-item--active" aria-current="page">
         Projects
       </a>
     </div>
@@ -1406,39 +1406,163 @@
   }
 </style>
 
+<style>
+  /* ---- project management page ---- */
+  .pm-lead{font-size:clamp(20px,2.3vw,26px);line-height:1.3;font-weight:600;margin-top:20px;max-width:34ch}
+  .pm-lead i{font-style:normal;opacity:.55;margin:0 .35em}
+  .pm-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:26px 20px;margin-top:48px;align-items:start}
+  .pm-steps .paper{padding:22px 20px 24px;min-height:100%;text-align:left}
+  .pm-steps .paper:nth-child(odd){transform:rotate(-1.4deg)} .pm-steps .paper:nth-child(even){transform:rotate(1.1deg);margin-top:18px}
+  .pm-steps .paper:nth-child(3){transform:rotate(.6deg)}
+  .pm-steps b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(28px,3vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--blue)}
+  .pm-steps strong{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:19px;font-weight:700;margin:12px 0 8px;letter-spacing:-.01em}
+  .pm-steps p{font-size:14px;line-height:1.45;margin:0;max-width:none;color:#222}
+  .pm-cases{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 28px;margin-top:48px;align-items:start}
+  .pm-cases .paper{padding:26px 24px 28px;text-align:left}
+  .pm-cases .paper:nth-child(3n+1){transform:rotate(-1.6deg)} .pm-cases .paper:nth-child(3n+2){transform:rotate(1.2deg);margin-top:22px} .pm-cases .paper:nth-child(3n+3){transform:rotate(-.7deg);margin-top:8px}
+  .pm-cases small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.6;margin-bottom:10px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .pm-cases h3{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(20px,2vw,26px);font-weight:800;letter-spacing:-.02em;line-height:1.05;margin:0 0 12px;color:#111}
+  .pm-cases p{font-size:14.5px;line-height:1.45;margin:0 0 8px;max-width:none;color:#222}
+  .pm-cases .num{display:flex;gap:22px;margin-top:14px;padding-top:12px;border-top:1px solid rgba(0,0,0,.12)}
+  .pm-cases .num b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:26px;font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--blue)}
+  .pm-cases .num span{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;opacity:.65;margin-top:4px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .pm-two{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+  .pm-two h2{font-size:clamp(26px,2.8vw,38px)}
+  .pm-two .stem{max-width:none}
+  .pm-list{list-style:none;padding:0;margin:18px 0 0;font-family:"Helvetica Neue",Arial,sans-serif}
+  .pm-list li{padding:10px 0;border-top:1px solid rgba(255,255,255,.22);font-size:15.5px;line-height:1.4}
+  .pm-list li:last-child{border-bottom:1px solid rgba(255,255,255,.22)}
+  .pm-list li b{font-weight:700}
+  .pm-tags{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:28px}
+  .pm-tags i{font-style:normal;border:2.5px solid #111;border-radius:999px;padding:9px 20px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:16px;font-weight:800;color:#111}
+  .pm-cta{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:40px}
+  .pm-cta a{display:inline-block;padding:14px 26px;border-radius:999px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:16px;text-decoration:none;letter-spacing:-.01em}
+  .pm-cta a.solid{background:var(--blue);color:#fff} .pm-cta a.line{border:2.5px solid #111;color:#111}
+  .pm-cta a:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+  @media (max-width:1000px){.pm-steps{grid-template-columns:repeat(3,1fr)}.pm-cases{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:900px){.pm-two{grid-template-columns:1fr;gap:40px}}
+  @media (max-width:600px){
+    .pm-steps{grid-template-columns:1fr 1fr;gap:20px 14px;margin-top:32px}
+    .pm-steps .paper:nth-child(n){margin-top:0}
+    .pm-cases{grid-template-columns:1fr;gap:26px;margin-top:32px}
+    .pm-cases .paper:nth-child(n){margin-top:0}
+    .pm-tags i{font-size:14px;padding:8px 16px}
+  }
+</style>
+
 <div class="pg">
 <section class="navy">
   <div class="wrap">
-    <h1>[about me]</h1>
-    <p style="font-size:22px;line-height:1.3;font-weight:600;margin-top:20px">A scientist. A paradox.<br>A storyteller with a camera and crayons in her hands.</p>
-
-    <h2 style="margin-top:40px">Welcome to my playground</h2>
-    <figure class="about-hero" style="margin-bottom:0">
-      <div class="paper tilt-l"><span class="tape"></span><span class="tape r"></span>
-        <img src="../assets/about/wicketkeeping.jpg" alt="A tree-lined street in the evening, a kid batting, me crouched behind the stumps keeping wickets" width="1914" height="1075">
-      </div>
-      <figcaption class="scrawl">&uarr; that&rsquo;s me behind the stumps.</figcaption>
-    </figure>
+    <h1>[project management]</h1>
+    <p class="pm-lead">brief<i>&rarr;</i>scope<i>&rarr;</i>build<i>&rarr;</i>test<i>&rarr;</i>launch.<br>I&rsquo;m the person who keeps all five moving at once.</p>
+    <p style="margin-top:22px">Three years of running product launches, client accounts and research teams end to end, most recently for Minimalist (Unilever). Clients and partners in the USA, UK, Denmark, France, New Zealand and India. A scientist by training, so the technical side of a project doesn&rsquo;t need translating for me. I do the translating for everyone else.</p>
+    <div class="stats">
+      <div><b>3</b><span>product launches shipped</span></div>
+      <div><b>5</b><span>client accounts at once</span></div>
+      <div><b>6</b><span>countries worked across</span></div>
+      <div><b>22.8M</b><span>views on launch content</span></div>
+    </div>
   </div>
 </section>
 
 <section class="blue">
-  <div class="wrap about-grid">
-    <div>
-      <p>I&rsquo;ve been the first bencher asking the 1 question every kid prayed I wouldn&rsquo;t ask, and the last bencher drawing the Picasso of her life in crayons and getting it stained with oil because her lunchbox wasn&rsquo;t air tight.</p>
-      <p>Somewhere between the two, I became a scientist, storyteller, community builder and professional collector of strange little things.</p>
-      <p>I&rsquo;ve spent years learning how to look closely. Now I make things worth looking at.</p>
-      <p style="margin-top:24px"><a class="u" href="../my-work/">see my work &rarr;</a></p>
+  <div class="wrap">
+    <h2>how I run a project</h2>
+    <p>The same five steps every time, whether it&rsquo;s a skincare launch, a website or a research programme. Order matters, so they&rsquo;re numbered.</p>
+    <div class="pm-steps">
+      <div class="paper"><span class="tape"></span><b>1</b><strong>brief</strong><p>Get to what the client actually wants, not only what they said. Write it down so everyone reads the same thing.</p></div>
+      <div class="paper"><span class="tape"></span><b>2</b><strong>scope</strong><p>Turn it into a plan with owners, dependencies and dates. Say early what won&rsquo;t fit, and why.</p></div>
+      <div class="paper"><span class="tape"></span><b>3</b><strong>build</strong><p>Task it out to developers, designers, R&amp;D, whoever it takes. Short check-ins, blockers cleared the same day.</p></div>
+      <div class="paper"><span class="tape"></span><b>4</b><strong>test</strong><p>Review against the brief before the client sees it. Approvals and sign-offs on record, not in someone&rsquo;s head.</p></div>
+      <div class="paper"><span class="tape"></span><b>5</b><strong>launch</strong><p>Ship it, measure it, write down what we learned so the next one is faster.</p></div>
     </div>
-    <figure style="margin:0">
-      <div class="paper tilt-r"><span class="tape"></span>
-        <img src="../assets/about/bookshop.jpg" alt="Me sitting cross-legged on a wooden bench in a small bookshop, shelves of books on both sides" width="1280" height="720">
+  </div>
+</section>
+
+<section class="navy">
+  <div class="wrap">
+    <h2>things I&rsquo;ve shipped</h2>
+    <p>Not every project was a product. Some were programmes, some were client accounts, one was a physics lab. The job was the same: keep it moving and land it.</p>
+    <div class="pm-cases">
+      <div class="paper"><span class="tape"></span>
+        <small>Minimalist &times; Unilever &middot; skincare &middot; 2025 to now</small>
+        <h3>Three product launches, five teams, one plan</h3>
+        <p>Ran each launch from consumer research and briefing through R&amp;D alignment, testing, approvals and go-live, with R&amp;D, Brand, Communications, Growth and International Logistics working off one timeline.</p>
+        <p>Turned clinical and R&amp;D documentation on peptides, PDRN and acids into briefs and product pages the commercial team could use.</p>
+        <div class="num"><div><b>3</b><span>launches</span></div><div><b>5</b><span>functions</span></div><div><b>22.8M</b><span>views</span></div></div>
       </div>
+      <div class="paper"><span class="tape"></span>
+        <small>Minimalist &times; Unilever &middot; USA &middot; 2025</small>
+        <h3>The US launch, in Target stores</h3>
+        <p>Built the full creative suite for Minimalist landing in Target, then coordinated directly with the US growth team to roll it out. Two time zones, one launch date.</p>
+        <p><a class="u" href="../my-work/" style="color:var(--blue)">see the creative &rarr;</a></p>
+      </div>
+      <div class="paper"><span class="tape"></span>
+        <small>Evolv Life &middot; project consultant &middot; 2024 to 2025</small>
+        <h3>Five client accounts, at the same time</h3>
+        <p>HDFC Bank, Max Life, Domino&rsquo;s, BlackBerry and IMS. Owned requirements, feedback loops, approvals and every client conversation from research to sign-off, for all five in parallel.</p>
+        <div class="num"><div><b>5</b><span>accounts</span></div><div><b>3</b><span>industries</span></div></div>
+      </div>
+      <div class="paper"><span class="tape"></span>
+        <small>Untamed &middot; programmes &amp; communications &middot; 2025</small>
+        <h3>Flagship programmes across four countries</h3>
+        <p>India, USA, Denmark and the UK. Primary contact for a network of mental-health professionals, corporate partners and participants. Took Body Image &amp; You, Untamed Circles and The Untamed Letter from concept to rollout.</p>
+        <div class="num"><div><b>4</b><span>countries</span></div><div><b>3</b><span>programmes</span></div></div>
+      </div>
+      <div class="paper"><span class="tape"></span>
+        <small>Pluriversity &middot; climate advocacy &middot; 2023 to 2024</small>
+        <h3>Thirteen workstreams that didn&rsquo;t stall</h3>
+        <p>Teams in India, New Zealand and France. Kept 13 post-programme workstreams alive through 10 working-group cycles and built a global youth-climate stakeholder network that outlasted the programme.</p>
+        <div class="num"><div><b>13</b><span>workstreams</span></div><div><b>10</b><span>cycles</span></div></div>
+      </div>
+      <div class="paper"><span class="tape"></span>
+        <small>Oxford University &middot; Dept. of Physics &middot; 2023 to 2026</small>
+        <h3>A six-person research team</h3>
+        <p>Led the planning, task allocation, experiments and reporting for a team investigating quantum-mechanical effects in amyloid-&beta; aggregation, in step with a parallel neuroscience group. Physics people and biology people, one plan.</p>
+        <div class="num"><div><b>6</b><span>researchers</span></div><div><b>3</b><span>years</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blue">
+  <div class="wrap pm-two">
+    <div>
+      <h2>across time zones</h2>
+      <p>Most of my clients and partners have been somewhere else. Working remotely with people in the USA and UK is my normal, not a stretch.</p>
+      <ul class="pm-list">
+        <li><b>Primary contact</b> for clients, partners and participants on every programme above. Written updates, calls, escalations: mine.</li>
+        <li><b>Available for US and UK working hours.</b> Based in India, remote.</li>
+        <li><b>Six countries</b> of stakeholders so far: USA, UK, Denmark, France, New Zealand, India.</li>
+        <li><b>English, written properly.</b> Briefs, status reports, executive updates. Also once ranked 15th in India at a spelling bee, which I refuse to stop mentioning.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>the scientist in the room</h2>
+      <p>Project managers are not supposed to understand the technical stuff. I do. DRDO, ISRO&rsquo;s Chandrayaan-3 spacecraft team, and three years leading a physics lab at Oxford.</p>
+      <ul class="pm-list">
+        <li><b>I read the documentation.</b> R&amp;D reports, clinical data, engineering specs. Then I write the plain-language version.</li>
+        <li><b>Engineers don&rsquo;t have to simplify for me.</b> Which means fewer meetings and fewer things lost in the middle.</li>
+        <li><b>Rigour is a habit.</b> Controlled protocols, precise records, approvals you can find later. Labs taught me that before any client did.</li>
+      </ul>
       <div class="stem">
         <small>previously, in STEM</small>
         <span>DRDO<i>&middot;</i>ISRO<i>&middot;</i>Oxford<i>&middot;</i>IISc</span>
       </div>
-    </figure>
+    </div>
+  </div>
+</section>
+
+<section class="white center">
+  <div class="wrap">
+    <h2 style="color:#111">toolkit</h2>
+    <div class="pm-tags">
+      <i>Jira</i><i>Notion</i><i>Slack</i><i>Google Workspace</i><i>Figma</i><i>ChatGPT</i><i>Claude</i>
+    </div>
+    <div class="pm-cta">
+      <a class="solid" href="../assets/Pooja_Ved_Resume.pdf" target="_blank" rel="noopener">download my resume</a>
+      <a class="line" href="../contact/">say hi</a>
+    </div>
   </div>
 </section>
 </div>
