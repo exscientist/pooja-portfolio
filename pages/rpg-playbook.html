@@ -6,6 +6,9 @@
   @media (max-width:1179px){.rpg .ch,.rp-phase{scroll-margin-top:60px}}
   @media (max-width:600px){.rpg > section:first-of-type{padding-top:calc(40px + var(--hdr-h,0px) + 44px)}}
   .rpg h2{max-width:22ch;text-wrap:balance}
+  .rpg h1{font-size:clamp(30px,3.05vw,46px);letter-spacing:-.025em}
+  @media (min-width:1180px){.rpg h1{white-space:nowrap}}
+  .rpg h1 .co{font-style:normal;color:var(--yellow);text-decoration:underline;text-decoration-color:rgba(255,236,120,.55);text-decoration-thickness:3px;text-underline-offset:8px}
   /* the Squarespace theme paints h1-h4 white; give them the section's ink on light surfaces */
   .rpg .white h1,.rpg .white h2,.rpg .white h3,.rpg .white h4,.rp-board h3,.rp-calc h3,.rp-cases h4,.rp-checks h4{color:var(--ink)}
   .rpg h3{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.05;font-size:clamp(22px,2.2vw,30px);margin:0 0 14px}
@@ -15,9 +18,9 @@
   .rpg li{margin:0 0 9px}
   .rpg li b{font-weight:700}
   .rpg q{quotes:"\201C" "\201D"}
-  .rpg .lead{font-size:clamp(20px,2.3vw,26px);line-height:1.3;font-weight:600;margin-top:20px;max-width:34ch;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif}
+  .rpg .lead{font-size:clamp(18px,1.5vw,22px);line-height:1.35;font-weight:600;margin-top:18px;max-width:none;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif}
   .rpg .lead i{font-style:normal;opacity:.55;margin:0 .35em}
-  .rpg .byline{font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.75;margin-top:28px}
+  .rpg .byline{max-width:none;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.75;margin-top:28px}
   .rpg .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
   .rpg .chips i{font-style:normal;border:2px solid rgba(255,255,255,.55);border-radius:999px;padding:7px 14px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:13.5px;font-weight:700}
   .rpg .white .chips i{border-color:rgba(0,0,0,.35);color:var(--ink)}
@@ -40,7 +43,7 @@
   }
   /* stats */
   .rp-stats{display:grid;grid-template-columns:repeat(6,1fr);gap:26px 20px;margin:44px 0 0}
-  .rp-stats b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(30px,3.2vw,46px);font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--blue)}
+  .rp-stats b{display:block;white-space:nowrap;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(26px,2.5vw,38px);font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--blue)}
   .rp-stats span{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:12.5px;line-height:1.35;margin-top:8px;color:#333}
   .rp-stats small{display:block;font-size:11px;opacity:.55;margin-top:5px}
   /* two-column */
@@ -242,7 +245,7 @@
   <a href="#c5"><b>05</b>The CEO&rsquo;s part</a>
   <a href="#c6"><b>06</b>Money and timeline</a>
   <a href="#c7"><b>07</b>Applied to Rex Black</a>
-  <a href="#c8"><b>08</b>In-house, or not</a>
+  <a href="#c8"><b>08</b>Run in-house</a>
   <a href="#c9"><b>09</b>Sources and method</a>
   <span class="cnt"><span id="rp-cnt">01</span> / 09</span>
 </nav>
@@ -250,7 +253,7 @@
 <!-- 01 hero + in one page -->
 <section class="navy ch" id="c1">
   <div class="wrap">
-    <h1>[reverse-engineering rapid product growth]</h1>
+    <h1>[reverse-engineering <em class="co">Rapid Product Growth</em>]</h1>
     <p class="lead">screen<i>&rarr;</i>rewrite the offer<i>&rarr;</i>fix the sales call<i>&rarr;</i>cold email<i>&rarr;</i>Meta ads<i>&rarr;</i>booked calls<i>&rarr;</i>scale.<br>What a growth agency would do for Rex Black, week by week.</p>
     <p style="margin-top:22px">This page walks through what Rapid Product Growth (&ldquo;RPG&rdquo;) would do for Rex Black after a contract is signed, from the first week to month three and beyond. It is written for someone who has read nothing else. It is reconstructed from RPG&rsquo;s own method videos, the 7-minute sales video on their booking page, a 45-minute podcast interview in which Jean-Michel Moreau describes his process, and the ads RPG is running right now from two clients&rsquo; own Facebook pages. Where a number appears, it is his number, and the source is named.</p>
     <div class="chips">
@@ -268,7 +271,7 @@
         <p>The new thing to sell is a small project with a fixed price, a fixed deadline, a clearly named result, and a money-back clause, aimed at a demand trigger that already exists in the market. Only after that offer exists do they touch any marketing channel.</p>
         <p>Then it works from the back of the funnel to the front. First they fix how Rex Black sells: record every sales call, pull out the objections, retrain the team to sell to cold buyers. Second they tune cold email outreach, aiming for two to five percent of people replying, and use podcast invitations as an indirect way in. Only then do they run Facebook and Instagram ads, and those ads sell a phone call rather than the service. The ads run from Rex Black&rsquo;s own Facebook page, five or six versions at a time, paid for with $5,000 to $10,000 a month of Rex Black&rsquo;s money.</p>
         <p>One number governs everything: the cost of getting one qualified prospect to book a call and actually show up. The benchmarks he uses are $250 to $500 per booked call from Meta ads for a normal B2B company, an 80 percent show rate when things are working, and a 20 percent close rate on calls that were booked for a specific offer. Put together, that means $1,500 to $6,000 to win a customer. He expects the first calls within 30 days, cash within 60 to 90 days, and the whole funnel &ldquo;unlocked&rdquo; within one to three months. If a company&rsquo;s numbers cannot beat those, he says so on the first call and does not take the deal.</p>
-        <p>The part that is really him, and not a system: he sits in your sales calls, rewrites how you run discovery and how you present, and he upsells you to the bigger engagement inside the first two weeks. In his words, that happens &ldquo;at the point of maximum deprivation, before the problem is solved.&rdquo; Everything else in the machine is documented on his own channel.</p>
+        <p>Alongside the system, he sits in the client&rsquo;s sales calls, rewrites how discovery and the presentation are run, and proposes the bigger engagement inside the first two weeks. In his words, that happens &ldquo;at the point of maximum deprivation, before the problem is solved.&rdquo; Each step of the machine is documented on his own channel.</p>
       </div>
       <div>
         <span class="k">Terms used on this page</span>
@@ -352,7 +355,7 @@
         <p class="q">He rejects founders whose attitude is &ldquo;everything doesn&rsquo;t work for me, prove it.&rdquo; He wants &ldquo;there&rsquo;s no reason why this should be impossible.&rdquo;</p>
         <p>He reads the founder for this in the conversation itself, not from a form.</p></div>
     </div>
-    <p style="margin-top:40px">He also sells his guarantee by telling stories about rejection. In the ad he calls &ldquo;we copied Harvard&rdquo; and in his vendor-audit videos, he tells &ldquo;the three times it didn&rsquo;t work.&rdquo; He explains that most engagements begin as fractional work, meaning a part-time paid role auditing what the company already does: &ldquo;I come in to evaluate all their vendors&hellip; very often we come up with a more involved engagement within the first two weeks.&rdquo; So the realistic expectation from a first proposal is a small paid audit, not the full program.</p>
+    <p style="margin-top:40px">He also talks openly about rejection when he explains the guarantee. In the ad he calls &ldquo;we copied Harvard&rdquo; and in his vendor-audit videos, he tells &ldquo;the three times it didn&rsquo;t work.&rdquo; He explains that most engagements begin as fractional work, meaning a part-time paid role auditing what the company already does: &ldquo;I come in to evaluate all their vendors&hellip; very often we come up with a more involved engagement within the first two weeks.&rdquo; So the realistic expectation from a first proposal is a small paid audit, not the full program.</p>
   </div>
 </section>
 
@@ -529,11 +532,11 @@
           <li><b>Find and attack the next blockage</b> using the real numbers against industry benchmarks, and move resources to it rather than polishing things that already work. In his words, that is the point where &ldquo;you&rsquo;ve earned the million.&rdquo;</li>
           <li><b>Leaders and operations.</b> A simple system for what a leader&rsquo;s job is, so problems stop flowing up to the CEO, and Toyota-style process work so that &ldquo;growth doesn&rsquo;t break your business.&rdquo;</li>
           <li><b>The client rhythm.</b> Weekly calls. A &ldquo;raise the floor&rdquo; rule: never test fewer than two things even in a bad week, rather than trying to beat your best week. The founder submits their own plan for that each week.</li>
-          <li><b>Handover.</b> &ldquo;Then we hand you a system you own.&rdquo; In practice the ad account, the Facebook page, the forms and the workflows already live in the client&rsquo;s own accounts (Susco and 2X advertise from their own pages), so what leaves with RPG at the end is the judgement, not the tooling.</li>
+          <li><b>Handover.</b> &ldquo;Then we hand you a system you own.&rdquo; In practice the ad account, the Facebook page, the forms and the workflows already live in the client&rsquo;s own accounts (Susco and 2X advertise from their own pages), so the accounts, pages and workflows stay with the client at the end.</li>
         </ol></div>
         <div class="rp-side">
           <div class="paper"><span class="tape"></span><small>Where the system lives</small>
-            <p>Both live clients advertise from their own Facebook pages, and the forms are Meta instant forms or Typeform on the client&rsquo;s account. The tooling is the client&rsquo;s from day one. The weekly judgement is the part supplied by RPG.</p>
+            <p>Both live clients advertise from their own Facebook pages, and the forms are Meta instant forms or Typeform on the client&rsquo;s account. The tooling is the client&rsquo;s from day one.</p>
             <div class="rp-why"><small>Why</small><span>He sells the system as something the client keeps, so it is built inside the client&rsquo;s accounts.</span></div>
           </div>
         </div>
@@ -586,7 +589,7 @@
         <div class="res">426% return on ad spend in 14 days; 100 to 2,000 leads a month; &ldquo;more new users today than all of December&rdquo;</div>
         <div class="src">Website testimonials</div><span class="tag">RPG&rsquo;s claim</span></div>
     </div>
-    <p class="rp-foot">Every public case is B2B software, consulting or a services shop selling to trades. None is a D2C or e-commerce brand.</p>
+    <p class="rp-foot">The named cases are B2B software, consulting and services firms, plus one B&amp;B. None is a D2C or e-commerce brand.</p>
   </div>
 </section>
 
@@ -661,7 +664,7 @@
     <h3 style="margin-top:44px">The offer he would push Rex Black toward</h3>
     <p>He colour-codes offers. Yellow is &ldquo;hard to sell without a relationship, takes an incredible amount of trust.&rdquo; He used almost that exact phrase about another client&rsquo;s ad that offered to &ldquo;place one of our engineers in your project.&rdquo; Green rides a queue that already exists.</p>
     <div class="rp-offers">
-      <div class="y"><small>Yellow, in his code</small><b>&ldquo;Custom software development&rdquo;</b><p>What Rex Black says it does today. Sold on trust and referrals. A stranger cannot approve it without a relationship.</p></div>
+      <div class="y"><small>Yellow, in his code</small><b>&ldquo;Custom software development&rdquo;</b><p>Rex Black&rsquo;s current positioning. Sold on trust and referrals. A stranger cannot approve it without a relationship.</p></div>
       <div class="g"><small>Green: D2C brand</small><b>&ldquo;Core Web Vitals and checkout speed fixed in 30 days for $12,000, or you don&rsquo;t pay.&rdquo;</b><p>Tied to revenue before Black Friday. A marketing director can approve it alone. About one in ten of these buyers becomes the $100,000-plus build, by his rule of thumb.</p></div>
       <div class="g"><small>Green: agency</small><b>&ldquo;A senior developer on your project within two weeks, fixed monthly price.&rdquo;</b><p>The outcome for an agency is capacity: &ldquo;a senior developer just left.&rdquo; Alternative D2C shape: &ldquo;Klaviyo flows rebuilt before Black Friday, fixed price, three weeks.&rdquo;</p></div>
     </div>
@@ -718,11 +721,12 @@
 <!-- 08 in-house -->
 <section class="white ch" id="c8">
   <div class="wrap">
-    <span class="k">08 &middot; What can be built in-house, and what cannot</span>
-    <h2>Most of the machine is on his channel. Four things are not.</h2>
+    <span class="k">08 &middot; Run in-house</span>
+    <h2>The same playbook, run from inside Rex Black</h2>
+    <p>Every step in the engagement is documented on RPG&rsquo;s own channel. This is how each one would be run by someone inside the company, on Rex Black&rsquo;s own data and buyers.</p>
     <div class="rp-inh">
       <div>
-        <h3>Fully reproducible from his videos</h3>
+        <h3>Every step, from his own videos</h3>
         <ul class="yes">
           <li>The vendor audit sheet and the one metric: cost per qualified call that showed.</li>
           <li>The ideal-customer spreadsheet built from Rex Black&rsquo;s past clients.</li>
@@ -736,19 +740,19 @@
         </ul>
       </div>
       <div>
-        <h3>Genuinely his, not in any video</h3>
-        <ul class="no">
-          <li>Twenty years of operator pattern-matching, &ldquo;around 10 new founders and CEOs a week,&rdquo; applied live on the sales call.</li>
-          <li>Sitting in the client&rsquo;s sales calls and rewriting discovery and the pitch.</li>
-          <li>Knowing when to reject a client, and the confidence to say so.</li>
-          <li>A guarantee backed by a company that can absorb a miss.</li>
+        <h3>What running it in-house adds</h3>
+        <ul class="yes">
+          <li>Objections are captured after every discovery call and acted on the same day: Tuesday&rsquo;s objection becomes Wednesday&rsquo;s ad angle or retargeting message.</li>
+          <li>The workflows are built for our results, not a template, and change as we see what works. Most of the smaller automations I can build myself with AI tools.</li>
+          <li>Direct access to why deals are lost, what clients keep asking for and what projects actually cost to deliver, turned into campaign changes and tested quickly.</li>
+          <li>Every test result, objection and lost-deal insight stays with Rex Black, so each campaign starts from what the last one learned.</li>
+          <li>Experience from inside a D2C brand: the operating realities, priorities and buying considerations of the businesses Rex Black targets.</li>
         </ul>
-        <p style="margin-top:18px">Those four things a company either buys with a fee or supplies through its own CEO&rsquo;s selling. Neither is a lead-generation hire&rsquo;s job.</p>
       </div>
     </div>
 
     <h3 style="margin-top:56px">Same steps, run inside Rex Black</h3>
-    <p>How I would run each step of the board from inside the company.</p>
+    <p>Each step of the board, and how it runs from inside the company.</p>
     <div class="rp-scroll" style="margin-top:18px"><table class="rp-table inh">
       <thead><tr><th>Step</th><th>RPG&rsquo;s version</th><th>In-house version</th></tr></thead>
       <tbody>
@@ -760,7 +764,7 @@
         <tr><td>Meta ads</td><td>Their template, $5&ndash;10k a month from day one</td><td>Same test order. Start small, scale on evidence.</td></tr>
         <tr><td>Booked calls</td><td>Their setter confirms</td><td>I qualify and confirm every booking before it reaches the CEO.</td></tr>
       </tbody></table></div>
-    <p style="margin-top:26px">So the comparison is between two ways of running the same playbook: RPG&rsquo;s judgement for a fee, plus $5,000 to $10,000 a month of ads, or the playbook run in-house on Rex Black&rsquo;s real buyers, with the CEO closing. The steps are public. The fee buys the judgement and the weekly presence.</p>
+    <p style="margin-top:26px">The steps are public and the accounts sit with the client either way. What changes with an in-house run is where the learning lives and how fast it is acted on.</p>
   </div>
 </section>
 
@@ -774,7 +778,7 @@
       <div><b>Transcribe</b>YouTube captions pulled and cleaned (134,000 words). LinkedIn clips and the sales video transcribed with Gemini, speaker-labelled.</div>
       <div><b>Extract</b>Sixteen method videos read in full. The other 61 turned into structured notes per video with Gemini and reviewed by hand.</div>
       <div><b>Cross-check</b>Claude used to organise about 150,000 words into one process map. Each number kept only where two sources agree or one source is quoted directly.</div>
-      <div><b>Write</b>Every figure on this page is RPG&rsquo;s own, tagged with where it was said. Nothing here is a measured result of their work.</div>
+      <div><b>Write</b>Every figure on this page is RPG&rsquo;s own, tagged with where it was said. None of the figures were measured independently.</div>
     </div>
     <ul class="rp-src">
       <li><b>Rapid Product Growth&rsquo;s YouTube channel:</b> all 77 videos. Read in full: 11-Step Growth System; The 3 Steps Every Business Must Follow; One Metric Exposes Bad Marketing Agencies; Pick the Right Growth Channel; Why 70% Lose Money on Paid Ads; Stop Wasting Money on LinkedIn Ads; 5-Quadrant Bottleneck; ICP Spreadsheet; Four Mistakes; 3 Marketing Tactics; ROI Trap; $1M Ceiling; SFOs; Stuck at $5M; Strategic Retargeting; Picking the Right Agency.</li>
