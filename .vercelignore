@@ -1,0 +1,7 @@
+lead-engine
+node_modules
+.env
+.env.*
+.git
+.playwright-mcp
+pages
