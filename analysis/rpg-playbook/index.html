@@ -1,0 +1,3618 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US" class="yui3-js-enabled js flexbox canvas canvastext webgl no-touch hashchange history draganddrop rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions video audio svg inlinesvg svgclippaths" style="--header-height: 60.40625px; scroll-behavior: smooth;"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This is Squarespace. --><!-- gopher-plane-6e33 -->
+<base href="">
+<meta charset="utf-8">
+<title>Reverse-engineering Rapid Product Growth | Sabhyabacchi</title>
+<meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"><link rel="icon" type="image/x-icon" media="(prefers-color-scheme: light)" href="https://images.squarespace-cdn.com/content/v1/6a17950c1a50305b05320bcb/6fcdf553-482e-4eb4-bb4c-cad751a06b30/favicon.ico">
+<link rel="icon" type="image/x-icon" media="(prefers-color-scheme: dark)" href="https://images.squarespace-cdn.com/content/v1/6a17950c1a50305b05320bcb/7f45dfd8-f30d-4bfb-ab00-d5866f7878e9/favicon.ico">
+
+
+
+
+
+<meta name="robots" content="noindex,nofollow">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="How a growth agency would run Rex Black's pipeline, week by week, rebuilt from 176 of its own videos, its sales page and its clients' live ads.">
+<meta property="og:site_name" content="Sabhyabacchi">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Reverse-engineering Rapid Product Growth | Sabhyabacchi">
+<meta property="og:description" content="How a growth agency would run Rex Black's pipeline, week by week, rebuilt from 176 of its own videos, its sales page and its clients' live ads.">
+<meta property="og:url" content="https://sabhyabacchi.com/analysis/rpg-playbook/">
+<meta property="og:image" content="https://sabhyabacchi.com/assets/og/rpg.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:title" content="Reverse-engineering Rapid Product Growth | Sabhyabacchi">
+<meta name="twitter:description" content="How a growth agency would run Rex Black's pipeline, week by week, rebuilt from 176 of its own videos, its sales page and its clients' live ads.">
+<meta name="twitter:image" content="https://sabhyabacchi.com/assets/og/rpg.jpg">
+<link rel="preconnect" href="https://images.squarespace-cdn.com">
+<link rel="preconnect" href="https://file.squarespace-cdn.com" crossorigin="">
+<style data-sqsp-font-ids="6a31393d494e3c6626e63daa,6a3137d3494e3c6626e63abc">
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/94f01c9161.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/77646ed81f.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/47939a3604.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/8c35b58d33.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/7f6ddfadd4.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/25abfd8ceb.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/e0d361cda4.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/88ae5d0600.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/5873b400d3.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/5d7398d3bc.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/5134a6b51b.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/e2493a7062.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/03aa65f161.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/2fede19f71.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/9c7b2100c7.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/29cecf0997.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/7864b69ddd.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/a98892c817.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/2219c68594.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/831a0fe9e6.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/31cf459850.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/a2612b19d0.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/ee20a017ad.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/b482d007cb.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/56f32470c5.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/ce6deac915.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../../assets/style0.css">
+
+<link rel="stylesheet" type="text/css" href="../../assets/style1.css">
+<link rel="stylesheet" type="text/css" href="../../assets/style2.css"><link rel="stylesheet" type="text/css" href="../../assets/style3.css"><link rel="stylesheet" type="text/css" href="../../assets/style4.css"><link rel="stylesheet" type="text/css" href="../../assets/style5.css"><link rel="stylesheet" type="text/css" href="../../assets/style6.css"><link rel="stylesheet" type="text/css" href="../../assets/style7.css"><link rel="stylesheet" type="text/css" href="../../assets/style8.css"><link rel="stylesheet" type="text/css" href="../../assets/style9.css">
+<!-- End of Squarespace Headers -->
+    
+    
+  <link rel="stylesheet" type="text/css" href="../../assets/style10.css"><link rel="stylesheet" type="text/css" href="../../assets/style11.css"><style>
+  /* site title: handle | name */
+  #site-title{display:inline-flex;align-items:baseline;white-space:nowrap}
+  #site-title .st-handle,#site-title .st-name{display:inline-block;font-size:1em;transition:opacity .4s ease,font-size .45s cubic-bezier(.34,1.3,.64,1),letter-spacing .4s ease}
+  #site-title .st-sep{display:inline-block;width:1.5px;height:.78em;margin:0 .5em;background:currentColor;opacity:.55;transform:rotate(14deg) translateY(.08em);transform-origin:center;transition:transform .45s cubic-bezier(.34,1.56,.64,1),opacity .35s}
+  #site-title .st-name{font-size:.82em;opacity:.7;letter-spacing:.02em}
+  #site-title:hover .st-handle{opacity:.6;font-size:.82em}
+  #site-title:hover .st-name{opacity:1;font-size:1em;letter-spacing:0}
+  #site-title:hover .st-sep{transform:rotate(-14deg) translateY(.08em);opacity:.9}
+  @media (max-width:640px){#site-title .st-sep,#site-title .st-name{display:none}}
+</style>
+<style>
+  /* Pooja-on-paper block: never crop the cutout (the Squarespace block defaults to object-fit:cover) */
+  .fe-block-22c0c3f81eda121cd74f{align-self:end !important;overflow:visible !important}
+  .fe-block-22c0c3f81eda121cd74f .sqs-block,.fe-block-22c0c3f81eda121cd74f .sqs-block-content,.fe-block-22c0c3f81eda121cd74f .fluid-image-component-root,
+  .fe-block-22c0c3f81eda121cd74f .fluid-image-animation-wrapper,.fe-block-22c0c3f81eda121cd74f .fluid-image-container,
+  .fe-block-22c0c3f81eda121cd74f .js-content-mode-element-wrapper,.fe-block-22c0c3f81eda121cd74f .js-content-mode-element{height:auto !important;min-height:0 !important;padding:0 !important;overflow:visible !important}
+  .fe-block-22c0c3f81eda121cd74f .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill,
+  .fe-block-22c0c3f81eda121cd74f .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill img,
+  .fe-block-22c0c3f81eda121cd74f img[data-sqsp-image-block-image]{position:static !important;display:block !important;width:100% !important;height:auto !important;max-height:none !important;object-fit:fill !important}
+</style>
+</head>
+
+  <body id="collection-6a17950d1a50305b05320bfb" class="tweak-blog-alternating-side-by-side-width-full tweak-blog-alternating-side-by-side-image-aspect-ratio-11-square tweak-blog-alternating-side-by-side-text-alignment-left tweak-blog-alternating-side-by-side-read-more-style-show tweak-blog-alternating-side-by-side-image-text-alignment-middle tweak-blog-alternating-side-by-side-delimiter-bullet tweak-blog-alternating-side-by-side-meta-position-top tweak-blog-alternating-side-by-side-primary-meta-categories tweak-blog-alternating-side-by-side-secondary-meta-date tweak-blog-alternating-side-by-side-excerpt-show image-block-poster-text-alignment-left image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-content-position-center image-block-collage-text-alignment-left image-block-stack-text-alignment-left form-use-theme-colors form-field-style-outline form-field-shape-pill form-field-border-all form-field-checkbox-type-icon form-field-checkbox-fill-outline form-field-checkbox-color-inverted form-field-checkbox-shape-rounded form-field-checkbox-layout-fit form-field-radio-type-icon form-field-radio-fill-outline form-field-radio-color-inverted form-field-radio-shape-rounded form-field-radio-layout-fit form-field-survey-fill-outline form-field-survey-color-inverted form-field-survey-shape-rounded form-field-hover-focus-outline form-submit-button-style-label  tweak-global-animations-complexity-level-detailed tweak-global-animations-animation-style-fade tweak-global-animations-animation-type-none tweak-global-animations-animation-curve-ease tweak-blog-masonry-width-full tweak-blog-masonry-text-alignment-left tweak-blog-masonry-primary-meta-categories tweak-blog-masonry-secondary-meta-date tweak-blog-masonry-meta-position-top tweak-blog-masonry-read-more-style-show tweak-blog-masonry-delimiter-space tweak-blog-masonry-image-placement-above tweak-blog-masonry-excerpt-show tweak-portfolio-grid-overlay-width-full tweak-portfolio-grid-overlay-height-large tweak-portfolio-grid-overlay-image-aspect-ratio-11-square tweak-portfolio-grid-overlay-text-placement-center tweak-portfolio-grid-overlay-show-text-after-hover tweak-blog-single-column-width-full tweak-blog-single-column-text-alignment-left tweak-blog-single-column-image-placement-above tweak-blog-single-column-delimiter-bullet tweak-blog-single-column-read-more-style-show tweak-blog-single-column-primary-meta-categories tweak-blog-single-column-secondary-meta-date tweak-blog-single-column-meta-position-top tweak-blog-single-column-content-full-post header-width-full   tweak-fixed-header-style-basic tweak-blog-item-width-medium tweak-blog-item-text-alignment-left tweak-blog-item-meta-position-above-title tweak-blog-item-show-categories tweak-blog-item-show-date   tweak-blog-item-delimiter-bullet tweak-blog-side-by-side-width-full tweak-blog-side-by-side-image-placement-left tweak-blog-side-by-side-image-aspect-ratio-11-square tweak-blog-side-by-side-primary-meta-categories tweak-blog-side-by-side-secondary-meta-date tweak-blog-side-by-side-meta-position-top tweak-blog-side-by-side-text-alignment-left tweak-blog-side-by-side-image-text-alignment-middle tweak-blog-side-by-side-read-more-style-show tweak-blog-side-by-side-delimiter-bullet tweak-blog-side-by-side-excerpt-show primary-button-style-outline primary-button-shape-pill secondary-button-style-outline secondary-button-shape-pill tertiary-button-style-outline tertiary-button-shape-pill tweak-events-stacked-width-full tweak-events-stacked-height-large  tweak-events-stacked-show-thumbnails tweak-events-stacked-thumbnail-size-32-standard tweak-events-stacked-date-style-with-text tweak-events-stacked-show-time tweak-events-stacked-show-location  tweak-events-stacked-show-excerpt  tweak-blog-basic-grid-width-inset tweak-blog-basic-grid-image-aspect-ratio-32-standard tweak-blog-basic-grid-text-alignment-center tweak-blog-basic-grid-delimiter-bullet tweak-blog-basic-grid-image-placement-above tweak-blog-basic-grid-read-more-style-show tweak-blog-basic-grid-primary-meta-categories tweak-blog-basic-grid-secondary-meta-date tweak-blog-basic-grid-excerpt-show tweak-portfolio-grid-basic-width-full tweak-portfolio-grid-basic-height-large tweak-portfolio-grid-basic-image-aspect-ratio-11-square tweak-portfolio-grid-basic-text-alignment-left tweak-portfolio-grid-basic-hover-effect-fade header-overlay-alignment-center tweak-portfolio-index-background-link-format-stacked tweak-portfolio-index-background-width-full tweak-portfolio-index-background-height-large  tweak-portfolio-index-background-vertical-alignment-middle tweak-portfolio-index-background-horizontal-alignment-center tweak-portfolio-index-background-delimiter-none tweak-portfolio-index-background-animation-type-fade tweak-portfolio-index-background-animation-duration-medium tweak-portfolio-hover-follow-layout-inline  tweak-portfolio-hover-follow-delimiter-bullet tweak-portfolio-hover-follow-animation-type-fade tweak-portfolio-hover-follow-animation-duration-fast tweak-portfolio-hover-static-layout-inline tweak-portfolio-hover-static-front tweak-portfolio-hover-static-delimiter-hyphen tweak-portfolio-hover-static-animation-type-fade tweak-portfolio-hover-static-animation-duration-fast hide-opentable-icons opentable-style-dark tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-type-page collection-layout-default collection-6a17950d1a50305b05320bfb homepage mobile-style-available sqs-seven-one
+      
+        
+          
+        
+      
+     seven-one-global-animations" tabindex="-1" data-animation-state="booted">
+    <div id="siteWrapper" class="clearfix site-wrapper">
+      
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  <header data-test="header" id="header" class="
+      
+        
+      
+      header theme-col--primary
+    " data-section-theme="" data-controller="Header" data-current-styles="{
+&quot;layout&quot;: &quot;navRight&quot;,
+&quot;action&quot;: {
+&quot;href&quot;: &quot;/appointments&quot;,
+&quot;buttonText&quot;: &quot;Book now&quot;,
+&quot;newWindow&quot;: false
+},
+&quot;showSocial&quot;: false,
+&quot;socialOptions&quot;: {
+&quot;socialBorderShape&quot;: &quot;none&quot;,
+&quot;socialBorderStyle&quot;: &quot;outline&quot;,
+&quot;socialBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+&quot;cartStyle&quot;: &quot;text&quot;,
+&quot;cartText&quot;: &quot;Cart&quot;,
+&quot;showEmptyCartState&quot;: false,
+&quot;cartOptions&quot;: {
+&quot;iconType&quot;: &quot;stroke-9&quot;,
+&quot;cartBorderShape&quot;: &quot;none&quot;,
+&quot;cartBorderStyle&quot;: &quot;outline&quot;,
+&quot;cartBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showButton&quot;: false,
+&quot;showCart&quot;: true,
+&quot;showAccountLogin&quot;: false,
+&quot;headerStyle&quot;: &quot;solid&quot;,
+&quot;languagePicker&quot;: {
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+},
+&quot;iconOptions&quot;: {
+&quot;desktopDropdownIconOptions&quot;: {
+&quot;size&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;iconSpacing&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 0.35
+},
+&quot;strokeWidth&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;endcapType&quot;: &quot;square&quot;,
+&quot;folderDropdownIcon&quot;: &quot;none&quot;,
+&quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+},
+&quot;mobileDropdownIconOptions&quot;: {
+&quot;size&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;iconSpacing&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 0.15
+},
+&quot;strokeWidth&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.5
+},
+&quot;endcapType&quot;: &quot;square&quot;,
+&quot;folderDropdownIcon&quot;: &quot;openArrowHead&quot;,
+&quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+}
+},
+&quot;mobileOptions&quot;: {
+&quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+&quot;menuIconOptions&quot;: {
+&quot;style&quot;: &quot;doubleLineHamburger&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+}
+},
+&quot;solidOptions&quot;: {
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;CUSTOM_COLOR&quot;,
+&quot;customColor&quot;: {
+&quot;hslaValue&quot;: {
+&quot;hue&quot;: 246.82,
+&quot;saturation&quot;: 0.84,
+&quot;lightness&quot;: 0.49,
+&quot;alpha&quot;: 1.0
+},
+&quot;userFormat&quot;: &quot;hex&quot;
+}
+}
+},
+&quot;gradientOptions&quot;: {
+&quot;gradientType&quot;: &quot;faded&quot;,
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 90.0
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+}
+},
+&quot;dropShadowOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;borderOptions&quot;: {
+&quot;enabled&quot;: true,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showPromotedElement&quot;: false,
+&quot;buttonVariant&quot;: &quot;primary&quot;,
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+}
+}" data-section-id="header" data-header-style="solid" data-language-picker="{
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+}" data-first-focusable-element="" tabindex="-1" style="
+      
+      
+      
+        --solidHeaderBackgroundColor: hsla(246.82, 84%, 49%, 1);
+      
+      
+      
+      
+    " data-controllers-bound="Header">
+    <svg style="display:none" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="circle">
+    <path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z" fill="none"></path>
+  </symbol>
+
+  <symbol id="circleFilled">
+    <path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z"></path>
+  </symbol>
+
+  <symbol id="dash">
+    <path d="M11 11H19H3"></path>
+  </symbol>
+
+  <symbol id="squareFilled">
+    <rect x="6" y="6" width="11" height="11"></rect>
+  </symbol>
+
+  <symbol id="square">
+    <rect x="7" y="7" width="9" height="9" fill="none" stroke="inherit"></rect>
+  </symbol>
+  
+  <symbol id="plus">
+    <path d="M11 3V19"></path>
+    <path d="M19 11L3 11"></path>
+  </symbol>
+  
+  <symbol id="closedArrow">
+    <path d="M11 11V2M11 18.1797L17 11.1477L5 11.1477L11 18.1797Z" fill="none"></path>
+  </symbol>
+  
+  <symbol id="closedArrowFilled">
+    <path d="M11 11L11 2" stroke="inherit" fill="none"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.74695 9.38428L19.038 9.38428L10.8925 19.0846L2.74695 9.38428Z" stroke-width="1"></path>
+  </symbol>
+  
+  <symbol id="closedArrowHead" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/symbol">
+    <path d="M18 7L11 15L4 7L18 7Z" fill="none" stroke="inherit"></path>
+  </symbol>
+  
+  
+  <symbol id="closedArrowHeadFilled" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/symbol">
+    <path d="M18.875 6.5L11 15.5L3.125 6.5L18.875 6.5Z"></path>
+  </symbol>
+  
+  <symbol id="openArrow">
+    <path d="M11 18.3591L11 3" stroke="inherit" fill="none"></path>
+    <path d="M18 11.5L11 18.5L4 11.5" stroke="inherit" fill="none"></path>
+  </symbol>
+  
+  <symbol id="openArrowHead">
+    <path d="M18 7L11 14L4 7" fill="none"></path>
+  </symbol>
+
+  <symbol id="pinchedArrow">
+    <path d="M11 17.3591L11 2" fill="none"></path>
+    <path d="M2 11C5.85455 12.2308 8.81818 14.9038 11 18C13.1818 14.8269 16.1455 12.1538 20 11" fill="none"></path>
+  </symbol>
+
+  <symbol id="pinchedArrowFilled">
+    <path d="M11.05 10.4894C7.04096 8.73759 1.05005 8 1.05005 8C6.20459 11.3191 9.41368 14.1773 11.05 21C12.6864 14.0851 15.8955 11.227 21.05 8C21.05 8 15.0591 8.73759 11.05 10.4894Z" stroke-width="1"></path>
+    <path d="M11 11L11 1" fill="none"></path>
+  </symbol>
+
+  <symbol id="pinchedArrowHead">
+    <path d="M2 7.24091C5.85455 8.40454 8.81818 10.9318 11 13.8591C13.1818 10.8591 16.1455 8.33181 20 7.24091" fill="none"></path>
+  </symbol>
+  
+  <symbol id="pinchedArrowHeadFilled">
+    <path d="M11.05 7.1591C7.04096 5.60456 1.05005 4.95001 1.05005 4.95001C6.20459 7.89547 9.41368 10.4318 11.05 16.4864C12.6864 10.35 15.8955 7.81365 21.05 4.95001C21.05 4.95001 15.0591 5.60456 11.05 7.1591Z"></path>
+  </symbol>
+
+</svg>
+    
+<div class="sqs-announcement-bar-dropzone"></div>
+
+    <div class="header-announcement-bar-wrapper">
+      
+      <a href="#page" class="header-skip-link sqs-button-element--primary">
+        Skip to Content
+      </a>
+      
+
+
+<style>
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        .header-blur-background {
+            
+                -webkit-backdrop-filter: blur(12px);
+                backdrop-filter: blur(12px);
+            
+            
+        }
+    }
+</style>
+      <div class="header-border" data-header-style="solid" data-header-border="true" data-test="header-border" style="
+
+
+  
+    border-width: 1px !important;
+  
+
+
+
+"></div>
+      <div class="header-dropshadow" data-header-style="solid" data-header-dropshadow="false" data-test="header-dropshadow" style=""></div>
+      
+      
+        <div>
+          <div class="header-background-solid" data-header-style="solid" data-test="header-background-solid" style="opacity: calc(100 * .01)"></div>
+        </div>
+      
+
+      <div class="header-inner container--fluid
+        
+          header-layout--with-commerce
+        
+        
+        
+         header-mobile-layout-logo-left-nav-right
+        
+        
+        
+        
+        
+        
+         header-layout-nav-right
+        
+        
+        
+        
+        
+        
+        
+        
+        " data-test="header-inner">
+        <!-- Background -->
+        <div class="header-background theme-bg--primary"></div>
+
+        <div class="header-display-desktop" data-content-field="site-title">
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+            
+
+
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+
+<!-- Burger -->
+<div class="header-burger
+
+  menu-overlay-does-not-have-visible-non-navigation-items
+
+
+  
+  no-actions
+  
+" data-animation-role="header-element">
+  <button class="header-burger-btn burger" data-test="header-burger">
+    <span class="js-header-burger-open-title visually-hidden">Open Menu</span>
+    <span hidden="" class="js-header-burger-close-title visually-hidden">Close Menu</span>
+    <div class="burger-box">
+      <div class="burger-inner header-menu-icon-doubleLineHamburger">
+        <div class="top-bun"></div>
+        <div class="patty"></div>
+        <div class="bottom-bun"></div>
+      </div>
+    </div>
+  </button>
+</div>
+
+            
+            <!-- Social -->
+            
+          
+            
+            <!-- Title and nav wrapper -->
+            <div class="header-title-nav-wrapper">
+              
+
+              
+
+              
+                
+                <!-- Title -->
+                
+                  <div class="
+                      header-title
+                      
+                    " data-animation-role="header-element">
+                    
+                      <div class="header-title-text">
+                        <a id="site-title" href="../../" data-animation-role="header-element"><span class="st-handle">Sabhyabacchi</span><span class="st-sep" aria-hidden="true"></span><span class="st-name">Pooja</span></a>
+                      </div>
+                    
+                    
+                  </div>
+                
+              
+                
+                <!-- Nav -->
+                <div class="header-nav">
+                  <div class="header-nav-wrapper">
+                    <nav class="header-nav-list">
+                      
+
+
+  
+    
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../about/" data-animation-role="header-element">
+        About
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../my-work/" data-animation-role="header-element">
+        My work
+      </a>
+    </div>
+  
+  
+  
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../project-management/" data-animation-role="header-element">
+        Projects
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../contact/" data-animation-role="header-element">
+        Contact
+      </a>
+    </div>
+  
+  
+  
+
+
+
+                    </nav>
+                  </div>
+                </div>
+              
+              
+            </div>
+          
+            
+            <!-- Actions -->
+            <div class="header-actions header-actions--right">
+              
+                
+              
+              
+
+              
+
+            
+            
+
+              
+
+              
+
+              
+
+              
+
+              
+            
+
+              
+              <div class="showOnMobile">
+                
+                  
+                
+                
+                  
+                  
+                    
+                  
+                
+              
+                
+              </div>
+
+              
+              <div class="showOnDesktop">
+                
+                  
+                
+                
+                  
+                  
+                    
+                  
+                
+              
+                
+              </div>
+
+              
+            </div>
+          
+          
+
+        </div>
+        <div class="header-display-mobile" data-content-field="site-title">
+          
+            
+            <!-- Social -->
+            
+          
+            
+            <!-- Title and nav wrapper -->
+            <div class="header-title-nav-wrapper">
+              
+
+              
+
+              
+                
+                <!-- Title -->
+                
+                  <div class="
+                      header-title
+                      
+                    " data-animation-role="header-element">
+                    
+                      <div class="header-title-text">
+                        <a id="site-title" href="../../" data-animation-role="header-element"><span class="st-handle">Sabhyabacchi</span><span class="st-sep" aria-hidden="true"></span><span class="st-name">Pooja</span></a>
+                      </div>
+                    
+                    
+                  </div>
+                
+              
+                
+                <!-- Nav -->
+                <div class="header-nav">
+                  <div class="header-nav-wrapper">
+                    <nav class="header-nav-list">
+                      
+
+
+  
+    
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../about/" data-animation-role="header-element">
+        About
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../my-work/" data-animation-role="header-element">
+        My work
+      </a>
+    </div>
+  
+  
+  
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../project-management/" data-animation-role="header-element">
+        Projects
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="../../contact/" data-animation-role="header-element">
+        Contact
+      </a>
+    </div>
+  
+  
+  
+
+
+
+                    </nav>
+                  </div>
+                </div>
+              
+              
+            </div>
+          
+            
+            <!-- Actions -->
+            <div class="header-actions header-actions--right">
+              
+                
+              
+              
+
+              
+
+            
+            
+
+              
+
+              
+
+              
+
+              
+
+              
+            
+
+              
+              <div class="showOnMobile">
+                
+                  
+                
+                
+                  
+                  
+                    
+                  
+                
+              
+                
+              </div>
+
+              
+              <div class="showOnDesktop">
+                
+                  
+                
+                
+                  
+                  
+                    
+                  
+                
+              
+                
+              </div>
+
+              
+            </div>
+          
+            
+
+
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+
+<!-- Burger -->
+<div class="header-burger
+
+  menu-overlay-does-not-have-visible-non-navigation-items
+
+
+  
+  no-actions
+  
+" data-animation-role="header-element">
+  <button class="header-burger-btn burger" data-test="header-burger">
+    <span class="js-header-burger-open-title visually-hidden">Open Menu</span>
+    <span hidden="" class="js-header-burger-close-title visually-hidden">Close Menu</span>
+    <div class="burger-box">
+      <div class="burger-inner header-menu-icon-doubleLineHamburger">
+        <div class="top-bun"></div>
+        <div class="patty"></div>
+        <div class="bottom-bun"></div>
+      </div>
+    </div>
+  </button>
+</div>
+
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+    <!-- (Mobile) Menu Navigation -->
+    <div class="header-menu header-menu--folder-list
+      
+      
+      
+      
+      
+      " data-section-theme="" data-current-styles="{
+&quot;layout&quot;: &quot;navRight&quot;,
+&quot;action&quot;: {
+&quot;href&quot;: &quot;/appointments&quot;,
+&quot;buttonText&quot;: &quot;Book now&quot;,
+&quot;newWindow&quot;: false
+},
+&quot;showSocial&quot;: false,
+&quot;socialOptions&quot;: {
+&quot;socialBorderShape&quot;: &quot;none&quot;,
+&quot;socialBorderStyle&quot;: &quot;outline&quot;,
+&quot;socialBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+&quot;cartStyle&quot;: &quot;text&quot;,
+&quot;cartText&quot;: &quot;Cart&quot;,
+&quot;showEmptyCartState&quot;: false,
+&quot;cartOptions&quot;: {
+&quot;iconType&quot;: &quot;stroke-9&quot;,
+&quot;cartBorderShape&quot;: &quot;none&quot;,
+&quot;cartBorderStyle&quot;: &quot;outline&quot;,
+&quot;cartBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showButton&quot;: false,
+&quot;showCart&quot;: true,
+&quot;showAccountLogin&quot;: false,
+&quot;headerStyle&quot;: &quot;solid&quot;,
+&quot;languagePicker&quot;: {
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+},
+&quot;iconOptions&quot;: {
+&quot;desktopDropdownIconOptions&quot;: {
+&quot;size&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;iconSpacing&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 0.35
+},
+&quot;strokeWidth&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;endcapType&quot;: &quot;square&quot;,
+&quot;folderDropdownIcon&quot;: &quot;none&quot;,
+&quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+},
+&quot;mobileDropdownIconOptions&quot;: {
+&quot;size&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;iconSpacing&quot;: {
+&quot;unit&quot;: &quot;em&quot;,
+&quot;value&quot;: 0.15
+},
+&quot;strokeWidth&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.5
+},
+&quot;endcapType&quot;: &quot;square&quot;,
+&quot;folderDropdownIcon&quot;: &quot;openArrowHead&quot;,
+&quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+}
+},
+&quot;mobileOptions&quot;: {
+&quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+&quot;menuIconOptions&quot;: {
+&quot;style&quot;: &quot;doubleLineHamburger&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+}
+},
+&quot;solidOptions&quot;: {
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;CUSTOM_COLOR&quot;,
+&quot;customColor&quot;: {
+&quot;hslaValue&quot;: {
+&quot;hue&quot;: 246.82,
+&quot;saturation&quot;: 0.84,
+&quot;lightness&quot;: 0.49,
+&quot;alpha&quot;: 1.0
+},
+&quot;userFormat&quot;: &quot;hex&quot;
+}
+}
+},
+&quot;gradientOptions&quot;: {
+&quot;gradientType&quot;: &quot;faded&quot;,
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 90.0
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+}
+},
+&quot;dropShadowOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;borderOptions&quot;: {
+&quot;enabled&quot;: true,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showPromotedElement&quot;: false,
+&quot;buttonVariant&quot;: &quot;primary&quot;,
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+}
+}" data-section-id="overlay-nav" data-show-account-login="false" data-test="header-menu" style="padding-top: 60.4062px;">
+      <div class="header-menu-bg theme-bg--primary"></div>
+      <div class="header-menu-nav">
+        <nav class="header-menu-nav-list">
+          
+        <div data-folder="root" class="header-menu-nav-folder header-menu-nav-folder--active">
+            <div class="header-menu-nav-folder-content">
+              <!-- Menu Navigation -->
+<div class="header-menu-nav-wrapper">
+  
+    
+      
+        
+          
+            
+          
+        
+      
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection">
+              <a href="../../about/">
+                <div class="header-menu-nav-item-content">
+                  About
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection">
+              <a href="../../my-work/">
+                <div class="header-menu-nav-item-content">
+                  My work
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection">
+              <a href="../../project-management/">
+                <div class="header-menu-nav-item-content">
+                  Projects
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection">
+              <a href="../../contact/">
+                <div class="header-menu-nav-item-content">
+                  Contact
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+  
+</div>
+
+              
+                
+              
+            </div>
+            
+            
+            
+          </div></nav>
+      </div>
+    </div>
+    
+    
+  </header>
+
+
+
+
+      <main id="page" class="container" role="main">
+<style>
+  /* ---- inner pages (about / my-work) ---- */
+  .pg{--navy:rgb(17,8,97);--blue:rgb(44,20,231);font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;color:#fff}
+  .pg section{padding:96px 6vw}
+  .pg .navy{background:var(--navy)} .pg .blue{background:var(--blue)} .pg .white{background:#fff;color:#111}
+  .pg .wrap{max-width:1200px;margin:0 auto}
+  .pg h1,.pg h2{font-weight:700;letter-spacing:-.02em;line-height:1;margin:0 0 18px}
+  .pg h1{font-size:clamp(36px,4.2vw,56px)} .pg h2{font-size:clamp(28px,3.2vw,45px)}
+  .pg .center{text-align:center}
+  .pg p{font-family:"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.45;margin:0 0 14px;max-width:62ch}
+  .pg .center p{margin-left:auto;margin-right:auto}
+  .pg .cap{font-size:13.5px;line-height:1.4;opacity:.9;max-width:26ch}
+  .pg a.u{color:inherit;text-decoration:underline;text-underline-offset:3px}
+  .pg img{display:block;max-width:100%;height:auto}
+  /* scattered reels layout */
+  .scatter{display:grid;grid-template-columns:repeat(12,1fr);gap:28px 24px;align-items:start;margin-top:48px}
+  .scatter .it{display:flex;flex-direction:column;gap:10px}
+  .scatter .it img,.scatter .it .yt{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;background:#000}
+  .scatter .wide img{aspect-ratio:4/5}
+  .yt{position:relative;overflow:hidden;cursor:pointer;border-radius:6px;background:#000}
+  .yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .yt .play{position:absolute;inset:0;display:grid;place-items:center}
+  .yt .play span{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;color:#111;font-size:18px;box-shadow:0 4px 16px rgba(0,0,0,.35)}
+  .scatter .it .yt.placeholder,.yt.placeholder{aspect-ratio:9/16;display:grid;place-items:center;background:rgba(255,255,255,.08);border:1px dashed rgba(255,255,255,.35);font-size:13px;text-align:center;padding:24px;cursor:default}
+  /* slide strip: quirky conveyor of taped-up cards */
+  .deck{position:relative;margin-top:40px;overflow:hidden;padding:14px 0 32px;cursor:grab;user-select:none;-webkit-user-select:none;touch-action:pan-y}
+  .deck.dragging{cursor:grabbing}
+  .deck:before,.deck:after{content:"";position:absolute;top:0;bottom:0;width:72px;z-index:3;pointer-events:none}
+  .deck:before{left:0;background:linear-gradient(90deg,var(--navy),transparent)} .deck:after{right:0;background:linear-gradient(270deg,var(--navy),transparent)}
+  /* padding-top absorbs what sticks out above a card: the 14px tape, the -6px
+     nth-child margin and the 7px bob, so nothing escapes into the hint row */
+  .strip{display:flex;gap:22px;width:max-content;will-change:transform;padding-top:44px}
+  .strip figure{flex:0 0 240px;margin:0;position:relative;--r:0deg;--d:0s;transform:rotate(var(--r));transition:transform .45s cubic-bezier(.34,1.56,.64,1),filter .3s;animation:bob 5.5s ease-in-out var(--d) infinite}
+  .strip figure:nth-child(6n+1){--r:-3deg;--d:0s} .strip figure:nth-child(6n+2){--r:2.2deg;--d:-1.1s;margin-top:18px} .strip figure:nth-child(6n+3){--r:-1.4deg;--d:-2.3s;margin-top:-6px}
+  .strip figure:nth-child(6n+4){--r:3.2deg;--d:-3.4s;margin-top:12px} .strip figure:nth-child(6n+5){--r:-2.4deg;--d:-.7s} .strip figure:nth-child(6n+6){--r:1.6deg;--d:-4.2s;margin-top:22px}
+  .strip figure:before{content:"";position:absolute;left:50%;top:-14px;width:92px;height:26px;margin-left:-46px;transform:rotate(calc(var(--r) * -1.5));background:rgba(44,20,231,.82);clip-path:polygon(2% 0,100% 4%,97% 100%,0 96%);z-index:2;opacity:.9;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+  .strip figure:nth-child(odd):before{background:rgba(255,255,255,.82)}
+  .strip figure:hover{transform:rotate(0) scale(1.07) translateY(-8px);z-index:5;filter:drop-shadow(0 18px 28px rgba(0,0,0,.45))}
+  .strip img{aspect-ratio:4/5;object-fit:cover;object-position:top;border-radius:6px;background:#fff;box-shadow:0 10px 24px rgba(0,0,0,.35);pointer-events:none;-webkit-user-drag:none}
+  .strip figcaption{font-size:12px;opacity:.85;margin-top:8px;font-family:"Helvetica Neue",Arial,sans-serif}
+  @keyframes bob{0%,100%{translate:0 0}50%{translate:0 -7px}}
+  /* pop-in on scroll */
+  .deck:not(.in) .strip figure{opacity:0;transform:translateY(60px) rotate(calc(var(--r) * 5)) scale(.8)}
+  .deck.in .strip figure{opacity:1;transition:transform .7s cubic-bezier(.34,1.56,.64,1),opacity .5s,filter .3s}
+  .deck.in .strip figure:nth-child(n){transition-delay:calc(var(--i,0) * 70ms)}
+  .deck.in .strip figure:hover{transition-delay:0s}
+  /* the hint takes its own row rather than floating over the strips: the tape
+     on each card overhangs 14px above it, so an absolute hint got run into */
+  .deck .hint{display:block;text-align:right;padding:0 18px 0 0;font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.6;font-family:"Helvetica Neue",Arial,sans-serif;z-index:4}
+  @media (prefers-reduced-motion:reduce){.strip figure{animation:none}.deck:not(.in) .strip figure{opacity:1;transform:rotate(var(--r))}}
+  .stats{display:flex;gap:56px;flex-wrap:wrap;margin:40px 0 8px}
+  .stats b{display:block;font-size:clamp(40px,5vw,64px);font-weight:800;letter-spacing:-.03em;line-height:1}
+  .stats span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+  .logos{display:flex;gap:24px 48px;flex-wrap:wrap;justify-content:center;align-items:center;margin-top:40px}
+  .logos span{font-weight:800;font-size:clamp(22px,3vw,40px);letter-spacing:-.02em;color:#111}
+  .logos img{height:56px;width:auto}
+  /* about */
+  .about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+  /* crumpled-paper photo mounts (matches the torn paper on the home page) */
+  .paper{position:relative;display:block;padding:clamp(14px,2.2vw,26px);background:#f4f2ee;color:#111;
+    filter:drop-shadow(0 18px 30px rgba(0,0,0,.35));
+    clip-path:polygon(1.2% 2.8%,8% 0.6%,17% 2%,29% 0%,41% 1.8%,53% 0.4%,66% 2.2%,78% 0.2%,90% 1.6%,99% 0.8%,100% 9%,98.6% 20%,100% 33%,98.9% 46%,100% 58%,98.4% 71%,100% 84%,99% 97%,92% 100%,80% 98.4%,68% 100%,55% 98.6%,43% 100%,31% 98.2%,19% 100%,8% 98.8%,0.4% 99%,1.4% 88%,0% 76%,1.6% 63%,0.2% 50%,1.8% 37%,0% 24%,1.5% 12%)}
+  .paper::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.018' numOctaves='4' seed='7'/><feDiffuseLighting lighting-color='white' surfaceScale='3'><feDistantLight azimuth='45' elevation='58'/></feDiffuseLighting></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    background-size:400px 400px}
+  .paper img{position:relative;width:100%;height:auto;display:block}
+  .paper .tape{position:absolute;z-index:2;width:92px;height:26px;background:rgba(255,236,120,.85);box-shadow:0 2px 6px rgba(0,0,0,.15);transform:rotate(-4deg);left:50%;top:-10px;margin-left:-46px}
+  .paper .tape.r{left:auto;right:-20px;top:auto;bottom:30px;transform:rotate(70deg)}
+  .tilt-l{transform:rotate(-2.2deg)} .tilt-r{transform:rotate(1.6deg)}
+  .about-hero{margin:40px auto 0;max-width:1100px}
+  .stem{margin-top:26px;padding-top:18px;border-top:1px solid rgba(255,255,255,.25);max-width:40ch;font-family:"Helvetica Neue",Arial,sans-serif}
+  .stem small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;margin-bottom:8px}
+  .stem span{font-size:14px;font-weight:600;letter-spacing:.01em}
+  .stem span i{font-style:normal;opacity:.5;margin:0 .55em}
+  .about-hero .scrawl{font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.8;margin-top:26px;text-align:right}
+  @media (max-width:900px){.about-grid{grid-template-columns:1fr}.scatter{grid-template-columns:repeat(6,1fr)}}
+  @media (max-width:600px){
+    .pg section{padding:64px 6vw}
+    /* masonry columns instead of a grid: grid rows are sized by their tallest
+       item, which left big vertical holes next to the short captions */
+    .scatter{display:block;column-count:2;column-gap:14px;margin-top:32px}
+    .scatter .it{break-inside:avoid;display:block;margin:0 0 14px;grid-column:auto !important}
+    .scatter .it[style]{margin-top:0 !important}
+    .scatter .cap{max-width:none;margin-top:8px;font-size:12.5px}
+    /* two shorter conveyor rows so more cards fit on a narrow screen */
+    .deck{padding:10px 0 20px;margin-top:28px}
+    .deck:before,.deck:after{width:36px}
+    .strip{gap:14px}
+    .strip + .strip{margin-top:18px}
+    .strip figure{flex-basis:132px}
+    .strip figcaption{font-size:11px;margin-top:6px}
+    .deck .hint{padding:0 6px 0 0}
+    .strip{padding-top:40px}
+  }
+</style>
+<style>
+  /* ---- analysis/rpg-playbook: chaptered walkthrough ---- */
+  .rpg{--yellow:#FFEC78;--paper:#f4f2ee;--ink:#111}
+  .rpg p{max-width:66ch}
+  .rpg .ch,.rp-phase{scroll-margin-top:24px}
+  @media (max-width:1179px){.rpg .ch,.rp-phase{scroll-margin-top:60px}}
+  @media (max-width:600px){.rpg > section:first-of-type{padding-top:calc(40px + var(--hdr-h,0px) + 44px)}}
+  .rpg h2{max-width:22ch;text-wrap:balance}
+  /* the Squarespace theme paints h1-h4 white; give them the section's ink on light surfaces */
+  .rpg .white h1,.rpg .white h2,.rpg .white h3,.rpg .white h4,.rp-board h3,.rp-calc h3,.rp-cases h4,.rp-checks h4{color:var(--ink)}
+  .rpg h3{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.05;font-size:clamp(22px,2.2vw,30px);margin:0 0 14px}
+  .rpg .k{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.7;margin-bottom:12px}
+  .rpg .white .k{opacity:.6}
+  .rpg ul,.rpg ol{font-family:"Helvetica Neue",Arial,sans-serif;font-size:15.5px;line-height:1.45;padding-left:20px;margin:0 0 14px;max-width:66ch}
+  .rpg li{margin:0 0 9px}
+  .rpg li b{font-weight:700}
+  .rpg q{quotes:"\201C" "\201D"}
+  .rpg .lead{font-size:clamp(20px,2.3vw,26px);line-height:1.3;font-weight:600;margin-top:20px;max-width:34ch;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif}
+  .rpg .lead i{font-style:normal;opacity:.55;margin:0 .35em}
+  .rpg .byline{font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.75;margin-top:28px}
+  .rpg .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .rpg .chips i{font-style:normal;border:2px solid rgba(255,255,255,.55);border-radius:999px;padding:7px 14px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:13.5px;font-weight:700}
+  .rpg .white .chips i{border-color:rgba(0,0,0,.35);color:var(--ink)}
+  .rpg .chips i b{font-weight:800;margin-right:.35em}
+  /* progress + rail */
+  .rp-progress{position:fixed;left:0;top:0;height:4px;width:100%;z-index:100000;background:rgba(0,0,0,.12);pointer-events:none}
+  .rp-progress i{display:block;height:100%;width:0;background:var(--yellow);transition:width .12s linear}
+  .rp-rail{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff;font-family:"Helvetica Neue",Arial,sans-serif;display:flex;align-items:center;gap:6px;padding:10px 6vw;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid rgba(255,255,255,.14)}
+  .rp-rail::-webkit-scrollbar{display:none}
+  .rp-rail a{flex:0 0 auto;color:#fff;text-decoration:none;font-size:12.5px;padding:6px 11px;border-radius:999px;border:1.5px solid transparent;white-space:nowrap;opacity:.75}
+  .rp-rail a b{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;margin-right:6px;opacity:.7}
+  .rp-rail a.on{opacity:1;border-color:var(--yellow)}
+  .rp-rail .cnt{margin-left:auto;flex:0 0 auto;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:13px;letter-spacing:.08em;padding-left:14px}
+  @media (min-width:1180px){
+    .rp-rail{position:fixed;top:50%;left:22px;transform:translateY(-50%);flex-direction:column;align-items:stretch;gap:2px;width:172px;padding:14px 10px 12px;border-radius:14px;background:rgba(17,8,97,.94);box-shadow:0 14px 34px rgba(0,0,0,.35);border:0;overflow:visible}
+    .rp-rail a{white-space:normal;line-height:1.25;padding:7px 10px;border-radius:8px;border-width:0 0 0 2.5px;border-radius:0 8px 8px 0}
+    .rp-rail a.on{background:rgba(255,255,255,.08)}
+    .rp-rail .cnt{margin:10px 0 0;padding:10px 10px 0;border-top:1px solid rgba(255,255,255,.18)}
+    .rpg section{padding-left:max(6vw,232px)}
+  }
+  /* stats */
+  .rp-stats{display:grid;grid-template-columns:repeat(6,1fr);gap:26px 20px;margin:44px 0 0}
+  .rp-stats b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(30px,3.2vw,46px);font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--blue)}
+  .rp-stats span{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:12.5px;line-height:1.35;margin-top:8px;color:#333}
+  .rp-stats small{display:block;font-size:11px;opacity:.55;margin-top:5px}
+  /* two-column */
+  .rp-two{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:start}
+  .rp-gloss{list-style:none;padding:0;margin:0;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-gloss li{padding:12px 0;border-top:1px solid rgba(0,0,0,.14);font-size:14.5px;line-height:1.4}
+  .rp-gloss li:last-child{border-bottom:1px solid rgba(0,0,0,.14)}
+  .rp-gloss b{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;display:block;margin-bottom:2px}
+  /* 8-step board */
+  .rp-board{margin-top:48px;background:#fff;border:2px solid var(--ink);border-radius:14px;padding:26px 24px 22px}
+  .rp-board .k{margin-bottom:6px}
+  .rp-board h3{margin-bottom:4px}
+  .rp-board .sub{font-family:"Helvetica Neue",Arial,sans-serif;font-size:14px;color:#444;margin:0 0 22px}
+  .rp-board .sub em{font-style:normal;border:1.5px solid var(--blue);color:var(--blue);border-radius:5px;padding:0 6px;font-size:12px;font-weight:700}
+  .rp-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px 24px;counter-reset:st}
+  .rp-step{position:relative;background:var(--paper);border-radius:12px;padding:22px 16px 16px;counter-increment:st;display:flex;flex-direction:column}
+  .rp-step::before{content:counter(st);position:absolute;top:-14px;left:-10px;width:30px;height:30px;border-radius:50%;background:var(--blue);color:#fff;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px #fff}
+  .rp-step:not(:nth-child(4n))::after{content:"\2192";position:absolute;right:-21px;top:50%;transform:translateY(-50%);color:var(--blue);font-weight:800;font-size:20px}
+  .rp-step b{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:17px;line-height:1.15;display:block}
+  .rp-step p{font-size:13px;line-height:1.4;color:#333;margin:6px 0 0;flex:1;max-width:none}
+  .rp-step .rule{margin-top:10px;font-size:11.5px;font-weight:700;color:var(--blue);background:#fff;border:1.5px solid var(--blue);border-radius:7px;padding:5px 8px;line-height:1.3}
+  .rp-step .rule::before{content:"\25C6  "}
+  .rp-board .foot{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+  .rp-board .foot div{border-radius:12px;padding:14px 18px;background:var(--navy);color:#fff;font-family:"Helvetica Neue",Arial,sans-serif;font-size:14px;line-height:1.4}
+  .rp-board .foot div:last-child{background:var(--blue)}
+  .rp-board .foot b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:16px;margin-bottom:3px}
+  /* funnel stepper + checks */
+  .rp-flow{display:grid;grid-template-columns:repeat(6,1fr);gap:18px 30px;margin-top:40px}
+  .rp-flow div{position:relative;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.35);border-radius:12px;padding:16px 14px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13.5px;line-height:1.4}
+  .rp-flow div:not(:last-child)::after{content:"\2192";position:absolute;right:-24px;top:50%;transform:translateY(-50%);color:var(--yellow);font-weight:800;font-size:20px}
+  .rp-flow b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:15.5px;margin-bottom:4px}
+  .rp-flow small{display:block;font-size:11.5px;opacity:.7;margin-top:6px}
+  .rp-quote{margin-top:40px;max-width:760px}
+  .rp-quote .paper{padding:clamp(20px,3vw,34px)}
+  .rp-quote blockquote{margin:0;font-family:"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.5;color:var(--ink)}
+  .rp-quote cite{display:block;font-style:normal;font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.6;margin-top:14px}
+  .rp-checks{display:grid;grid-template-columns:repeat(4,1fr);gap:30px 22px;margin-top:44px;align-items:start}
+  .rp-checks .paper{padding:24px 20px 58px;text-align:left}
+  .rp-checks .paper:nth-child(odd){transform:rotate(-1.3deg)} .rp-checks .paper:nth-child(even){transform:rotate(1.1deg);margin-top:16px}
+  .rp-checks h4{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:20px;letter-spacing:-.02em;line-height:1.1;margin:0 0 10px;color:var(--ink)}
+  .rp-checks p{font-size:14px;line-height:1.45;margin:0 0 8px;color:#222;max-width:none}
+  .rp-checks p.q{font-style:italic;color:#333}
+  .rp-stamp{position:absolute;right:18px;bottom:16px;transform:rotate(-6deg);border:3px solid var(--blue);color:var(--blue);border-radius:6px;padding:3px 9px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;z-index:2}
+  .rp-stamp.open{border-color:#8a5a00;color:#8a5a00}
+  /* gantt */
+  .rp-gantt{margin:44px 0 10px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-gantt .axis{display:grid;grid-template-columns:150px 1fr;margin-bottom:6px}
+  .rp-gantt .axis div{position:relative;height:18px;font-size:11px;color:#555}
+  .rp-gantt .axis span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+  .rp-gantt .axis span.end{transform:translateX(-100%)}
+  .rp-gantt .row{display:grid;grid-template-columns:150px 1fr;align-items:center;gap:0;padding:0;border-top:1px solid rgba(0,0,0,.08);cursor:pointer;text-decoration:none;color:var(--ink)}
+  .rp-gantt .row:last-child{border-bottom:1px solid rgba(0,0,0,.08)}
+  .rp-gantt .row:hover .bar,.rp-gantt .row.on .bar{background:var(--blue)}
+  .rp-gantt .row.on .lab b{color:var(--blue)}
+  .rp-gantt .lab{padding:11px 10px 11px 0;font-size:13px;line-height:1.2}
+  .rp-gantt .lab b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:14px}
+  .rp-gantt .lab span{font-size:11.5px;opacity:.6}
+  .rp-gantt .trk{position:relative;height:38px;background:repeating-linear-gradient(90deg,rgba(0,0,0,.07) 0 1px,transparent 1px calc(100%/13))}
+  .rp-gantt .bar{position:absolute;top:9px;height:20px;border-radius:6px;background:var(--navy);transition:background .2s}
+  .rp-gantt .bar.arrow::after{content:"";position:absolute;right:-8px;top:0;border-left:9px solid var(--navy);border-top:10px solid transparent;border-bottom:10px solid transparent}
+  .rp-gantt .row.on .bar.arrow::after,.rp-gantt .row:hover .bar.arrow::after{border-left-color:var(--blue)}
+  .rp-gantt .note{font-size:12px;color:#555;margin-top:10px}
+  /* phases */
+  .rp-phase{padding-top:56px;margin-top:24px;border-top:2px solid var(--ink)}
+  .rp-phase .pill{display:inline-flex;align-items:center;gap:10px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+  .rp-phase .pill b{background:var(--navy);color:#fff;border-radius:999px;padding:6px 12px}
+  .rp-phase .pill span{color:var(--blue)}
+  .rp-phase .cols{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;align-items:start;margin-top:8px}
+  .rp-phase ol{padding-left:0;list-style:none;counter-reset:ph}
+  .rp-phase ol li{position:relative;padding-left:38px;counter-increment:ph;margin-bottom:14px}
+  .rp-phase ol li::before{content:counter(ph);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;border:2px solid var(--ink);font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center}
+  .rp-side .paper{padding:clamp(18px,2.4vw,26px);margin-top:14px}
+  .rp-side .paper small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.6;margin-bottom:8px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-side .paper p{font-size:14px;line-height:1.45;margin:0 0 8px;color:#222;max-width:none}
+  .rp-side .paper p:last-child{margin-bottom:0}
+  .rp-why{margin-top:22px;padding-top:14px;border-top:1px solid rgba(0,0,0,.2);font-family:"Helvetica Neue",Arial,sans-serif;max-width:none}
+  .rp-why small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.6;margin-bottom:6px}
+  .rp-why span{font-size:15px;font-weight:600;line-height:1.4;display:block}
+  .rp-ladder{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 6px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-ladder i{font-style:normal;border:2px solid var(--ink);border-radius:999px;padding:5px 12px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:13px}
+  .rp-ladder em{font-style:normal;color:var(--blue);font-weight:800}
+  .rp-fork{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0 18px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13.5px;line-height:1.4}
+  .rp-fork div{border:1.5px solid var(--ink);border-radius:12px;padding:14px 16px;background:#fff}
+  .rp-fork b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:15px;margin-bottom:6px}
+  .rp-fork b i{font-style:normal;color:var(--blue)}
+  .rp-fork span{display:block;color:#333}
+  /* cases */
+  .rp-cases{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 28px;margin-top:44px;align-items:start}
+  .rp-cases .paper{padding:24px 22px 26px;text-align:left}
+  .rp-cases .paper:nth-child(3n+1){transform:rotate(-1.4deg)} .rp-cases .paper:nth-child(3n+2){transform:rotate(1.1deg);margin-top:20px} .rp-cases .paper:nth-child(3n+3){transform:rotate(-.6deg);margin-top:8px}
+  .rp-cases small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.6;margin-bottom:8px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-cases h4{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(19px,1.9vw,24px);font-weight:800;letter-spacing:-.02em;line-height:1.05;margin:0 0 10px;color:var(--ink)}
+  .rp-cases p{font-size:14px;line-height:1.45;margin:0 0 8px;max-width:none;color:#222}
+  .rp-cases .res{margin-top:12px;padding-top:10px;border-top:1px solid rgba(0,0,0,.12);font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:15px;color:var(--blue);line-height:1.3}
+  .rp-cases .src{font-size:11.5px;opacity:.65;margin-top:6px}
+  .rp-cases .tag{display:inline-block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;border:1.5px solid var(--ink);border-radius:999px;padding:3px 8px;margin-top:10px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-cases .tag.ad{border-color:var(--blue);color:var(--blue)}
+  .rp-foot{font-size:13.5px;opacity:.85;margin-top:34px}
+  /* CEO columns */
+  .rp-four{display:grid;grid-template-columns:repeat(4,1fr);gap:36px 28px;margin-top:44px}
+  .rp-four h3{font-size:20px;padding-bottom:10px;border-bottom:2px solid rgba(255,255,255,.5)}
+  .rp-four ul{padding-left:0;list-style:none;font-size:14.5px}
+  .rp-four li{padding-left:18px;position:relative}
+  .rp-four li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;background:var(--yellow);border-radius:2px}
+  .rp-hours{display:flex;gap:40px;flex-wrap:wrap;margin-top:40px;padding-top:24px;border-top:1px solid rgba(255,255,255,.3)}
+  .rp-hours b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:clamp(34px,4vw,54px);font-weight:800;letter-spacing:-.03em;line-height:1}
+  .rp-hours span{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:12.5px;line-height:1.35;margin-top:8px;max-width:22ch;opacity:.9}
+  /* timeline strip */
+  .rp-time{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:44px 0 48px;font-family:"Helvetica Neue",Arial,sans-serif;position:relative}
+  .rp-time::before{content:"";position:absolute;left:10%;right:10%;top:9px;height:2px;background:var(--ink)}
+  .rp-time div{position:relative;text-align:center;padding:0 8px}
+  .rp-time div::before{content:"";display:block;width:18px;height:18px;border-radius:50%;background:var(--blue);margin:0 auto 12px;box-shadow:0 0 0 4px #fff}
+  .rp-time b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:18px;letter-spacing:-.02em;color:var(--ink)}
+  .rp-time span{display:block;font-size:12.5px;line-height:1.35;color:#333;margin-top:4px}
+  /* tables */
+  .rp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:30px}
+  .rp-table{border-collapse:collapse;width:100%;min-width:640px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:14px;background:#fff;color:var(--ink);border:2px solid var(--ink)}
+  .rp-table th{text-align:left;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:13px;letter-spacing:.04em;padding:11px 14px;background:var(--navy);color:#fff;vertical-align:bottom}
+  .rp-table td{padding:11px 14px;border-top:1px solid rgba(0,0,0,.14);vertical-align:top;line-height:1.4}
+  .rp-table td:first-child{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;white-space:nowrap}
+  .rp-table.wb td:nth-child(3){background:#eef0ff}
+  .rp-table.inh th:nth-child(3){background:var(--blue)}
+  .rp-table.inh td:nth-child(3){background:#eef0ff}
+  /* offers */
+  .rp-offers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px;align-items:stretch}
+  .rp-offers div{border-radius:14px;padding:22px 20px;color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;font-size:14px;line-height:1.45}
+  .rp-offers .y{background:var(--yellow)} .rp-offers .g{background:#d6f2dc}
+  .rp-offers small{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;margin-bottom:10px}
+  .rp-offers b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:18px;line-height:1.15;letter-spacing:-.01em;margin-bottom:8px}
+  .rp-offers p{margin:0;max-width:none;font-size:13.5px}
+  .rp-split{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+  .rp-split div{border:1.5px solid rgba(255,255,255,.45);border-radius:14px;padding:20px 20px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:14.5px;line-height:1.45}
+  .rp-split b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:18px;margin-bottom:6px}
+  .rp-split em{font-style:normal;color:var(--yellow);font-weight:700}
+  .rp-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+  .rp-tags i{font-style:normal;border:2px solid rgba(255,255,255,.7);border-radius:999px;padding:8px 16px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-size:14px;font-weight:700}
+  /* calculator */
+  .rp-calc{margin-top:30px;background:#fff;color:var(--ink);border-radius:14px;padding:26px 24px;display:grid;grid-template-columns:1fr 1fr;gap:34px;font-family:"Helvetica Neue",Arial,sans-serif}
+  .rp-calc h3{grid-column:1/-1;margin-bottom:0}
+  .rp-calc .note{grid-column:1/-1;font-size:13.5px;color:#444;margin:-6px 0 4px;max-width:none}
+  .rp-calc label{display:block;margin-bottom:16px}
+  .rp-calc label span{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:6px}
+  .rp-calc label span b{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-variant-numeric:tabular-nums}
+  .rp-calc input[type=range]{width:100%;accent-color:var(--blue)}
+  .rp-calc .out{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;align-content:start}
+  .rp-calc .out div{border-top:2px solid var(--ink);padding-top:8px}
+  .rp-calc .out b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:clamp(22px,2.4vw,30px);letter-spacing:-.02em;line-height:1;color:var(--blue);font-variant-numeric:tabular-nums}
+  .rp-calc .out span{display:block;font-size:12px;line-height:1.35;color:#333;margin-top:6px}
+  .rp-calc .bar{grid-column:1/-1;margin-top:6px}
+  .rp-calc .bar .t{display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:6px}
+  .rp-calc .bar .t b{font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-variant-numeric:tabular-nums}
+  .rp-calc .bar .trk{height:14px;background:#e9e7f5;border-radius:999px;overflow:hidden;position:relative}
+  .rp-calc .bar .trk i{display:block;height:100%;width:0;background:var(--blue);border-radius:999px;transition:width .2s}
+  .rp-calc .bar .trk::after{content:"";position:absolute;left:100%;top:0;bottom:0}
+  .rp-calc button{grid-column:1/-1;justify-self:start;border:2px solid var(--ink);background:#fff;color:var(--ink);border-radius:999px;padding:9px 18px;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:13.5px;cursor:pointer}
+  .rp-calc button:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+  /* in-house */
+  .rp-inh{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:40px;align-items:start}
+  .rp-inh ul{list-style:none;padding:0;margin:0}
+  .rp-inh li{padding:10px 0 10px 30px;border-top:1px solid rgba(0,0,0,.14);position:relative;font-size:15px}
+  .rp-inh li:last-child{border-bottom:1px solid rgba(0,0,0,.14)}
+  .rp-inh .yes li::before{content:"\2713";position:absolute;left:2px;top:9px;font-weight:800;color:var(--blue)}
+  .rp-inh .no li::before{content:"\2014";position:absolute;left:2px;top:9px;font-weight:800;color:#8a5a00}
+  /* method strip */
+  .rp-method{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:40px;counter-reset:mt}
+  .rp-method div{border:1.5px solid rgba(255,255,255,.4);border-radius:12px;padding:16px 14px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;line-height:1.4;counter-increment:mt;position:relative}
+  .rp-method div::before{content:"0" counter(mt);display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:22px;letter-spacing:-.02em;color:var(--yellow);margin-bottom:6px}
+  .rp-method b{display:block;font-family:'Manrope',"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:15px;margin-bottom:4px}
+  .rp-src{margin-top:40px}
+  .rp-src li{margin-bottom:12px}
+  .rp-gaps{margin-top:36px;padding-top:22px;border-top:1px solid rgba(255,255,255,.3)}
+  .rp-end{margin-top:44px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+  @media (max-width:1000px){
+    .rp-stats{grid-template-columns:repeat(3,1fr)} .rp-steps{grid-template-columns:repeat(2,1fr)} .rp-step:not(:nth-child(4n))::after{display:none} .rp-step:nth-child(odd)::after{display:block;content:"\2192";position:absolute;right:-21px;top:50%;transform:translateY(-50%);color:var(--blue);font-weight:800;font-size:20px}
+    .rp-checks{grid-template-columns:1fr 1fr} .rp-cases{grid-template-columns:1fr 1fr} .rp-four{grid-template-columns:1fr 1fr} .rp-flow{grid-template-columns:1fr 1fr} .rp-flow div:nth-child(even)::after{display:none} .rp-offers{grid-template-columns:1fr} .rp-method{grid-template-columns:repeat(3,1fr)}
+  }
+  @media (max-width:820px){
+    .rp-two,.rp-phase .cols,.rp-inh,.rp-split,.rp-calc,.rp-fork{grid-template-columns:1fr;gap:28px}
+    .rp-time{grid-template-columns:1fr;gap:18px} .rp-time::before{left:8px;right:auto;top:0;bottom:0;width:2px;height:auto} .rp-time div{text-align:left;padding-left:34px} .rp-time div::before{position:absolute;left:0;top:2px;margin:0}
+    .rp-board .foot{grid-template-columns:1fr}
+  }
+  @media (max-width:600px){
+    .rp-stats{grid-template-columns:1fr 1fr;gap:22px 16px} .rp-steps{grid-template-columns:1fr;gap:26px} .rp-step::after,.rp-step:nth-child(odd)::after{display:none !important}
+    .rp-checks,.rp-cases,.rp-four{grid-template-columns:1fr} .rp-checks .paper:nth-child(n),.rp-cases .paper:nth-child(n){margin-top:0}
+    .rp-gantt .axis,.rp-gantt .row{grid-template-columns:96px 1fr} .rp-gantt .axis span.w12{display:none} .rp-gantt .lab{font-size:12px} .rp-gantt .lab b{font-size:13px}
+    .rp-method{grid-template-columns:1fr 1fr} .rp-calc{padding:20px 16px} .rp-calc .out{grid-template-columns:1fr 1fr}
+    .rp-flow{grid-template-columns:1fr;gap:26px} .rp-flow div:not(:last-child)::after{display:block;right:auto;left:50%;top:auto;bottom:-24px;transform:translateX(-50%) rotate(90deg)}
+    .rpg .chips i{font-size:12.5px;padding:6px 11px}
+  }
+</style>
+
+<div class="pg rpg">
+<div class="rp-progress" aria-hidden="true"><i></i></div>
+<nav class="rp-rail" aria-label="Chapters">
+  <a href="#c1"><b>01</b>In one page</a>
+  <a href="#c2"><b>02</b>Before the contract</a>
+  <a href="#c3"><b>03</b>The engagement</a>
+  <a href="#c4"><b>04</b>Real clients</a>
+  <a href="#c5"><b>05</b>The CEO&rsquo;s part</a>
+  <a href="#c6"><b>06</b>Money and timeline</a>
+  <a href="#c7"><b>07</b>Applied to Rex Black</a>
+  <a href="#c8"><b>08</b>In-house, or not</a>
+  <a href="#c9"><b>09</b>Sources and method</a>
+  <span class="cnt"><span id="rp-cnt">01</span> / 09</span>
+</nav>
+
+<!-- 01 hero + in one page -->
+<section class="navy ch" id="c1">
+  <div class="wrap">
+    <h1>[reverse-engineering rapid product growth]</h1>
+    <p class="lead">screen<i>&rarr;</i>rewrite the offer<i>&rarr;</i>fix the sales call<i>&rarr;</i>cold email<i>&rarr;</i>Meta ads<i>&rarr;</i>booked calls<i>&rarr;</i>scale.<br>What a growth agency would do for Rex Black, week by week.</p>
+    <p style="margin-top:22px">This page walks through what Rapid Product Growth (&ldquo;RPG&rdquo;) would do for Rex Black after a contract is signed, from the first week to month three and beyond. It is written for someone who has read nothing else. It is reconstructed from RPG&rsquo;s own method videos, the 7-minute sales video on their booking page, a 45-minute podcast interview in which Jean-Michel Moreau describes his process, and the ads RPG is running right now from two clients&rsquo; own Facebook pages. Where a number appears, it is his number, and the source is named.</p>
+    <div class="chips">
+      <i><b>77</b>YouTube method videos</i><i><b>99</b>LinkedIn clips</i><i><b>1</b>sales video</i><i><b>1</b>podcast interview</i><i><b>2</b>client ad accounts</i><i><b>27</b>RPG&rsquo;s own ads</i>
+    </div>
+    <p class="byline">Pooja &middot; 29 September 2026 &middot; about 25 minutes to read, 4 to skim</p>
+  </div>
+</section>
+<section class="white">
+  <div class="wrap">
+    <span class="k">01 &middot; In one page</span>
+    <div class="rp-two">
+      <div>
+        <h2>RPG does not start with ads. It starts by rewriting what Rex Black sells to strangers.</h2>
+        <p>The new thing to sell is a small project with a fixed price, a fixed deadline, a clearly named result, and a money-back clause, aimed at a demand trigger that already exists in the market. Only after that offer exists do they touch any marketing channel.</p>
+        <p>Then it works from the back of the funnel to the front. First they fix how Rex Black sells: record every sales call, pull out the objections, retrain the team to sell to cold buyers. Second they tune cold email outreach, aiming for two to five percent of people replying, and use podcast invitations as an indirect way in. Only then do they run Facebook and Instagram ads, and those ads sell a phone call rather than the service. The ads run from Rex Black&rsquo;s own Facebook page, five or six versions at a time, paid for with $5,000 to $10,000 a month of Rex Black&rsquo;s money.</p>
+        <p>One number governs everything: the cost of getting one qualified prospect to book a call and actually show up. The benchmarks he uses are $250 to $500 per booked call from Meta ads for a normal B2B company, an 80 percent show rate when things are working, and a 20 percent close rate on calls that were booked for a specific offer. Put together, that means $1,500 to $6,000 to win a customer. He expects the first calls within 30 days, cash within 60 to 90 days, and the whole funnel &ldquo;unlocked&rdquo; within one to three months. If a company&rsquo;s numbers cannot beat those, he says so on the first call and does not take the deal.</p>
+        <p>The part that is really him, and not a system: he sits in your sales calls, rewrites how you run discovery and how you present, and he upsells you to the bigger engagement inside the first two weeks. In his words, that happens &ldquo;at the point of maximum deprivation, before the problem is solved.&rdquo; Everything else in the machine is documented on his own channel.</p>
+      </div>
+      <div>
+        <span class="k">Terms used on this page</span>
+        <ul class="rp-gloss">
+          <li><b>Stranger</b>A company that has never heard of Rex Black.</li>
+          <li><b>Foot-in-the-door offer</b>A small, cheap first project designed so a stranger can say yes without much risk.</li>
+          <li><b>Demand trigger</b>An event in a buyer&rsquo;s life that makes them start looking for help.</li>
+          <li><b>Booked, qualified, showed</b>A booked call is one a prospect scheduled; a qualified booked call is with the right kind of prospect; a showed call is one they turned up to.</li>
+          <li><b>Setter</b>A person who confirms and qualifies each booking before the founder&rsquo;s time is spent.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rp-stats">
+      <div><b>$5&ndash;10k</b><span>ad spend per month he requires</span><small>sales video, Noob School interview</small></div>
+      <div><b>$25k+</b><span>minimum yearly contract value to qualify</span><small>sales video</small></div>
+      <div><b>10,000+</b><span>buyers that must exist in the market</span><small>Noob School</small></div>
+      <div><b>$250&ndash;500</b><span>his benchmark cost per booked B2B call on Meta</span><small>vendor audit video</small></div>
+      <div><b>30 days</b><span>to first qualified calls, by his promise</span><small>sales video</small></div>
+      <div><b>2 weeks</b><span>when he says the upsell to the full engagement usually happens</span><small>Noob School</small></div>
+    </div>
+
+    <div class="rp-board">
+      <span class="k">The whole machine on one board</span>
+      <h3>How Rapid Product Growth runs a client</h3>
+      <p class="sub">Eight steps, in the order they say they do them. <em>&#9670; rule</em> marks a check that stops or redirects the step.</p>
+      <div class="rp-steps">
+        <div class="rp-step"><b>Screening call</b><p>Four checks before any deal</p><div class="rule">10,000+ buyers &middot; $25k+ contracts &middot; $5&ndash;10k/mo ad cash &middot; founder attitude</div></div>
+        <div class="rp-step"><b>Audit</b><p>Every vendor and channel on one sheet &middot; past clients &middot; 3 competitors</p><div class="rule">Fix one bottleneck at a time</div></div>
+        <div class="rp-step"><b>Rewrite the offer</b><p>Fixed price &middot; fixed time &middot; named result &middot; money-back &middot; $5&ndash;25k</p><div class="rule">Must be tied to new revenue or cash</div></div>
+        <div class="rp-step"><b>Fix the sales call</b><p>Record calls &middot; list objections &middot; cold-buyer script</p><div class="rule">New price? 50 discovery calls first</div></div>
+        <div class="rp-step"><b>Cold email</b><p>10&ndash;15k contacts a quarter &middot; invite to a podcast, not a meeting</p><div class="rule">Reply rate under 2%? rewrite</div></div>
+        <div class="rp-step"><b>Meta ads</b><p>Videos on buyer triggers + &ldquo;book a call&rdquo; ads &middot; $3 tests</p><div class="rule">Test order: pain &rarr; headline &rarr; offer &rarr; image &rarr; copy</div></div>
+        <div class="rp-step"><b>Booked calls</b><p>A setter confirms each call before the founder joins</p><div class="rule">$250&ndash;500 per call &middot; 80% show &middot; 20% close</div></div>
+        <div class="rp-step"><b>Scale</b><p>Real numbers &rarr; next bottleneck &rarr; weekly call, CEO present</p><div class="rule">Upsell before the small project ends</div></div>
+      </div>
+      <div class="foot">
+        <div><b>One number</b>Cost per qualified call that showed up. Every channel and vendor is judged on it.</div>
+        <div><b>What the client pays and gives</b>$5&ndash;10k a month in ad spend on top of the fee. A weekly call, sales-call recordings, the past-client list, ad-account access, short videos on camera.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 before the contract -->
+<section class="navy ch" id="c2">
+  <div class="wrap">
+    <span class="k">02 &middot; Before the contract</span>
+    <h2>The &ldquo;Scaling Flywheel Call,&rdquo; and the four checks that come before any deal</h2>
+    <p>RPG finds its own clients the way it tells clients to find theirs: an ad sells a call, a form filters who gets one, and the call sells a small paid first step. The sales video on the booking page describes what the first conversations are for. He calls the meeting a &ldquo;Scaling Flywheel Call,&rdquo; and he promises that the plan he sketches is &ldquo;yours to keep, whether we work together or not.&rdquo;</p>
+    <div class="rp-flow">
+      <div><b>Meta video ad</b>Runs to founders of B2B software and service firms.<small>27 ads since Nov 2025</small></div>
+      <div><b>Application quiz</b>Typeform. Companies under $1M revenue are turned away.<small>&ldquo;can&rsquo;t absorb $750k&ndash;1.25M&rdquo;</small></div>
+      <div><b>Sales video page</b>7-minute video, then a calendar.<small>GoHighLevel page</small></div>
+      <div><b>Scaling Flywheel Call</b>The four checks, and a roadmap sketched live.<small>&ldquo;yours to keep&rdquo;</small></div>
+      <div><b>Small paid audit</b>Fractional work: evaluating what the company already does.<small>&ldquo;I come in to evaluate all their vendors&rdquo;</small></div>
+      <div><b>Full engagement</b>Proposed while the audit is still running.<small>&ldquo;within the first two weeks&rdquo;</small></div>
+    </div>
+    <div class="rp-quote">
+      <div class="paper"><span class="tape"></span>
+        <blockquote>&ldquo;Here&rsquo;s what happens on the call. We&rsquo;ll build your complete scaling roadmap together. I&rsquo;ll show you the exact steps specifically for your business how to add $1&ndash;3 million revenue over the next 12 months&hellip; We&rsquo;ll create that third way for you to get strangers to enter your world. We&rsquo;ll show you how you need to change that offer&hellip; how to pre-educate your prospects&hellip; and how to turn ad spend into booked calls. So you can take it and execute it yourself, or you can have us build it for you.&rdquo;</blockquote>
+        <cite>Sales video on the evaluation page, 6:18</cite>
+      </div>
+    </div>
+    <h3 style="margin-top:56px">The four checks he applies to every applicant</h3>
+    <p>He uses the call to test whether the company fits. If any check fails, he declines.</p>
+    <div class="rp-checks">
+      <div class="paper"><span class="tape"></span><span class="rp-stamp">Passes</span>
+        <h4>Are there enough buyers?</h4>
+        <p class="q">&ldquo;At least 10,000 possible customers&hellip; if there&rsquo;s 50 or 100,000, it&rsquo;s way easier.&rdquo; Below that, he says ads are the wrong tool.</p>
+        <p>Rex Black sells to D2C brands on Shopify, Salesforce Commerce Cloud and Magento, and to agencies that need white-label developers. That is tens of thousands of companies in North America.</p></div>
+      <div class="paper"><span class="tape"></span><span class="rp-stamp">Passes</span>
+        <h4>Is each customer worth enough?</h4>
+        <p class="q">A yearly contract value of at least $25,000 (sales video); &ldquo;30k would be nice&rdquo; (Noob School). He turns away cheap software and low-ticket offers.</p>
+        <p>Rex Black&rsquo;s custom builds and QA retainers sit well above this line.</p></div>
+      <div class="paper"><span class="tape"></span><span class="rp-stamp open">Open</span>
+        <h4>Is there spare cash?</h4>
+        <p class="q">&ldquo;$5&ndash;10K per month in ad spend&rdquo; for three to four months before you learn anything. &ldquo;If that feels like a stressful thing to do, you&rsquo;re not ready.&rdquo;</p>
+        <p>This is the CEO&rsquo;s decision. The ad money comes on top of RPG&rsquo;s fee.</p></div>
+      <div class="paper"><span class="tape"></span><span class="rp-stamp open">Read on the call</span>
+        <h4>Is the founder committed?</h4>
+        <p class="q">He rejects founders whose attitude is &ldquo;everything doesn&rsquo;t work for me, prove it.&rdquo; He wants &ldquo;there&rsquo;s no reason why this should be impossible.&rdquo;</p>
+        <p>He reads the founder for this in the conversation itself, not from a form.</p></div>
+    </div>
+    <p style="margin-top:40px">He also sells his guarantee by telling stories about rejection. In the ad he calls &ldquo;we copied Harvard&rdquo; and in his vendor-audit videos, he tells &ldquo;the three times it didn&rsquo;t work.&rdquo; He explains that most engagements begin as fractional work, meaning a part-time paid role auditing what the company already does: &ldquo;I come in to evaluate all their vendors&hellip; very often we come up with a more involved engagement within the first two weeks.&rdquo; So the realistic expectation from a first proposal is a small paid audit, not the full program.</p>
+  </div>
+</section>
+
+<!-- 03 the engagement -->
+<section class="white ch" id="c3">
+  <div class="wrap">
+    <span class="k">03 &middot; The engagement, phase by phase</span>
+    <h2>Seven phases over twelve weeks, and they overlap</h2>
+    <p>The sequence below merges four sources that describe the same process at different levels of detail: the four-step &ldquo;Scaling Flywheel&rdquo; in his sales video, his 11-step &ldquo;Growth Systems&rdquo; video, the 8-step ad flowchart in his video on de-risking paid acquisition, and his answer to the question &ldquo;once you figure all that out for a client, then what?&rdquo; on the Noob School podcast. Where a number appears, it is his number. Click a bar to jump to that phase.</p>
+
+    <div class="rp-gantt" id="rp-gantt">
+      <div class="axis"><div></div><div>
+        <span style="left:0%">Wk 0</span><span style="left:15.38%">2</span><span style="left:30.77%">4</span><span style="left:46.15%">6</span><span style="left:61.54%">8</span><span style="left:76.92%">10</span><span class="w12" style="left:92.31%">12</span><span class="end" style="left:100%">3 mo+</span>
+      </div></div>
+      <a class="row" href="#ph1" data-ph="ph1"><div class="lab"><b>Diagnostic</b><span>Week 0</span></div><div class="trk"><i class="bar" style="left:0%;width:7.69%"></i></div></a>
+      <a class="row" href="#ph2" data-ph="ph2"><div class="lab"><b>Offer</b><span>Weeks 1&ndash;3</span></div><div class="trk"><i class="bar" style="left:7.69%;width:15.38%"></i></div></a>
+      <a class="row" href="#ph3" data-ph="ph3"><div class="lab"><b>Sales</b><span>Weeks 2&ndash;4</span></div><div class="trk"><i class="bar" style="left:15.38%;width:15.38%"></i></div></a>
+      <a class="row" href="#ph4" data-ph="ph4"><div class="lab"><b>Outbound</b><span>Weeks 2&ndash;6</span></div><div class="trk"><i class="bar" style="left:15.38%;width:30.77%"></i></div></a>
+      <a class="row" href="#ph5" data-ph="ph5"><div class="lab"><b>Ads</b><span>Weeks 3&ndash;8</span></div><div class="trk"><i class="bar" style="left:23.08%;width:38.46%"></i></div></a>
+      <a class="row" href="#ph6" data-ph="ph6"><div class="lab"><b>Calls</b><span>Weeks 4&ndash;12</span></div><div class="trk"><i class="bar" style="left:30.77%;width:61.54%"></i></div></a>
+      <a class="row" href="#ph7" data-ph="ph7"><div class="lab"><b>Scale</b><span>Month 3+</span></div><div class="trk"><i class="bar arrow" style="left:92.31%;width:6%"></i></div></a>
+      <p class="note">Drawn to scale from the week ranges he gives. Sales, outbound and ads run at the same time; calls start the moment the first ad or email lands.</p>
+    </div>
+
+    <!-- phase 1 -->
+    <div class="rp-phase" id="ph1">
+      <div class="pill"><b>Week 0</b><span>Diagnostic</span></div>
+      <h3>Look under the hood, score every channel, name the one blockage</h3>
+      <div class="cols">
+        <div><ol>
+          <li><b>Audit every vendor and channel.</b> He puts everything on one sheet and measures each one the same way: how much it costs to get one qualified prospect to book a call and show up. From an audit he shows on camera: an outbound calling agency charging $10,000 a month produced six bookings and two showed calls in six weeks, which he works out to &ldquo;almost $7,000 per showed call&hellip; cut this team.&rdquo; The Meta ads in the same company were underfunded (&ldquo;they should have spent $7,000 already&rdquo;). LinkedIn ads offering a white paper produced leads at about $180 each that never turned into calls, so his question became &ldquo;what&rsquo;s up with the sales team?&rdquo;</li>
+          <li><b>Find the single blockage using five boxes.</b> The blockage is always one of: not enough leads, leads that do not buy, customers who leave, no spare cash, or the CEO having no time. &ldquo;It has to be one.&rdquo; The questions he asks to find it: how many qualified sales calls per week, and what was the best week ever; cost per call by channel; what share of first contacts turn into a demo; the close rate on qualified calls (he expects 20 to 30 percent); how much free cash could be thrown at the blockage; and whether the CEO can get three uninterrupted hours.</li>
+          <li><b>Work out the ideal customer from the client&rsquo;s own data.</b> A spreadsheet of every past client: which channel they came from, what kind of company they are, their revenue level, who made the buying decision, what event triggered the purchase, how good a fit they seemed at first, and total money spent. From that he calculates the average lifetime value and the lifetime value of the top 20 percent of clients, then picks one segment to chase. His reasoning: &ldquo;It&rsquo;s way more profitable to help winners win than to help strugglers stop struggling.&rdquo;</li>
+          <li><b>Dissect the competition.</b> Three direct competitors and three indirect ones, ten questions each: what they promise, what they claim, what proof they show, what benefits they list, what makes their method unique, fragments of good copy, whether they have a unique selling point, what their winning ads look like (found in the Facebook Ad Library and a tool called VidTao), what customers complain about, and exactly what they offer at what price. His view: &ldquo;The best research has already been done by all your competitors.&rdquo;</li>
+          <li><b>Fill in his &ldquo;Rapid Marketing Canvas.&rdquo;</b> A board that lists the buyer&rsquo;s pains, their dream outcome, the jobs they need done, the false beliefs they hold, and their immediate small problems. Guesses go on red sticky notes and become green only when real data confirms them. From this he draws a &ldquo;belief spectrum&rdquo;: the sequence of beliefs a buyer must move through, from their first wrong assumption to the &ldquo;one belief&rdquo; that Rex Black&rsquo;s way of working is the best solution. For each step he looks for a &ldquo;black swan,&rdquo; meaning one piece of evidence so clear that it changes the belief without arguing.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>Evidence</small>
+            <p>&ldquo;Unless you think you&rsquo;re perfect at everything, have this crew snoop around. We pretty quickly found areas where it was like, I totally know how to do that, I&rsquo;ll have it done next week.&rdquo; That is Steve Benson of Badger Maps, quoted on RPG&rsquo;s website.</p>
+            <p>In a video with Steve, Jean-Michel describes the mechanics: the client&rsquo;s marketing team presents what they are doing, he ranks possible projects by likely impact, he restarts channels that were dead (an automated LinkedIn outreach tool) and makes small adjustments to channels that were alive, which he calls turning them &ldquo;four degrees to the left,&rdquo; using specific software such as a $150-a-month tool that checks whether emails land in the inbox.</p>
+            <div class="rp-why"><small>Why</small><span>He wants real numbers before he changes anything, and he only works on one blockage at a time.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- phase 2 -->
+    <div class="rp-phase" id="ph2">
+      <div class="pill"><b>Weeks 1&ndash;3</b><span>Offer</span></div>
+      <h3>Rework the offer so a stranger can say yes</h3>
+      <p>He treats this step as the whole game, and as the reason previous agencies failed the client. It is done with the CEO in the room.</p>
+      <div class="cols">
+        <div><ol>
+          <li><b>Ignore what Rex Black &ldquo;does.&rdquo;</b> His instruction: &ldquo;Ignore the company&rsquo;s overall solution. Look at the outcomes the customer can point at and say &lsquo;that happened.&rsquo;&rdquo; Break the complicated service into outcome one, outcome two, outcome three.</li>
+          <li><b>Rank the outcomes by what makes a buyer stop scrolling.</b> &ldquo;New revenue first. Cashflow second. Everything else loses.&rdquo;</li>
+          <li><b>Attach the offer to demand that already exists instead of educating people.</b> His &ldquo;hot dog stand&rdquo; rule: if the queue wants hot dogs, sell hot dogs, not artisan hamburgers. His current pick for every client is AI. He says two triggers are live in the market right now: &ldquo;you bought the AI tools, your business isn&rsquo;t more valuable,&rdquo; and &ldquo;I&rsquo;d like proven ROI on something around AI.&rdquo;</li>
+          <li><b>Wrap the winning outcome in a stranger-friendly offer.</b> Four ingredients, always: a specific cost, a specific timeframe, a specific outcome, and low risk. Never zero risk, because then &ldquo;total yahoos take you up on it.&rdquo; The price sits between $5,000 and $25,000, it is a fixed one-time project, and it is &ldquo;something whoever you&rsquo;re dealing with can approve without eight levels of sign-off.&rdquo; His example wording: &ldquo;If you got written up about this, we can get you compliant in 30 days or you don&rsquo;t pay.&rdquo;</li>
+          <li><b>Design the economics before any ad exists.</b> The first project should at least cover the cost of finding the customer, and ideally &ldquo;pay for themselves plus one customer,&rdquo; so each sale funds the next one. The profit comes on the first upsell, because in his experience &ldquo;10% of buyers spend 10x.&rdquo;</li>
+          <li><b>Map five to eight demand triggers.</b> Events that happen before someone starts searching for help: a key account was lost, a new VP wants to make a mark, the board asked questions, a tool stopped scaling. Each trigger becomes an ad angle. His phrase: &ldquo;Your creative does the targeting,&rdquo; meaning the ad&rsquo;s content, not the platform&rsquo;s settings, decides who responds.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>Evidence, live client</small>
+            <p>2X Solutions is run by Kevin DeMeritt, the founder of Lear Capital. He came to RPG selling a general &ldquo;AI voice platform,&rdquo; after a cold-email vendor and a Meta ads agency had both failed. The ads RPG now runs from 2X&rsquo;s own Facebook page (launched 27 September 2026, eight versions) sell one outcome to one industry: &ldquo;Mortgage companies are sitting on thousands of leads they&rsquo;ve already paid for and nobody&rsquo;s calling them&hellip; We&rsquo;ll Reactivate Your Leads in 30 Days, Or You Don&rsquo;t Pay. Fill out the form to see if you qualify.&rdquo; Their cost per booked call fell from $1,500&ndash;$2,000 to $500&ndash;$750, by RPG&rsquo;s account.</p>
+            <div class="rp-why"><small>Why</small><span>A stranger will buy a $12,000 fixed project with a guarantee. A stranger will not buy a $200,000 open-ended engagement.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- phase 3 -->
+    <div class="rp-phase" id="ph3">
+      <div class="pill"><b>Weeks 2&ndash;4</b><span>Sales</span></div>
+      <h3>Fix how you sell before buying any traffic</h3>
+      <p>In his words: &ldquo;Before we do anything about top of funnel, let&rsquo;s make sure we&rsquo;re closing everyone we can. This is usually the shortest, quickest thing we can do to add revenue.&rdquo;</p>
+      <div class="cols">
+        <div><ol>
+          <li><b>Record every sales call,</b> using a tool like Gong, Fathom or Fireflies, or simply a screen recorder. Review the most important calls of the last month by hand, and run every transcript through an AI prompt (he names the automation tool n8n) to count and group the objections.</li>
+          <li><b>Install a &ldquo;talk track,&rdquo;</b> a set script for the call that brings out the prospect&rsquo;s beliefs and worries before price is mentioned.</li>
+          <li><b>Retrain the team for cold buyers.</b> He warns: &ldquo;The sales team will say the leads suck&hellip; they&rsquo;ve only ever sold to their friends.&rdquo; Cold prospects need a gentler approach: &ldquo;less pitching on call one, more proof you give a damn, more patience on discovery before anyone talks price.&rdquo; The warm, referral-based way of selling is kept as it is, and the cold way is added beside it.</li>
+          <li><b>If the offer or the price is new, run fifty discovery calls</b> with a strict script, because &ldquo;if you have 50 discovery calls you can figure anything out.&rdquo; One client tested 30 different price points in a single week using cheap ads.</li>
+          <li><b>Turn each objection into content for retargeting:</b> one belief to change, one piece of evidence, one short video. These are used in the ads phase.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>Evidence</small>
+            <p>From the 2X Solutions ad: &ldquo;The thing Kevin points to isn&rsquo;t the ads. It&rsquo;s that we sat in his sales calls, rebuilt his discovery, and rewrote his presentation.&rdquo;</p>
+            <p>From Noob School: &ldquo;if you take a company, help them get new leads, and stop there, they almost always fail because you need a different sales motion for colder audiences.&rdquo;</p>
+            <div class="rp-why"><small>Why</small><span>New leads are wasted if the team can only sell to people who already trust them.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- phase 4 -->
+    <div class="rp-phase" id="ph4">
+      <div class="pill"><b>Weeks 2&ndash;6</b><span>Outbound</span></div>
+      <h3>Turn outreach on, or tune it, because it risks the least cash</h3>
+      <div class="cols">
+        <div><ol>
+          <li><b>The list.</b> Built live with the client in Apollo, a contact database, or bought from a specialist list broker, filtered by industry, country and job title. The target is 10,000 to 15,000 contacts per quarter for email, which he says is &ldquo;a year of LinkedIn.&rdquo; He checks pages of the list by eye to catch mistakes.</li>
+          <li><b>The plumbing.</b> Six email domains, three to six Google Workspace inboxes on each, the technical deliverability settings done properly, two weeks of warm-up before sending, and a sending tool called Instantly. The target is a reply rate of two percent or better; &ldquo;my best campaigns are getting 4&ndash;5%.&rdquo;</li>
+          <li><b>The approach.</b> Not &ldquo;ask-based&rdquo; emails that beg for a meeting. Either give something first, or invite people to something they already wanted: a guest slot on a podcast, a dinner, a contribution to an industry report. The sales discovery happens inside the interview. The cost per booked call is &ldquo;effectively zero&rdquo; in money, but about an hour of work per qualified call.</li>
+          <li><b>An automated sales assistant.</b> A workflow built in n8n reads replies from Instantly, sorts them by intent, drafts responses into Slack for a human to approve, holds calendar slots, books the meeting through Calendly, and answers common objections from a stored library. A human setter then confirms the appointment and follows up.</li>
+          <li><b>The podcast as a pipeline.</b> Two hours a week, four ideal-customer guests a week. Sixty-second clips of the guests are run as ads with no call to action, purely to build a private audience for later retargeting. His claim is that this drops the cost per booked call from $300&ndash;$600 to about $50, after roughly five months of nurturing.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>Evidence</small>
+            <p>Wertwandler, a German consultancy, is the outbound proof point: &ldquo;over 100 calls per month with C-level executives&rdquo; and &ldquo;their first six-figure deal with SAP.&rdquo; There is no Wertwandler advertiser page in Meta&rsquo;s Ad Library, which fits an outreach-led engagement.</p>
+            <p>Zight was the podcast-outreach case: &ldquo;40 qualified calls per month&hellip; 120 new conversations,&rdquo; before Zight &ldquo;stopped the project for internal reasons.&rdquo;</p>
+            <div class="rp-why"><small>Why</small><span>Outreach costs time rather than money, so it is the safe channel to fix first.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- phase 5 -->
+    <div class="rp-phase" id="ph5">
+      <div class="pill"><b>Weeks 3&ndash;8</b><span>Ads</span></div>
+      <h3>Meta first, selling a phone call, five or six versions a week</h3>
+      <p>&ldquo;Meta is one of our first paid channels for B2B clients, not LinkedIn.&rdquo; Meta means Facebook and Instagram. He uses LinkedIn ads only when a customer is worth over $100,000 and a target list can be built. On LinkedIn, he says, &ldquo;you bring the intelligence&rdquo;: you boost the founder&rsquo;s personal posts through the company ad account and a human adjusts bids every week.</p>
+      <div class="cols">
+        <div><ol>
+          <li><b>Two campaigns run at once.</b> The first is an awareness campaign of narrow videos about the demand triggers. They are deliberately niche: &ldquo;we want the rest of the world to scroll past.&rdquo; Their job is to teach Meta&rsquo;s system who the buyer is. The second is a lead-generation campaign that advertises the offer with a &ldquo;book a call&rdquo; button.</li>
+          <li><b>Creative without a studio.</b> Three formats are enough: a three-to-five-minute Loom screen recording of the CEO walking through one trigger, a demo of the product or framework, and an interview of the founder filmed on an iPhone on the desk. For testing, he uses plain, ugly, text-only image ads. His rule: &ldquo;Simplify your concept; the ads are not about your app.&rdquo;</li>
+          <li><b>Test in a strict order.</b>
+            <div class="rp-ladder"><i>pain</i><em>&rarr;</em><i>headline</i><em>&rarr;</em><i>offer</i><em>&rarr;</em><i>image</i><em>&rarr;</em><i>body text</i><em>&rarr;</em><i>Facebook headline</i></div>
+            He runs these as cheap &ldquo;traffic&rdquo; campaigns at about $3 per version until each has roughly 400 impressions, so 10 versions cost $30. If needed, 70 or more headlines can be tested in 48 hours. Winners are chosen on click-through rate and cost per click, and he warns that &ldquo;most of your results will suck.&rdquo;</li>
+          <li><b>Stress-test the winners with more impressions, then choose a path.</b>
+            <div class="rp-fork">
+              <div><b>Offer still unproven <i>&rarr;</i> chat</b><span>Send ad clicks straight into chat conversations with no website at all.</span></div>
+              <div><b>Offer proven <i>&rarr;</i> landing page</b><span>Use a template landing page, then spend up to two weeks removing friction from it using Mouseflow (a tool that records how visitors scroll) and more headline tests.</span></div>
+            </div></li>
+          <li><b>Switch to a conversion campaign once the page holds.</b> Judge it after 10 conversions. If the numbers fail, work out whether the page or the ad is the problem, fix that, then scale spending.</li>
+          <li><b>The funnel.</b> Ad, then a short qualification form (Typeform or Meta&rsquo;s own instant form), then a booking page, then a human setter who confirms the call. &ldquo;When you have ads, you must have a salesperson setting.&rdquo; He deliberately adds friction so junior people do not get through.</li>
+          <li><b>Build the retargeting layer before scaling cold ads.</b> Retargeting means showing more content to people who already engaged. His stated budgets: Facebook $1,500 a month, YouTube $500, LinkedIn $1,000, short vertical videos boosted at $15 a day, direct-message campaigns at $2 a day. The content: a walkthrough of the program, testimonial carousels, one video per objection, the sales video, podcast episodes. Warmed-up prospects are sent straight to a Calendly booking link.</li>
+          <li><b>Weekly rhythm.</b> Five or six offers or angles compete against each other every week. Seventy percent of the budget goes to variations of winners and 30 percent to wild new ideas. During testing, the worst video is replaced every day.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>Evidence, live client</small>
+            <p>Susco is a software shop in New Orleans; RPG&rsquo;s own ad claims it &ldquo;Booked 100+ calls.&rdquo; Susco launched 12 ad versions from its own Facebook page on 25 and 26 September 2026, with identical text and different visuals: &ldquo;Are you still stuck balancing people and profit? Stop believing that simply adding more people is the solution in 2026. Your margins are dying&hellip; Increase Your Margins by 35%+.&rdquo; Underneath is a list, &ldquo;Proven on: general contractors, home builders, remodelers, roofing, HVAC&hellip;&rdquo;, which mirrors the &ldquo;Proven on software development shops&hellip;&rdquo; line in RPG&rsquo;s own ads. The click goes to a Meta instant form. Susco sells custom software; the ad sells a margin outcome to one trade vertical.</p>
+            <div class="rp-why"><small>Why</small><span>With a good offer, Meta finds the buyers by itself, and a call booked from an ad is with someone who already wants the result.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- phase 6 -->
+    <div class="rp-phase" id="ph6">
+      <div class="pill"><b>Weeks 4&ndash;12</b><span>Calls</span></div>
+      <h3>Book, qualify, make sure they show, close</h3>
+      <div class="cols">
+        <div><ol>
+          <li><b>A sales development rep or setter confirms every booking</b> by text, call and email, and checks the prospect is qualified before the founder&rsquo;s time is spent. The failure he designs against is the one clients complain about: &ldquo;They promised us calls and we got calls, but these are junior people.&rdquo;</li>
+          <li><b>The benchmarks he holds the funnel to:</b> $250 to $500 per booked call for normal B2B, about $500 for upper mid-market companies, and up to $5,000 for Fortune 50 targets; an 80 percent show rate when healthy (his worked example assumes 50 percent as &ldquo;bad numbers&rdquo;); a 20 percent close rate on calls booked for a specific offer, versus one to three percent on leads who downloaded a white paper. At his bad numbers, filling one salesperson&rsquo;s day costs about $8,000 of ads.</li>
+          <li><b>Cash timing:</b> &ldquo;You&rsquo;ll see qualified calls within 30 days of launching&hellip; cash collection is typically 60 to 90 days.&rdquo; He pushes clients to charge on day one rather than day 60, so the first sale funds the next customer.</li>
+          <li><b>Upsell timing:</b> &ldquo;People buy upsells at the point of maximum deprivation&hellip; get their trust before you&rsquo;ve completed solving the entirety of the problem.&rdquo; In plain words, offer the bigger project while the small one is still running, not after it is finished.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>His arithmetic</small>
+            <p>$7,500 of ads at $375 a call books 20 calls. At 80 percent show, 16 people turn up. At 20 percent close, that is about three first projects a month, so a customer costs roughly $2,300 to win.</p>
+            <p>At his &ldquo;bad numbers&rdquo; (50 percent show), the same spend yields 10 showed calls and two projects.</p>
+            <div class="rp-why"><small>Why</small><span>The setter is there so the founder&rsquo;s time only goes to people who fit the offer.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- phase 7 -->
+    <div class="rp-phase" id="ph7">
+      <div class="pill"><b>Month 3+</b><span>Scale</span></div>
+      <h3>Use your own numbers, kill the next blockage, then leaders and operations</h3>
+      <div class="cols">
+        <div><ol>
+          <li><b>A financial model from real data.</b> The actual cost per call and cost per customer for each channel replace guesses, and decide how much cash goes where. His warning: &ldquo;It&rsquo;s possible to run profitable ads that kill your cash flow.&rdquo;</li>
+          <li><b>Find and attack the next blockage</b> using the real numbers against industry benchmarks, and move resources to it rather than polishing things that already work. In his words, that is the point where &ldquo;you&rsquo;ve earned the million.&rdquo;</li>
+          <li><b>Leaders and operations.</b> A simple system for what a leader&rsquo;s job is, so problems stop flowing up to the CEO, and Toyota-style process work so that &ldquo;growth doesn&rsquo;t break your business.&rdquo;</li>
+          <li><b>The client rhythm.</b> Weekly calls. A &ldquo;raise the floor&rdquo; rule: never test fewer than two things even in a bad week, rather than trying to beat your best week. The founder submits their own plan for that each week.</li>
+          <li><b>Handover.</b> &ldquo;Then we hand you a system you own.&rdquo; In practice the ad account, the Facebook page, the forms and the workflows already live in the client&rsquo;s own accounts (Susco and 2X advertise from their own pages), so what leaves with RPG at the end is the judgement, not the tooling.</li>
+        </ol></div>
+        <div class="rp-side">
+          <div class="paper"><span class="tape"></span><small>Where the system lives</small>
+            <p>Both live clients advertise from their own Facebook pages, and the forms are Meta instant forms or Typeform on the client&rsquo;s account. The tooling is the client&rsquo;s from day one. The weekly judgement is the part supplied by RPG.</p>
+            <div class="rp-why"><small>Why</small><span>He sells the system as something the client keeps, so it is built inside the client&rsquo;s accounts.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 real clients -->
+<section class="navy ch" id="c4">
+  <div class="wrap">
+    <span class="k">04 &middot; What it looks like on real clients</span>
+    <h2>Nine clients, as RPG describes them</h2>
+    <p>Every number in these cards is RPG&rsquo;s own claim. The only independently visible facts are the client ads themselves (their dates, wording and number of versions) and Zight&rsquo;s withdrawal, which Jean-Michel volunteers in his own sales video.</p>
+    <div class="rp-cases">
+      <div class="paper"><span class="tape"></span><small>AI voice platform</small><h4>2X Solutions</h4>
+        <p>Repositioned a generic AI voice platform into &ldquo;reactivate your dead mortgage leads in 30 days or you don&rsquo;t pay&rdquo;; sat in sales calls, rebuilt discovery; Meta ads from 2X&rsquo;s own page.</p>
+        <div class="res">Cost per booked call $1,500&ndash;2,000 &rarr; $500&ndash;750; two clients at about $30k a month within two months</div>
+        <div class="src">RPG ad (Aug 2026); 2X advertiser page, 8 ads, 27 Sep 2026</div><span class="tag ad">Visible in Ad Library</span></div>
+      <div class="paper"><span class="tape"></span><small>Software shop</small><h4>Susco</h4>
+        <p>Margin-outcome offer for construction trades; 12 creative versions launched in two days; instant-form funnel.</p>
+        <div class="res">&ldquo;Booked 100+ calls&rdquo;</div>
+        <div class="src">RPG ad (Sep 2026); Susco advertiser page, 12 ads</div><span class="tag ad">Visible in Ad Library</span></div>
+      <div class="paper"><span class="tape"></span><small>Consultancy</small><h4>Wertwandler</h4>
+        <p>Cold outreach to executives.</p>
+        <div class="res">&ldquo;Over 100 calls per month,&rdquo; first six-figure deal with SAP; &ldquo;$33.9M pipeline in 6 months&rdquo;</div>
+        <div class="src">Sales video; booking page; no Meta ads found</div><span class="tag">RPG&rsquo;s claim</span></div>
+      <div class="paper"><span class="tape"></span><small>SaaS, Series B</small><h4>Zight</h4>
+        <p>Podcast outreach plus relationship building.</p>
+        <div class="res">40 qualified calls a month; 120 conversations; the client stopped the project</div>
+        <div class="src">Sales video; RPG testimonial ads</div><span class="tag">RPG&rsquo;s claim</span></div>
+      <div class="paper"><span class="tape"></span><small>AI video ads</small><h4>Boundless</h4>
+        <p>Outreach to Fortune 500 and 1000 marketing chiefs, using memes and messages timed to where the buyer is in the decision; a shared &ldquo;battle card&rdquo; with the sales team.</p>
+        <div class="res">&ldquo;A few bookings,&rdquo; CMOs reached, &ldquo;not expecting volume&rdquo;</div>
+        <div class="src">&ldquo;Whale hunting&rdquo; clip, 4 Sep 2026</div><span class="tag">RPG&rsquo;s claim</span></div>
+      <div class="paper"><span class="tape"></span><small>8-figure SaaS</small><h4>Badger Maps</h4>
+        <p>A tune-up: LinkedIn automation, an inbox-placement checker, ad efficiency work, done with the team rather than the founder.</p>
+        <div class="res">&ldquo;7,974 contacts &rarr; $3.75M&rdquo;</div>
+        <div class="src">Winners-circle video; booking page</div><span class="tag">RPG&rsquo;s claim</span></div>
+      <div class="paper"><span class="tape"></span><small>Hospitality startup</small><h4>Private B&amp;B</h4>
+        <p>A startup with no marketing; paid ads.</p>
+        <div class="res">4.3x return on ad spend in 90 days</div>
+        <div class="src">Sales video</div><span class="tag">RPG&rsquo;s claim</span></div>
+      <div class="paper"><span class="tape"></span><small>Design studio</small><h4>Design Atic</h4>
+        <p>Over 70 headlines tested in 48 hours, then Facebook lead ads.</p>
+        <div class="res">Four to five leads with phone numbers on the first day</div>
+        <div class="src">Content-hamster-wheel video</div><span class="tag">RPG&rsquo;s claim</span></div>
+      <div class="paper"><span class="tape"></span><small>Three smaller SaaS clients</small><h4>SaaSBerry Labs, N3tworx, Sheet.Rocks</h4>
+        <p>Ads and funnel work.</p>
+        <div class="res">426% return on ad spend in 14 days; 100 to 2,000 leads a month; &ldquo;more new users today than all of December&rdquo;</div>
+        <div class="src">Website testimonials</div><span class="tag">RPG&rsquo;s claim</span></div>
+    </div>
+    <p class="rp-foot">Every public case is B2B software, consulting or a services shop selling to trades. None is a D2C or e-commerce brand.</p>
+  </div>
+</section>
+
+<!-- 05 CEO's part -->
+<section class="blue ch" id="c5">
+  <div class="wrap">
+    <span class="k">05 &middot; What the CEO would have to do</span>
+    <h2>Low involvement and low investment are two of his four reasons engagements fail</h2>
+    <p>This is the list a client signs up for, in his own terms.</p>
+    <div class="rp-four">
+      <div><h3>Time</h3><ul>
+        <li>A weekly call with the CEO present. &ldquo;If they&rsquo;re not showing up, it&rsquo;s not going to work.&rdquo;</li>
+        <li>Three uninterrupted hours a week on the current blockage.</li>
+        <li>Sales-team retraining sessions, with Jean-Michel listening to the calls.</li>
+        <li>Two hours a week of podcast interviews, or delegate the hosting to a business-development manager.</li></ul></div>
+      <div><h3>Money</h3><ul>
+        <li>$5,000 to $10,000 a month of ad spend for at least a quarter, on top of the fee.</li>
+        <li>Tools: Apollo, Instantly plus six domains and inboxes, GoHighLevel or Typeform, Mouseflow, a call recorder, an inbox-placement checker, n8n.</li>
+        <li>A retargeting floor of about $3,000 a month across Facebook, YouTube and LinkedIn if he installs the full infrastructure.</li></ul></div>
+      <div><h3>On camera</h3><ul>
+        <li>Loom videos, three to five minutes each, one demand trigger per video.</li>
+        <li>An iPhone interview about the triggers.</li>
+        <li>Two short casual videos a week, &ldquo;walking around.&rdquo;</li>
+        <li>A short video inside proposals, for the finance chief who was never on the call.</li></ul></div>
+      <div><h3>Data and access</h3><ul>
+        <li>Every past client, with revenue, who bought and why.</li>
+        <li>Recordings of sales calls.</li>
+        <li>Access to the ad account, the Facebook page and the CRM; &ldquo;let him snoop around.&rdquo;</li>
+        <li>Agreement to change pricing: charge earlier, and price the first project at break-even.</li></ul></div>
+    </div>
+    <div class="rp-hours">
+      <div><b>6+ h</b><span>of the CEO&rsquo;s week: the call, the three blockage hours, the podcast slots, plus sales sessions</span></div>
+      <div><b>$15&ndash;30k</b><span>of ad money over the first quarter, before the fee and tools</span></div>
+      <div><b>3&ndash;4 mo</b><span>before he says you learn anything from the spend</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 money and timeline -->
+<section class="white ch" id="c6">
+  <div class="wrap">
+    <span class="k">06 &middot; Money and timeline</span>
+    <h2>The numbers, as he states them</h2>
+    <div class="rp-time">
+      <div><b>Day 0</b><span>Offer rework starts, with the CEO in the room</span></div>
+      <div><b>30 days</b><span>First qualified calls, by his promise</span></div>
+      <div><b>60&ndash;90 days</b><span>Cash collection, typically</span></div>
+      <div><b>1&ndash;3 months</b><span>The funnel &ldquo;unlocked&rdquo;</span></div>
+      <div><b>12 months</b><span>The period over which the guarantee is measured</span></div>
+    </div>
+    <div class="rp-scroll"><table class="rp-table">
+      <thead><tr><th>Item</th><th>His number</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td>RPG&rsquo;s fee</td><td>Never published. The comparisons he uses: outbound agencies at $10,000 a month; his own client-success hire advertised at $75,000 to $165,000 a year.</td><td>Vendor audit video; July 2026 job ad</td></tr>
+        <tr><td>Ad spend</td><td>$5,000 to $10,000 a month; &ldquo;$3k is very slow&rdquo;; at least three to four months.</td><td>Sales video; ROI-trap video; Noob School</td></tr>
+        <tr><td>Cost per booked call</td><td>$250 to $500 for normal B2B; about $500 for upper mid-market; up to $5,000 for Fortune 50; about $50 after podcast retargeting.</td><td>Vendor audit; three-tactics video; cold-email video</td></tr>
+        <tr><td>Cost to win a customer</td><td>$1,500 to $6,000 for call funnels; $9,000 for a white-paper approach closing at 2 percent.</td><td>Vendor audit video</td></tr>
+        <tr><td>Price of the first small project</td><td>$5,000 to $25,000 fixed project (up to $50,000); priced to break even on acquisition.</td><td>Three-tactics video; &ldquo;70% lose money&rdquo; video; Noob School</td></tr>
+        <tr><td>Time to results</td><td>Calls within 30 days; cash in 60 to 90 days; funnel working in one to three months; the guarantee is measured over 12 months.</td><td>Sales video; de-risk video</td></tr>
+        <tr><td>The guarantee</td><td>&ldquo;$1M net new revenue or we haven&rsquo;t earned it&rdquo; on the website; the booking page says money back; the booking page footer says no results are guaranteed; only offered to applicants who pass the four checks.</td><td>Website FAQ; booking page</td></tr>
+      </tbody></table></div>
+  </div>
+</section>
+
+<!-- 07 applied to Rex Black -->
+<section class="navy ch" id="c7">
+  <div class="wrap">
+    <span class="k">07 &middot; Applied to Rex Black</span>
+    <h2>The plan he would draw for Rex Black</h2>
+    <p>This is a projection using his rules and Rex Black&rsquo;s public positioning: a custom software and QA shop that works with D2C brands and with agencies that need developers. It is what the &ldquo;roadmap you keep either way&rdquo; would most likely contain.</p>
+
+    <h3 style="margin-top:44px">The offer he would push Rex Black toward</h3>
+    <p>He colour-codes offers. Yellow is &ldquo;hard to sell without a relationship, takes an incredible amount of trust.&rdquo; He used almost that exact phrase about another client&rsquo;s ad that offered to &ldquo;place one of our engineers in your project.&rdquo; Green rides a queue that already exists.</p>
+    <div class="rp-offers">
+      <div class="y"><small>Yellow, in his code</small><b>&ldquo;Custom software development&rdquo;</b><p>What Rex Black says it does today. Sold on trust and referrals. A stranger cannot approve it without a relationship.</p></div>
+      <div class="g"><small>Green: D2C brand</small><b>&ldquo;Core Web Vitals and checkout speed fixed in 30 days for $12,000, or you don&rsquo;t pay.&rdquo;</b><p>Tied to revenue before Black Friday. A marketing director can approve it alone. About one in ten of these buyers becomes the $100,000-plus build, by his rule of thumb.</p></div>
+      <div class="g"><small>Green: agency</small><b>&ldquo;A senior developer on your project within two weeks, fixed monthly price.&rdquo;</b><p>The outcome for an agency is capacity: &ldquo;a senior developer just left.&rdquo; Alternative D2C shape: &ldquo;Klaviyo flows rebuilt before Black Friday, fixed price, three weeks.&rdquo;</p></div>
+    </div>
+
+    <h3 style="margin-top:48px">Choosing channels by his own two numbers</h3>
+    <p>Buyers in the market, and value of the first project. Those two numbers pick the channel.</p>
+    <div class="rp-split">
+      <div><b>D2C brands</b>Tens of thousands of buyers, and a first-project value in the $10,000 to $50,000 band. That points to <em>a Meta ad funnel that books a call</em>, possibly with a custom audience of Shopify Plus merchants built through a tool like Primer.</div>
+      <div><b>Agencies that want white-label developers</b>A smaller list, but worth more per deal. That points to <em>outreach plus podcast invitations</em> (&ldquo;invite them to something they already wanted&rdquo;), with LinkedIn ads only if the lifetime value proves to be above $100,000.</div>
+    </div>
+
+    <h3 style="margin-top:48px">The five to eight demand triggers he would map</h3>
+    <div class="rp-tags">
+      <i>A redesign launched and conversion dropped</i><i>A Shopify Plus or Salesforce Commerce Cloud migration is coming</i><i>Klaviyo deliverability collapsed</i><i>Black Friday is eight weeks away and the mobile speed score is under 40</i><i>An agency lost its senior developer mid-project</i><i>QA misses are causing refunds</i><i>A board or investor asked &ldquo;what&rsquo;s the AI plan&rdquo;</i>
+    </div>
+
+    <h3 style="margin-top:48px">The numbers he would put on the whiteboard</h3>
+    <div class="rp-scroll" style="margin-top:18px"><table class="rp-table wb">
+      <thead><tr><th>Metric</th><th>His benchmark</th><th>What Rex Black must beat</th></tr></thead>
+      <tbody>
+        <tr><td>Ad spend</td><td>$5k&ndash;10k/mo</td><td>Say $7,500 a month</td></tr>
+        <tr><td>Cost per booked call</td><td>$250&ndash;500</td><td>15 to 30 calls a month at that spend</td></tr>
+        <tr><td>Show rate</td><td>80% (50% worst case)</td><td>12 to 24 showed calls</td></tr>
+        <tr><td>Close on offer-led calls</td><td>20%</td><td>2 to 5 first projects a month</td></tr>
+        <tr><td>Cost to win a customer</td><td>$1.5k&ndash;6k</td><td>Comfortably under a $12,000 first-project price</td></tr>
+        <tr><td>Upsell</td><td>10% buy 10x</td><td>One $100,000-plus build for every ten first projects</td></tr>
+      </tbody></table></div>
+    <p style="margin-top:22px">That arithmetic is the entire guarantee. If the first project closes at 20 percent on $250 to $500 calls, $1 million in twelve months is only a few upsells. If the sales calls close at 5 percent, or the first project cannot be priced to break even, he would decline on the call. The calculator below runs his arithmetic with his defaults; change any number to Rex Black&rsquo;s own.</p>
+
+    <div class="rp-calc" id="rp-calc">
+      <h3>His arithmetic, with your numbers</h3>
+      <p class="note">Defaults are his benchmarks. Upsell rule: one in ten first projects becomes a $100,000 build within the year.</p>
+      <div class="in">
+        <label><span>Monthly ad spend <b id="o-spend">$7,500</b></span><input type="range" id="i-spend" min="2000" max="15000" step="500" value="7500"></label>
+        <label><span>Cost per booked call <b id="o-cpc">$375</b></span><input type="range" id="i-cpc" min="100" max="1500" step="25" value="375"></label>
+        <label><span>Show rate <b id="o-show">80%</b></span><input type="range" id="i-show" min="30" max="95" step="5" value="80"></label>
+        <label><span>Close rate on showed calls <b id="o-close">20%</b></span><input type="range" id="i-close" min="2" max="40" step="1" value="20"></label>
+        <label><span>First-project price <b id="o-price">$12,000</b></span><input type="range" id="i-price" min="5000" max="25000" step="500" value="12000"></label>
+      </div>
+      <div class="out">
+        <div><b id="r-booked">20</b><span>booked calls a month</span></div>
+        <div><b id="r-showed">16</b><span>showed calls a month</span></div>
+        <div><b id="r-proj">3.2</b><span>first projects a month</span></div>
+        <div><b id="r-cac">$2,344</b><span>cost to win one customer</span></div>
+        <div><b id="r-first">$461k</b><span>first-project revenue over 12 months</span></div>
+        <div><b id="r-ups">3.8</b><span>$100k builds from upsells in the year</span></div>
+        <div class="bar"><div class="t"><span>Twelve-month revenue against his $1M guarantee</span><b id="r-total">$845k</b></div><div class="trk"><i id="r-bar"></i></div></div>
+      </div>
+      <button type="button" id="rp-reset">Reset to his benchmarks</button>
+    </div>
+  </div>
+</section>
+
+<!-- 08 in-house -->
+<section class="white ch" id="c8">
+  <div class="wrap">
+    <span class="k">08 &middot; What can be built in-house, and what cannot</span>
+    <h2>Most of the machine is on his channel. Four things are not.</h2>
+    <div class="rp-inh">
+      <div>
+        <h3>Fully reproducible from his videos</h3>
+        <ul class="yes">
+          <li>The vendor audit sheet and the one metric: cost per qualified call that showed.</li>
+          <li>The ideal-customer spreadsheet built from Rex Black&rsquo;s past clients.</li>
+          <li>The three-competitor teardown with ten questions; research in the Ad Library and VidTao.</li>
+          <li>The stranger-friendly offer formula and its four ingredients.</li>
+          <li>Demand-trigger mapping; the two-campaign Meta structure; Loom, demo and iPhone creative.</li>
+          <li>The $3 text-ad tests in his exact order; five or six versions a week; the 70/30 budget split.</li>
+          <li>The Typeform quiz, instant form and booking page; a setter who confirms calls.</li>
+          <li>Objection extraction from call recordings, and one retargeting video per objection.</li>
+          <li>The cold-email stack (Apollo, Instantly, six domains) and podcast-invitation outreach.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Genuinely his, not in any video</h3>
+        <ul class="no">
+          <li>Twenty years of operator pattern-matching, &ldquo;around 10 new founders and CEOs a week,&rdquo; applied live on the sales call.</li>
+          <li>Sitting in the client&rsquo;s sales calls and rewriting discovery and the pitch.</li>
+          <li>Knowing when to reject a client, and the confidence to say so.</li>
+          <li>A guarantee backed by a company that can absorb a miss.</li>
+        </ul>
+        <p style="margin-top:18px">Those four things a company either buys with a fee or supplies through its own CEO&rsquo;s selling. Neither is a lead-generation hire&rsquo;s job.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:56px">Same steps, run inside Rex Black</h3>
+    <p>How I would run each step of the board from inside the company.</p>
+    <div class="rp-scroll" style="margin-top:18px"><table class="rp-table inh">
+      <thead><tr><th>Step</th><th>RPG&rsquo;s version</th><th>In-house version</th></tr></thead>
+      <tbody>
+        <tr><td>Screening</td><td>Four checks; decline if any fails</td><td>Starts from the segments the CEO sets, and expands as more are added.</td></tr>
+        <tr><td>Audit</td><td>Outside team gets CRM, ad-account and call-recording access</td><td>Done from inside, on our own data. Nothing to hand over.</td></tr>
+        <tr><td>Offer</td><td>Written with the CEO in a workshop</td><td>Priced with the developers on real delivery cost, then tested.</td></tr>
+        <tr><td>Sales call</td><td>Jean-Michel joins client calls when his calendar allows</td><td>I am on every discovery call. Follow-up within the hour.</td></tr>
+        <tr><td>Cold email</td><td>Apollo lists, Instantly, six domains, n8n workflows, same for every client</td><td>Customisable workflow, built in-house with AI tools and changed as the results come in.</td></tr>
+        <tr><td>Meta ads</td><td>Their template, $5&ndash;10k a month from day one</td><td>Same test order. Start small, scale on evidence.</td></tr>
+        <tr><td>Booked calls</td><td>Their setter confirms</td><td>I qualify and confirm every booking before it reaches the CEO.</td></tr>
+      </tbody></table></div>
+    <p style="margin-top:26px">So the comparison is between two ways of running the same playbook: RPG&rsquo;s judgement for a fee, plus $5,000 to $10,000 a month of ads, or the playbook run in-house on Rex Black&rsquo;s real buyers, with the CEO closing. The steps are public. The fee buys the judgement and the weekly presence.</p>
+  </div>
+</section>
+
+<!-- 09 sources -->
+<section class="navy ch" id="c9">
+  <div class="wrap">
+    <span class="k">09 &middot; Sources and method</span>
+    <h2>How this page was put together</h2>
+    <div class="rp-method">
+      <div><b>Collect</b>All 77 RPG YouTube videos, 99 LinkedIn clips from the last 30 days, the booking-page sales video, the Noob School interview, the website, the application form, and the Meta Ad Library pages for RPG and two clients.</div>
+      <div><b>Transcribe</b>YouTube captions pulled and cleaned (134,000 words). LinkedIn clips and the sales video transcribed with Gemini, speaker-labelled.</div>
+      <div><b>Extract</b>Sixteen method videos read in full. The other 61 turned into structured notes per video with Gemini and reviewed by hand.</div>
+      <div><b>Cross-check</b>Claude used to organise about 150,000 words into one process map. Each number kept only where two sources agree or one source is quoted directly.</div>
+      <div><b>Write</b>Every figure on this page is RPG&rsquo;s own, tagged with where it was said. Nothing here is a measured result of their work.</div>
+    </div>
+    <ul class="rp-src">
+      <li><b>Rapid Product Growth&rsquo;s YouTube channel:</b> all 77 videos. Read in full: 11-Step Growth System; The 3 Steps Every Business Must Follow; One Metric Exposes Bad Marketing Agencies; Pick the Right Growth Channel; Why 70% Lose Money on Paid Ads; Stop Wasting Money on LinkedIn Ads; 5-Quadrant Bottleneck; ICP Spreadsheet; Four Mistakes; 3 Marketing Tactics; ROI Trap; $1M Ceiling; SFOs; Stuck at $5M; Strategic Retargeting; Picking the Right Agency.</li>
+      <li><b>Product Growth Stories episodes</b> with clients or engagement detail: the Badger Maps winners-circle episode, the Brainstorm post-sale episode, and &ldquo;Zero to $5M pipeline.&rdquo;</li>
+      <li><b>Noob School episode 162</b> (May 2026, 45 minutes), with Jean-Michel as the guest. His most candid description of the client process, the four checks, the upsell timing and the fractional way in.</li>
+      <li><b>The sales video on the booking page</b> (7 minutes 20 seconds), downloaded from the GoHighLevel page and transcribed: the Scaling Flywheel, the $25,000 and $5,000&ndash;$10,000 requirements, and the promise about the call.</li>
+      <li><b>Meta Ad Library advertiser pages:</b> Susco (page 126435820728, 12 ads from 25 September 2026) and 2X Solutions (page 735207483018697, 8 ads from 27 September 2026). No advertiser page was found for Wertwandler, DataSherpas (zero ads) or Boundless; Brainstorm&rsquo;s page could not be told apart from unrelated pages of the same name.</li>
+      <li><b>From the earlier teardown:</b> 99 transcribed LinkedIn clips, 27 of RPG&rsquo;s own ads, the Typeform logic, the website and the LinkedIn profile.</li>
+    </ul>
+    <div class="rp-gaps">
+      <h3>Gaps</h3>
+      <p>RPG&rsquo;s fee and contract terms are not public. Client ad performance (spend, impressions) is not visible in the Ad Library. The Rex Black projection uses his rules and Rex Black&rsquo;s public positioning, not Rex Black&rsquo;s real close rates. The Brainstorm, Practis, Property Control, TheySaid and SaaSBerry advertiser pages were not reached.</p>
+    </div>
+    <p class="rp-end">Pooja &middot; 29 September 2026 &middot; unlisted page, written for Rex Black</p>
+  </div>
+</section>
+</div>
+
+<script>
+(function(){
+  var rail=document.querySelector('.rp-rail'); if(!rail) return;
+  var links=[].slice.call(rail.querySelectorAll('a'));
+  var chs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+  var cnt=document.getElementById('rp-cnt');
+  var bar=document.querySelector('.rp-progress i');
+  var rows=[].slice.call(document.querySelectorAll('#rp-gantt .row'));
+  var phs=rows.map(function(r){return document.getElementById(r.getAttribute('data-ph'))});
+  var cur=-1;
+  function spy(){
+    var y=window.scrollY+window.innerHeight*.35, i=0;
+    chs.forEach(function(s,n){ if(s && s.offsetTop<=y) i=n; });
+    if(i!==cur){ cur=i; links.forEach(function(a,n){a.classList.toggle('on',n===i)}); cnt.textContent=('0'+(i+1)).slice(-2);
+      if(rail.scrollWidth>rail.clientWidth){ var a=links[i]; rail.scrollTo({left:a.offsetLeft-rail.clientWidth/2+a.offsetWidth/2,behavior:'smooth'}); } }
+    var p=-1; phs.forEach(function(s,n){ if(s && s.offsetTop<=y) p=n; });
+    var inPh = p>=0 && chs[2] && y < (chs[3]?chs[3].offsetTop:1e9);
+    rows.forEach(function(r,n){r.classList.toggle('on',inPh && n===p)});
+    var h=document.documentElement; var max=h.scrollHeight-window.innerHeight; if(bar) bar.style.width=(max>0?Math.min(100,window.scrollY/max*100):0)+'%';
+  }
+  var t=false; window.addEventListener('scroll',function(){ if(!t){ t=true; requestAnimationFrame(function(){spy(); t=false}); } },{passive:true});
+  window.addEventListener('resize',spy); window.addEventListener('load',spy); spy();
+  document.addEventListener('keydown',function(e){
+    if(e.target && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+    if(e.altKey||e.ctrlKey||e.metaKey) return;
+    var d=0; if(e.key==='ArrowRight'||e.key==='j'||e.key==='J'||e.key==='PageDown') d=1; else if(e.key==='ArrowLeft'||e.key==='k'||e.key==='K'||e.key==='PageUp') d=-1;
+    if(!d) return; var n=Math.max(0,Math.min(chs.length-1,cur+d)); if(n===cur) return; e.preventDefault();
+    chs[n].scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  /* calculator */
+  var c=document.getElementById('rp-calc'); if(!c) return;
+  var ids=['spend','cpc','show','close','price'], d0={spend:7500,cpc:375,show:80,close:20,price:12000};
+  function $(id){return document.getElementById(id)}
+  function money(v,k){ if(k&&v>=1000) return '$'+(v/1000).toFixed(v>=100000?0:1).replace(/\.0$/,'')+'k'; return '$'+Math.round(v).toLocaleString('en-US'); }
+  function calc(){
+    var v={}; ids.forEach(function(k){v[k]=+$('i-'+k).value});
+    $('o-spend').textContent=money(v.spend); $('o-cpc').textContent=money(v.cpc); $('o-show').textContent=v.show+'%'; $('o-close').textContent=v.close+'%'; $('o-price').textContent=money(v.price);
+    var booked=v.spend/v.cpc, showed=booked*v.show/100, proj=showed*v.close/100;
+    var cac=proj>0?v.spend/proj:0, first=proj*v.price*12, ups=proj*12/10, total=first+ups*100000;
+    $('r-booked').textContent=booked.toFixed(booked<10?1:0); $('r-showed').textContent=showed.toFixed(showed<10?1:0); $('r-proj').textContent=proj.toFixed(1);
+    $('r-cac').textContent=proj>0?money(cac):'—'; $('r-first').textContent=money(first,true); $('r-ups').textContent=ups.toFixed(1); $('r-total').textContent=money(total,true);
+    $('r-bar').style.width=Math.min(100,total/1e6*100)+'%';
+  }
+  ids.forEach(function(k){$('i-'+k).addEventListener('input',calc)});
+  $('rp-reset').addEventListener('click',function(){ids.forEach(function(k){$('i-'+k).value=d0[k]}); calc();});
+  calc();
+})();
+</script>
+
+<script>
+(function(){
+  function mount(box){ var id=box.getAttribute('data-yt'); if(!id||box.dataset.m) return; box.dataset.m=1;
+    var f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&loop=1&playlist='+id+'&playsinline=1&rel=0&modestbranding=1';
+    f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'; f.allowFullscreen=true; f.title=box.getAttribute('data-title')||'Video';
+    box.innerHTML=''; box.appendChild(f); }
+  document.querySelectorAll('.yt[data-yt]').forEach(function(b){ b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+    b.addEventListener('click',function(){mount(b)}); b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();mount(b);} }); });
+})();
+</script>
+
+<script>
+(function(){
+  var deck=document.getElementById('deck'); if(!deck) return;
+  var origin=deck.querySelector('.strip'); if(!origin) return;
+  var all=[].slice.call(origin.children);          // the 12 real cards
+  var mq=window.matchMedia('(max-width:600px)');
+  var rows=[], hover=false, drag=false, lastX=0, lastT=0;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---- build one or two conveyor rows out of the same cards ---------------
+  function makeRow(cards,dir){
+    var strip=document.createElement('div'); strip.className='strip';
+    cards.forEach(function(f,i){var c=f.cloneNode(true);c.style.setProperty('--i',i);strip.appendChild(c)});
+    // duplicate once so the loop can wrap seamlessly
+    cards.forEach(function(f){var c=f.cloneNode(true);c.setAttribute('aria-hidden','true');c.style.setProperty('--i',0);strip.appendChild(c)});
+    deck.appendChild(strip);
+    return {el:strip, dir:dir, x:dir<0?0:-1, half:0, vel:0};
+  }
+  function layout(){
+    rows.forEach(function(r){r.el.remove()}); rows=[];
+    if(mq.matches){
+      var mid=Math.ceil(all.length/2);
+      rows.push(makeRow(all.slice(0,mid),-1));   // top row drifts left
+      rows.push(makeRow(all.slice(mid),1));      // bottom row drifts right
+    } else {
+      rows.push(makeRow(all,-1));
+    }
+    measure();
+  }
+  function measure(){ rows.forEach(function(r){ r.half=r.el.scrollWidth/2; }); }
+
+  origin.remove();
+  layout();
+  window.addEventListener('resize',measure);
+  if(mq.addEventListener) mq.addEventListener('change',layout); else mq.addListener(layout);
+
+  var speed=28,last=performance.now();
+  function loop(t){var dt=Math.min((t-last)/1000,.05); last=t;
+    rows.forEach(function(r){
+      if(!drag){ if(!hover&&!reduce) r.x+=r.dir*speed*dt; r.x+=r.vel*dt; r.vel*=Math.pow(.02,dt); if(Math.abs(r.vel)<2) r.vel=0; }
+      if(r.half){ r.x=((r.x%r.half)+r.half)%r.half; r.x-=r.half; }
+      r.el.style.transform='translate3d('+r.x+'px,0,0)';
+    });
+    requestAnimationFrame(loop);}
+  requestAnimationFrame(loop);
+
+  deck.addEventListener('mouseenter',function(){hover=true}); deck.addEventListener('mouseleave',function(){hover=false});
+  deck.addEventListener('pointerdown',function(e){drag=true;rows.forEach(function(r){r.vel=0});lastX=e.clientX;lastT=performance.now();deck.classList.add('dragging');deck.setPointerCapture(e.pointerId)});
+  deck.addEventListener('pointermove',function(e){if(!drag)return;var dx=e.clientX-lastX,now=performance.now(),dt=Math.max(now-lastT,1)/1000;
+    rows.forEach(function(r){r.x+=dx;r.vel=dx/dt*.9}); lastX=e.clientX;lastT=now});
+  function up(){drag=false;deck.classList.remove('dragging')} deck.addEventListener('pointerup',up); deck.addEventListener('pointercancel',up);
+  if('IntersectionObserver' in window){ new IntersectionObserver(function(es,o){es.forEach(function(en){if(en.isIntersecting){deck.classList.add('in');o.disconnect()}})},{threshold:.15}).observe(deck);} else deck.classList.add('in');
+})();
+</script>
+</main>
+      
+        <style>
+  #footer-sections .collectionlink-title a{color:inherit;text-decoration:underline;text-underline-offset:4px;cursor:pointer;pointer-events:auto;position:relative;z-index:2}
+  #footer-sections .collectionlink-title a:hover{opacity:.7}
+  #footer-sections .sqs-svg-icon--list{transform:translateY(2.5px)}
+</style>
+<footer class="sections" id="footer-sections" data-footer-sections="">
+  
+  
+  
+  
+  
+  
+    
+    
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<section data-test="page-section" data-section-theme="light" class="page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      
+        section-height--custom
+      
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    light" data-section-id="6a179a1f226efa7c76af687a" data-controller="SectionWrapperController" data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--custom&quot;,
+&quot;customSectionHeight&quot;: 0,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;light&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;image&quot;,
+&quot;generative&quot;: {
+&quot;type&quot;: &quot;gradient&quot;,
+&quot;seed&quot;: 0,
+&quot;count&quot;: 0,
+&quot;size&quot;: 0,
+&quot;speed&quot;: 0,
+&quot;startColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;id&quot;: &quot;lightAccent&quot;,
+&quot;alpha&quot;: 1.0
+}
+},
+&quot;endColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;id&quot;: &quot;white&quot;,
+&quot;alpha&quot;: 1.0
+}
+},
+&quot;invertColors&quot;: false,
+&quot;noiseIntensity&quot;: 0,
+&quot;noiseScale&quot;: 0,
+&quot;distortionScaleX&quot;: 0,
+&quot;distortionScaleY&quot;: 0,
+&quot;distortionSpeed&quot;: 40,
+&quot;distortionIntensity&quot;: 90,
+&quot;lightIntensity&quot;: 0,
+&quot;lightX&quot;: 0,
+&quot;bevelRotation&quot;: 0,
+&quot;bevelSize&quot;: 0,
+&quot;bevelStrength&quot;: 0,
+&quot;complexity&quot;: 0,
+&quot;cutoff&quot;: 0,
+&quot;isBevelEnabled&quot;: false,
+&quot;isBlurEnabled&quot;: false,
+&quot;scale&quot;: 0,
+&quot;speedMorph&quot;: 0,
+&quot;speedTravel&quot;: 0,
+&quot;steps&quot;: 0,
+&quot;travelDirection&quot;: 0,
+&quot;gradientType&quot;: &quot;radial&quot;,
+&quot;noiseBias&quot;: -50,
+&quot;animateNoise&quot;: false,
+&quot;distortionComplexity&quot;: 2,
+&quot;distortionDirection&quot;: 180,
+&quot;distortionMorphSpeed&quot;: 50,
+&quot;distortionSeed&quot;: 50,
+&quot;distortionSmoothness&quot;: 98,
+&quot;linearGradientStartColorDistance&quot;: 0,
+&quot;linearGradientEndColorDistance&quot;: 0,
+&quot;linearGradientAngle&quot;: 0,
+&quot;linearGradientAngleMotion&quot;: 0,
+&quot;linearGradientRepeat&quot;: 0,
+&quot;radialGradientRadius&quot;: 71,
+&quot;radialGradientPositionX&quot;: 50,
+&quot;radialGradientPositionY&quot;: 50,
+&quot;radialGradientFollowCursor&quot;: true,
+&quot;radialGradientFollowSpeed&quot;: 100,
+&quot;imageScale&quot;: 0,
+&quot;imageCount&quot;: 0,
+&quot;patternEnabled&quot;: false,
+&quot;patternSize&quot;: 0,
+&quot;patternOffsetX&quot;: 0,
+&quot;patternOffsetY&quot;: 0,
+&quot;patternSpaceX&quot;: 0,
+&quot;patternSpaceY&quot;: 0,
+&quot;waveEnabled&quot;: false,
+&quot;waveSpeed&quot;: 0,
+&quot;waveComplexity&quot;: 0,
+&quot;waveDepth&quot;: 0,
+&quot;waveShadowDepth&quot;: 0,
+&quot;boxSize&quot;: 0.0,
+&quot;scaleX&quot;: 0,
+&quot;scaleY&quot;: 0,
+&quot;scaleZ&quot;: 0,
+&quot;isMorphEnabled&quot;: false,
+&quot;lightY&quot;: 0,
+&quot;lightZ&quot;: 0,
+&quot;noiseRange&quot;: 0,
+&quot;positionFactor&quot;: 0,
+&quot;scaleFactor&quot;: 0,
+&quot;colorFactor&quot;: 0,
+&quot;sizeVariance&quot;: 0,
+&quot;wobble&quot;: 0,
+&quot;morph&quot;: 0,
+&quot;scrollMovement&quot;: 0,
+&quot;patternScaleX&quot;: 0,
+&quot;patternScaleY&quot;: 0,
+&quot;patternPowerX&quot;: 0,
+&quot;patternPowerY&quot;: 0,
+&quot;patternAmount&quot;: 0,
+&quot;surfaceHeight&quot;: 0,
+&quot;colorStop1&quot;: 0,
+&quot;colorStop2&quot;: 0,
+&quot;colorStop3&quot;: 0,
+&quot;colorStop4&quot;: 0,
+&quot;gradientDistortionX&quot;: 0,
+&quot;gradientDistortionY&quot;: 0,
+&quot;curveX&quot;: 0,
+&quot;curveY&quot;: 0,
+&quot;curveFunnel&quot;: 0,
+&quot;fogIntensity&quot;: 0,
+&quot;repeat&quot;: 0,
+&quot;rotation&quot;: 0,
+&quot;rotationSpeed&quot;: 0,
+&quot;blur&quot;: 0,
+&quot;complexityY&quot;: 0,
+&quot;complexityZ&quot;: 0,
+&quot;amplitudeY&quot;: 0,
+&quot;amplitudeZ&quot;: 0,
+&quot;offset&quot;: 0,
+&quot;lightAngle&quot;: 0,
+&quot;alpha&quot;: 0
+}
+}" data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: false
+},
+&quot;typeName&quot;: &quot;page&quot;
+}" data-animation="none" data-fluid-engine-section="" data-sqsp-section="fluid-engine" data-controllers-bound="SectionWrapperController" data-active="true">
+  <div class="section-border">
+    <div class="section-background">
+    
+      
+    
+    </div>
+  </div>
+  <div class="content-wrapper" style="
+      
+        
+          
+          padding-top: calc(0vmax / 10); padding-bottom: calc(0vmax / 10);
+        
+      
+    ">
+    <div class="content">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-6a179a1f226efa7c76af6879 {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(15,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-6a179a1f226efa7c76af6879 {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-6a179a1f226efa7c76af6879 {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(7,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-yui_3_17_2_1_1783218594981_5173 {
+    grid-area: 2/2/3/10;
+    z-index: 11;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783218594981_5173 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-yui_3_17_2_1_1783218594981_5173 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1783218594981_5173 {
+      grid-area: 2/2/3/26;
+      z-index: 11;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1783218594981_5173 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-yui_3_17_2_1_1783218594981_5173 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-60fc06a5680348b8f647 {
+    grid-area: 3/2/5/10;
+    z-index: 8;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-60fc06a5680348b8f647 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-60fc06a5680348b8f647 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-60fc06a5680348b8f647 {
+      grid-area: 3/2/5/13;
+      z-index: 8;
+
+      
+
+      
+    }
+
+    .fe-block-60fc06a5680348b8f647 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-60fc06a5680348b8f647 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783207885168_946 {
+    grid-area: 5/2/7/10;
+    z-index: 10;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783207885168_946 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-yui_3_17_2_1_1783207885168_946 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1783207885168_946 {
+      grid-area: 5/2/7/4;
+      z-index: 10;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1783207885168_946 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-yui_3_17_2_1_1783207885168_946 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783219443267_5705 {
+    grid-area: 6/2/7/10;
+    z-index: 15;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783219443267_5705 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-yui_3_17_2_1_1783219443267_5705 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1783219443267_5705 {
+      grid-area: 5/15/6/23;
+      z-index: 15;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1783219443267_5705 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-yui_3_17_2_1_1783219443267_5705 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783218248482_3448 {
+    grid-area: 7/2/8/5;
+    z-index: 12;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1783218248482_3448 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-yui_3_17_2_1_1783218248482_3448 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1783218248482_3448 {
+      grid-area: 6/15/7/18;
+      z-index: 12;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1783218248482_3448 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-yui_3_17_2_1_1783218248482_3448 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-1ef341dc4d85643dd771 {
+    grid-area: 8/2/9/5;
+    z-index: 14;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-1ef341dc4d85643dd771 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-1ef341dc4d85643dd771 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-1ef341dc4d85643dd771 {
+      grid-area: 6/18/7/21;
+      z-index: 14;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-1ef341dc4d85643dd771 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-1ef341dc4d85643dd771 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-a62a26470d2b1a5b39fc {
+    grid-area: 9/2/10/5;
+    z-index: 13;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-a62a26470d2b1a5b39fc .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-a62a26470d2b1a5b39fc .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-a62a26470d2b1a5b39fc {
+      grid-area: 6/21/7/24;
+      z-index: 13;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-a62a26470d2b1a5b39fc .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-a62a26470d2b1a5b39fc .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-580e85dce74443deeea9 {
+    grid-area: 10/2/13/10;
+    z-index: 9;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-580e85dce74443deeea9 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-580e85dce74443deeea9 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-580e85dce74443deeea9 {
+      grid-area: 3/14/5/24;
+      z-index: 9;
+
+      
+
+      
+    }
+
+    .fe-block-580e85dce74443deeea9 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-580e85dce74443deeea9 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-11fc8402736238ccc6a5 {
+    grid-area: 11/2/13/10;
+    z-index: 5;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-11fc8402736238ccc6a5 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-11fc8402736238ccc6a5 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-11fc8402736238ccc6a5 {
+      grid-area: 5/23/6/27;
+      z-index: 5;
+
+      
+
+      
+    }
+
+    .fe-block-11fc8402736238ccc6a5 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-11fc8402736238ccc6a5 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+</style><div class="fluid-engine fe-6a179a1f226efa7c76af6879"><div class="fe-block fe-block-yui_3_17_2_1_1783218594981_5173"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-horizontalrule horizontalrule-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.horizontalrule/b414994d-7625-4496-94fd-b0c4b61156ed_212/website.components.horizontalrule.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.horizontalrule/b414994d-7625-4496-94fd-b0c4b61156ed_212/website.components.horizontalrule.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.horizontalrule" data-sqsp-block="line" data-website-component-id="yui_3_17_2_1_1783218594981_5173" id="block-yui_3_17_2_1_1783218594981_5173"><div class="sqs-block-content">
+  
+
+
+<div>
+  <hr>
+  
+    <style class="transform-overrides-vars">
+  
+</style>
+
+    
+
+
+
+  
+</div>
+</div></div></div><div class="fe-block fe-block-60fc06a5680348b8f647"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/dc72a53e-2d63-4af7-9a5e-5b8fd3f56f01_845/website.components.html.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/dc72a53e-2d63-4af7-9a5e-5b8fd3f56f01_845/website.components.html.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.html" data-sqsp-block="text" data-website-component-id="60fc06a5680348b8f647" id="block-60fc06a5680348b8f647"><div class="sqs-block-content"><div class="sqs-text-block-container">
+  
+  <div class="sqs-html-content" data-sqsp-text-block-content=""><h2 style="white-space:pre-wrap;" data-rte-preserve-empty="true">Sabhyabacchi</h2></div>
+
+
+  
+<style id="container-styles">#block-60fc06a5680348b8f647 {
+    
+    --stroke-style: none;--stroke-thickness: 6px;
+    
+      
+      
+      
+    
+
+
+
+  }
+
+  #block-60fc06a5680348b8f647 .sqs-html-content {
+    
+    --tweak-text-block-padding: 6% 6% 6% 6%;
+  --tweak-text-block-padding: initial;
+}
+
+  .fe-block-60fc06a5680348b8f647 {
+      mix-blend-mode: var(--tweak-text-block-blend
+  );
+      border-radius: var(--tweak-text-block-radius);
+  }
+
+  
+  
+.fe-block-60fc06a5680348b8f647 {
+      --tweak-text-block-radius: 0px 0px 0px 0px;
+    }
+
+
+  
+  .fe-block-60fc06a5680348b8f647 {
+      --tweak-text-block-blend
+  : normal;
+    }
+  
+
+  .fe-block-60fc06a5680348b8f647 {
+    --blur-value: blur(15px);}
+
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-60fc06a5680348b8f647 {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-60fc06a5680348b8f647 .sqs-html-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+<style class="transform-overrides-vars">
+  
+</style>
+
+
+
+
+</div>
+</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1783207885168_946"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-socialaccountlinks social-account-links-block social-account-links-v2-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/dab3802f-0945-49e1-be01-c5a8ccac27d1_623/website.components.socialLinks.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/dab3802f-0945-49e1-be01-c5a8ccac27d1_623/website.components.socialLinks.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.socialLinks" data-sqsp-block="social-links" data-website-component-id="yui_3_17_2_1_1783207885168_946" id="block-yui_3_17_2_1_1783207885168_946"><div class="sqs-block-content">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sqs-block-socialaccountlinks-content">
+  <div class="sqs-svg-icon--outer social-icon-alignment-left social-icons-color-black social-icons-size-medium social-icons-style-regular ">
+    <style>
+      
+      #block-yui_3_17_2_1_1783207885168_946 {
+        --social-icons-justify-content: flex-start;
+        --social-icons-dimension: 24px;--social-icons-gap: 14px;
+        --social-icons-border-thickness: 2px;
+      }
+
+      
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--wrapper {
+        --si-border-radius: 0;--si-scale: 2;--si-box-shadow: none;--si-fill-icon: var(--si-primary);--si-fill-icon-fade: var(--si-primary-faded);--si-fill-icon-hover: var(--si-primary);--si-fill-mask: transparent;--si-fill-mask-fade: transparent;--si-fill-mask-hover: transparent;--si-bg: transparent;--si-bg-fade: transparent;--si-bg-hover: transparent;
+      }
+
+      
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list {
+        justify-content: var(--social-icons-justify-content, center);
+        column-gap: var(--social-icons-gap, 12px);
+        row-gap: var(--social-icons-gap, 12px);
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--wrapper {
+        width: var(--social-icons-dimension, 20px);
+        height: var(--social-icons-dimension, 20px);
+        margin: 0;
+        border: none; 
+        background-color: var(--si-bg, transparent);
+        box-shadow: var(--si-box-shadow, none);
+        border-radius: var(--si-border-radius, 0);
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--wrapper > div {
+        transform: scale(var(--si-scale, 1));
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-use--icon {
+        fill: var(--si-fill-icon, transparent);
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-use--mask {
+        fill: var(--si-fill-mask, transparent);
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper {
+        background-color: var(--si-bg-fade, var(--si-bg, transparent));
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper .sqs-use--icon {
+        fill: var(--si-fill-icon-fade, var(--si-fill-icon, transparent));
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper .sqs-use--mask {
+        fill: var(--si-fill-mask-fade, var(--si-fill-mask, transparent));
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover {
+        background-color: var(--si-bg-hover, var(--si-bg, transparent));
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--icon {
+        fill: var(--si-fill-icon-hover, var(--si-fill-icon, transparent));
+      }
+      #block-yui_3_17_2_1_1783207885168_946 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--mask {
+        fill: var(--si-fill-mask-hover, var(--si-fill-mask, transparent));
+      }
+    </style>
+    <nav class="sqs-svg-icon--list">
+      
+        
+          <a href="https://www.instagram.com/SabhyaBacchi/" target="_blank" class="sqs-svg-icon--wrapper instagram-unauth" aria-label="Instagram">
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="#instagram-unauth-icon"></use>
+                <use class="sqs-use--mask" xlink:href="#instagram-unauth-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+          <a href="mailto:frpooja25@gmail.com" class="sqs-svg-icon--wrapper email" aria-label="Email">
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="#email-icon"></use>
+                <use class="sqs-use--mask" xlink:href="#email-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+      
+    </nav>
+  </div>
+  
+    
+<style id="container-styles">#block-yui_3_17_2_1_1783207885168_946 {
+    
+    
+    
+  }
+
+  #block-yui_3_17_2_1_1783207885168_946 .sqs-block-socialaccountlinks-content {
+    
+    }
+
+  .fe-block-yui_3_17_2_1_1783207885168_946 {
+      mix-blend-mode: var(--tweak-social-links-block-blend);
+      border-radius: var(--tweak-social-links-block-radius);
+  }
+
+  
+  
+
+
+
+  
+  
+
+  
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-yui_3_17_2_1_1783207885168_946 {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-yui_3_17_2_1_1783207885168_946 .sqs-block-socialaccountlinks-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+
+    <style class="transform-overrides-vars">
+  
+</style>
+
+    
+
+
+
+  
+</div>
+</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1783219443267_5705"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-horizontalrule horizontalrule-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.horizontalrule/b414994d-7625-4496-94fd-b0c4b61156ed_212/website.components.horizontalrule.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.horizontalrule/b414994d-7625-4496-94fd-b0c4b61156ed_212/website.components.horizontalrule.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.horizontalrule" data-sqsp-block="line" data-website-component-id="yui_3_17_2_1_1783219443267_5705" id="block-yui_3_17_2_1_1783219443267_5705"><div class="sqs-block-content">
+  
+
+
+<div>
+  <hr>
+  
+    <style class="transform-overrides-vars">
+  
+</style>
+
+    
+
+
+
+  
+</div>
+</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1783218248482_3448"><div class="sqs-block collectionlink-block sqs-block-collectionlink" data-block-type="12" id="block-yui_3_17_2_1_1783218248482_3448"><div class="sqs-block-content">
+
+
+
+
+  
+  <div class="collectionlink-content">
+    <div class="collectionlink-title">
+      <a href="../../about/">About</a>
+    </div>
+    
+      
+    
+  </div>
+
+</div></div></div><div class="fe-block fe-block-1ef341dc4d85643dd771"><div class="sqs-block collectionlink-block sqs-block-collectionlink" data-block-type="12" id="block-1ef341dc4d85643dd771"><div class="sqs-block-content">
+
+
+
+
+  
+  <div class="collectionlink-content">
+    <div class="collectionlink-title">
+      <a href="../../my-work/">My work</a>
+    </div>
+    
+      
+    
+  </div>
+
+</div></div></div><div class="fe-block fe-block-a62a26470d2b1a5b39fc"><div class="sqs-block collectionlink-block sqs-block-collectionlink" data-block-type="12" id="block-a62a26470d2b1a5b39fc"><div class="sqs-block-content">
+
+
+
+
+  
+  <div class="collectionlink-content">
+    <div class="collectionlink-title">
+      <a href="../../contact/">Contact</a>
+    </div>
+    
+      
+    
+  </div>
+
+</div></div></div><div class="fe-block fe-block-580e85dce74443deeea9"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/dc72a53e-2d63-4af7-9a5e-5b8fd3f56f01_845/website.components.html.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/dc72a53e-2d63-4af7-9a5e-5b8fd3f56f01_845/website.components.html.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.html" data-sqsp-block="text" data-website-component-id="580e85dce74443deeea9" id="block-580e85dce74443deeea9"><div class="sqs-block-content"><div class="sqs-text-block-container">
+  
+  <div class="sqs-html-content" data-sqsp-text-block-content=""><h2 style="text-align: center; white-space:pre-wrap;" data-rte-preserve-empty="true"><a href="mailto:frpooja25@gmail.com" style="color:inherit;text-decoration:none">frpooja25@gmail.com</a></h2></div>
+
+
+  
+<style id="container-styles">#block-580e85dce74443deeea9 {
+    
+    --stroke-style: none;--stroke-thickness: 6px;
+    
+      
+      
+      
+    
+
+
+
+  }
+
+  #block-580e85dce74443deeea9 .sqs-html-content {
+    
+    --tweak-text-block-padding: 6% 6% 6% 6%;
+  --tweak-text-block-padding: initial;
+}
+
+  .fe-block-580e85dce74443deeea9 {
+      mix-blend-mode: var(--tweak-text-block-blend
+  );
+      border-radius: var(--tweak-text-block-radius);
+  }
+
+  
+  
+.fe-block-580e85dce74443deeea9 {
+      --tweak-text-block-radius: 0px 0px 0px 0px;
+    }
+
+
+  
+  .fe-block-580e85dce74443deeea9 {
+      --tweak-text-block-blend
+  : normal;
+    }
+  
+
+  .fe-block-580e85dce74443deeea9 {
+    --blur-value: blur(15px);}
+
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-580e85dce74443deeea9 {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-580e85dce74443deeea9 .sqs-html-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+<style class="transform-overrides-vars">
+  
+</style>
+
+
+
+
+</div>
+</div></div></div><style>/* duplicate footer social icons (already shown under the site name) */ .fe-block-11fc8402736238ccc6a5{display:none!important}</style><div class="fe-block fe-block-11fc8402736238ccc6a5"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-socialaccountlinks social-account-links-block social-account-links-v2-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/dab3802f-0945-49e1-be01-c5a8ccac27d1_623/website.components.socialLinks.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/dab3802f-0945-49e1-be01-c5a8ccac27d1_623/website.components.socialLinks.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.socialLinks" data-sqsp-block="social-links" data-website-component-id="11fc8402736238ccc6a5" id="block-11fc8402736238ccc6a5"><div class="sqs-block-content">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sqs-block-socialaccountlinks-content">
+  <div class="sqs-svg-icon--outer social-icon-alignment-left social-icons-color-black social-icons-size-medium social-icons-style-regular ">
+    <style>
+      
+      #block-11fc8402736238ccc6a5 {
+        --social-icons-justify-content: flex-start;
+        --social-icons-dimension: 24px;--social-icons-gap: 14px;
+        --social-icons-border-thickness: 2px;
+      }
+
+      
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--wrapper {
+        --si-border-radius: 0;--si-scale: 2;--si-box-shadow: none;--si-fill-icon: var(--si-primary);--si-fill-icon-fade: var(--si-primary-faded);--si-fill-icon-hover: var(--si-primary);--si-fill-mask: transparent;--si-fill-mask-fade: transparent;--si-fill-mask-hover: transparent;--si-bg: transparent;--si-bg-fade: transparent;--si-bg-hover: transparent;
+      }
+
+      
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list {
+        justify-content: var(--social-icons-justify-content, center);
+        column-gap: var(--social-icons-gap, 12px);
+        row-gap: var(--social-icons-gap, 12px);
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--wrapper {
+        width: var(--social-icons-dimension, 20px);
+        height: var(--social-icons-dimension, 20px);
+        margin: 0;
+        border: none; 
+        background-color: var(--si-bg, transparent);
+        box-shadow: var(--si-box-shadow, none);
+        border-radius: var(--si-border-radius, 0);
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--wrapper > div {
+        transform: scale(var(--si-scale, 1));
+      }
+      #block-11fc8402736238ccc6a5 .sqs-use--icon {
+        fill: var(--si-fill-icon, transparent);
+      }
+      #block-11fc8402736238ccc6a5 .sqs-use--mask {
+        fill: var(--si-fill-mask, transparent);
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper {
+        background-color: var(--si-bg-fade, var(--si-bg, transparent));
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper .sqs-use--icon {
+        fill: var(--si-fill-icon-fade, var(--si-fill-icon, transparent));
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper .sqs-use--mask {
+        fill: var(--si-fill-mask-fade, var(--si-fill-mask, transparent));
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover {
+        background-color: var(--si-bg-hover, var(--si-bg, transparent));
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--icon {
+        fill: var(--si-fill-icon-hover, var(--si-fill-icon, transparent));
+      }
+      #block-11fc8402736238ccc6a5 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--mask {
+        fill: var(--si-fill-mask-hover, var(--si-fill-mask, transparent));
+      }
+    </style>
+    <nav class="sqs-svg-icon--list">
+      
+        
+          <a href="https://www.instagram.com/SabhyaBacchi/" target="_blank" class="sqs-svg-icon--wrapper instagram-unauth" aria-label="Instagram">
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="#instagram-unauth-icon"></use>
+                <use class="sqs-use--mask" xlink:href="#instagram-unauth-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+          <a href="mailto:frpooja25@gmail.com" class="sqs-svg-icon--wrapper email" aria-label="Email">
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="#email-icon"></use>
+                <use class="sqs-use--mask" xlink:href="#email-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+      
+    </nav>
+  </div>
+  
+    
+<style id="container-styles">#block-11fc8402736238ccc6a5 {
+    
+    
+    
+
+
+
+  }
+
+  #block-11fc8402736238ccc6a5 .sqs-block-socialaccountlinks-content {
+    
+    --tweak-social-links-block-padding: initial;
+}
+
+  .fe-block-11fc8402736238ccc6a5 {
+      mix-blend-mode: var(--tweak-social-links-block-blend);
+      border-radius: var(--tweak-social-links-block-radius);
+  }
+
+  
+  
+
+
+
+  
+  
+
+  .fe-block-11fc8402736238ccc6a5 {
+    }
+
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-11fc8402736238ccc6a5 {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-11fc8402736238ccc6a5 .sqs-block-socialaccountlinks-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+
+    <style class="transform-overrides-vars">
+  
+</style>
+
+    
+
+
+
+  
+</div>
+</div></div></div></div></div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
+</footer>
+
+      
+    </div>
+
+    
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none" data-usage="social-icons-svg"><symbol id="instagram-unauth-icon" viewBox="0 0 64 64"><path d="M46.91,25.816c-0.073-1.597-0.326-2.687-0.697-3.641c-0.383-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.67-1.347-2.657-1.73c-0.954-0.371-2.045-0.624-3.641-0.697C36.585,17.017,36.074,17,32,17s-4.585,0.017-6.184,0.09c-1.597,0.073-2.687,0.326-3.641,0.697c-0.986,0.383-1.823,0.896-2.657,1.73c-0.834,0.834-1.347,1.67-1.73,2.657c-0.371,0.954-0.624,2.045-0.697,3.641C17.017,27.415,17,27.926,17,32c0,4.074,0.017,4.585,0.09,6.184c0.073,1.597,0.326,2.687,0.697,3.641c0.383,0.986,0.896,1.823,1.73,2.657c0.834,0.834,1.67,1.347,2.657,1.73c0.954,0.371,2.045,0.624,3.641,0.697C27.415,46.983,27.926,47,32,47s4.585-0.017,6.184-0.09c1.597-0.073,2.687-0.326,3.641-0.697c0.986-0.383,1.823-0.896,2.657-1.73c0.834-0.834,1.347-1.67,1.73-2.657c0.371-0.954,0.624-2.045,0.697-3.641C46.983,36.585,47,36.074,47,32S46.983,27.415,46.91,25.816z M44.21,38.061c-0.067,1.462-0.311,2.257-0.516,2.785c-0.272,0.7-0.597,1.2-1.122,1.725c-0.525,0.525-1.025,0.85-1.725,1.122c-0.529,0.205-1.323,0.45-2.785,0.516c-1.581,0.072-2.056,0.087-6.061,0.087s-4.48-0.015-6.061-0.087c-1.462-0.067-2.257-0.311-2.785-0.516c-0.7-0.272-1.2-0.597-1.725-1.122c-0.525-0.525-0.85-1.025-1.122-1.725c-0.205-0.529-0.45-1.323-0.516-2.785c-0.072-1.582-0.087-2.056-0.087-6.061s0.015-4.48,0.087-6.061c0.067-1.462,0.311-2.257,0.516-2.785c0.272-0.7,0.597-1.2,1.122-1.725c0.525-0.525,1.025-0.85,1.725-1.122c0.529-0.205,1.323-0.45,2.785-0.516c1.582-0.072,2.056-0.087,6.061-0.087s4.48,0.015,6.061,0.087c1.462,0.067,2.257,0.311,2.785,0.516c0.7,0.272,1.2,0.597,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.529,0.45,1.323,0.516,2.785c0.072,1.582,0.087,2.056,0.087,6.061S44.282,36.48,44.21,38.061z M32,24.297c-4.254,0-7.703,3.449-7.703,7.703c0,4.254,3.449,7.703,7.703,7.703c4.254,0,7.703-3.449,7.703-7.703C39.703,27.746,36.254,24.297,32,24.297z M32,37c-2.761,0-5-2.239-5-5c0-2.761,2.239-5,5-5s5,2.239,5,5C37,34.761,34.761,37,32,37z M40.007,22.193c-0.994,0-1.8,0.806-1.8,1.8c0,0.994,0.806,1.8,1.8,1.8c0.994,0,1.8-0.806,1.8-1.8C41.807,22.999,41.001,22.193,40.007,22.193z"></path></symbol><symbol id="instagram-unauth-mask" viewBox="0 0 64 64"><path d="M43.693,23.153c-0.272-0.7-0.597-1.2-1.122-1.725c-0.525-0.525-1.025-0.85-1.725-1.122c-0.529-0.205-1.323-0.45-2.785-0.517c-1.582-0.072-2.056-0.087-6.061-0.087s-4.48,0.015-6.061,0.087c-1.462,0.067-2.257,0.311-2.785,0.517c-0.7,0.272-1.2,0.597-1.725,1.122c-0.525,0.525-0.85,1.025-1.122,1.725c-0.205,0.529-0.45,1.323-0.516,2.785c-0.072,1.582-0.087,2.056-0.087,6.061s0.015,4.48,0.087,6.061c0.067,1.462,0.311,2.257,0.516,2.785c0.272,0.7,0.597,1.2,1.122,1.725s1.025,0.85,1.725,1.122c0.529,0.205,1.323,0.45,2.785,0.516c1.581,0.072,2.056,0.087,6.061,0.087s4.48-0.015,6.061-0.087c1.462-0.067,2.257-0.311,2.785-0.516c0.7-0.272,1.2-0.597,1.725-1.122s0.85-1.025,1.122-1.725c0.205-0.529,0.45-1.323,0.516-2.785c0.072-1.582,0.087-2.056,0.087-6.061s-0.015-4.48-0.087-6.061C44.143,24.476,43.899,23.682,43.693,23.153z M32,39.703c-4.254,0-7.703-3.449-7.703-7.703s3.449-7.703,7.703-7.703s7.703,3.449,7.703,7.703S36.254,39.703,32,39.703z M40.007,25.793c-0.994,0-1.8-0.806-1.8-1.8c0-0.994,0.806-1.8,1.8-1.8c0.994,0,1.8,0.806,1.8,1.8C41.807,24.987,41.001,25.793,40.007,25.793z M0,0v64h64V0H0z M46.91,38.184c-0.073,1.597-0.326,2.687-0.697,3.641c-0.383,0.986-0.896,1.823-1.73,2.657c-0.834,0.834-1.67,1.347-2.657,1.73c-0.954,0.371-2.044,0.624-3.641,0.697C36.585,46.983,36.074,47,32,47s-4.585-0.017-6.184-0.09c-1.597-0.073-2.687-0.326-3.641-0.697c-0.986-0.383-1.823-0.896-2.657-1.73c-0.834-0.834-1.347-1.67-1.73-2.657c-0.371-0.954-0.624-2.044-0.697-3.641C17.017,36.585,17,36.074,17,32c0-4.074,0.017-4.585,0.09-6.185c0.073-1.597,0.326-2.687,0.697-3.641c0.383-0.986,0.896-1.823,1.73-2.657c0.834-0.834,1.67-1.347,2.657-1.73c0.954-0.371,2.045-0.624,3.641-0.697C27.415,17.017,27.926,17,32,17s4.585,0.017,6.184,0.09c1.597,0.073,2.687,0.326,3.641,0.697c0.986,0.383,1.823,0.896,2.657,1.73c0.834,0.834,1.347,1.67,1.73,2.657c0.371,0.954,0.624,2.044,0.697,3.641C46.983,27.415,47,27.926,47,32C47,36.074,46.983,36.585,46.91,38.184z M32,27c-2.761,0-5,2.239-5,5s2.239,5,5,5s5-2.239,5-5S34.761,27,32,27z"></path></symbol><symbol id="tiktok-unauth-icon" viewBox="0 0 64 64"><path d="M37.9281 17C38.4298 21.2545 40.825 23.7941 45 24.0658V28.8451C42.5859 29.0794 40.4652 28.3016 38.0038 26.821V35.7423C38.0038 47.147 25.4788 50.7361 20.4233 42.5457C17.1856 37.3073 19.1642 28.1048 29.5496 27.73V32.781C28.7296 32.9058 27.9219 33.1002 27.1355 33.362C24.835 34.1398 23.5191 35.583 23.8883 38.1413C24.5889 43.033 33.6584 44.4856 32.901 34.9176V17H37.9091H37.9281Z"></path></symbol><symbol id="tiktok-unauth-mask" viewBox="0 0 64 64"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 0H0V64H64V0ZM45.44 23.54C41 23.25 38.5 20.54 38 16H32.68V35.12C33.48 45.33 23.9 43.78 23.16 38.56C22.78 35.83 24.16 34.29 26.6 33.46C27.4272 33.1806 28.2771 32.9732 29.14 32.84V27.45C18.18 27.85 16.08 37.67 19.5 43.26C24.82 52 38.05 48.17 38.05 36V26.48C40.65 28.06 42.89 28.89 45.44 28.64V23.54Z"></path></symbol><symbol id="email-icon" viewBox="0 0 64 64"><path fill-rule="evenodd" clip-rule="evenodd" d="M17,25.5a7,7 0 0 1 7,-7h16a7,7 0 0 1 7,7v13a7,7 0 0 1 -7,7h-16a7,7 0 0 1 -7,-7z M19.7,25.7a4.5,4.5 0 0 1 4.5,-4.5h15.6a4.5,4.5 0 0 1 4.5,4.5v12.6a4.5,4.5 0 0 1 -4.5,4.5h-15.6a4.5,4.5 0 0 1 -4.5,-4.5z M21,24.2L32,33.4L43,24.2v3.7L32,37.1L21,27.9z"></path></symbol><symbol id="email-mask" viewBox="0 0 64 64"><path fill-rule="evenodd" clip-rule="evenodd" d="M0,0h64v64H0z M17,25.5a7,7 0 0 1 7,-7h16a7,7 0 0 1 7,7v13a7,7 0 0 1 -7,7h-16a7,7 0 0 1 -7,-7z M19.7,25.7a4.5,4.5 0 0 1 4.5,-4.5h15.6a4.5,4.5 0 0 1 4.5,4.5v12.6a4.5,4.5 0 0 1 -4.5,4.5h-15.6a4.5,4.5 0 0 1 -4.5,-4.5z M21,24.2L32,33.4L43,24.2v3.7L32,37.1L21,27.9z"></path></symbol></svg>
+
+  
+
+
+<!-- mobile nav + header offset -->
+<style>
+  /* the Squarespace header is position:absolute and out of flow, so any page
+     whose first section starts at y=0 slides underneath it. Reserve its height. */
+  body{--hdr-h:0px}
+  .pg > section:first-of-type{padding-top:calc(96px + var(--hdr-h))}
+  @media (max-width:600px){.pg > section:first-of-type{padding-top:calc(40px + var(--hdr-h))}}
+  /* burger needs to sit above the overlay so it can close it again */
+  .header-burger{pointer-events:auto;position:relative;z-index:3}
+  .header--menu-open .header-menu{opacity:1;visibility:visible}
+  .header--menu-open .header-menu .header-menu-nav-list{transform:translatey(0)}
+  .header-menu-nav-item a{display:block;padding:14px 0}
+  /* burger morphs into an X while open */
+  .header--menu-open .burger-inner .top-bun{transform:translateY(5px) rotate(45deg)}
+  .header--menu-open .burger-inner .bottom-bun{transform:translateY(-5px) rotate(-45deg)}
+  .burger-inner .top-bun,.burger-inner .bottom-bun{transition:transform .2s ease}
+  /* Navy on the overlay's yellow. The theme pairs that yellow with
+     --menuOverlayNavigationLinkColor, but its --black-hsl token holds a white
+     value, so the links, title and X all came out white-on-yellow (1.48:1).
+     Navy is the inner pages' section colour and hits 11.5:1 here. */
+  .header--menu-open{--menuOverlayNavigationLinkColor:rgb(17,8,97)}
+  .header--menu-open .header .header-menu-nav-item a,
+  .header--menu-open .header .header-title-text a,
+  .header--menu-open .header .header-nav-wrapper a,
+  .header--menu-open .header .header-nav-wrapper button{color:rgb(17,8,97)}
+  /* the theme's last declaration for these is the ButtonText system colour,
+     which ignores the variable above, so set the X bars explicitly */
+  .header--menu-open .header .header-burger .top-bun,
+  .header--menu-open .header .header-burger .patty,
+  .header--menu-open .header .header-burger .bottom-bun{background-color:rgb(17,8,97)}
+</style>
+<script>
+(function(){
+  var body=document.body, header=document.getElementById('header');
+  /* the header ships a desktop copy AND a mobile copy of the burger, so bind
+     every one of them -- querySelector would only ever wire the desktop one */
+  var btns=[].slice.call(document.querySelectorAll('.header-burger-btn'));
+  var menus=[].slice.call(document.querySelectorAll('.header-menu'));
+
+  /* publish the header's real height so content can clear it */
+  function h(){ if(!header) return;
+    var bar=header.querySelector('.header-announcement-bar-wrapper')||header;
+    var v=Math.round(bar.getBoundingClientRect().height);
+    body.style.setProperty('--hdr-h',v+'px');
+    menus.forEach(function(m){m.style.paddingTop=v+'px'}); }
+  h(); window.addEventListener('resize',h); window.addEventListener('load',h);
+
+  if(!btns.length||!menus.length) return;
+  function set(on){
+    body.classList.toggle('header--menu-open',on);
+    btns.forEach(function(b){
+      b.setAttribute('aria-expanded',on?'true':'false');
+      var o=b.querySelector('.js-header-burger-open-title'),
+          c=b.querySelector('.js-header-burger-close-title');
+      if(o) o.hidden=on; if(c) c.hidden=!on;
+    });
+  }
+  btns.forEach(function(b){
+    b.setAttribute('aria-expanded','false');
+    b.addEventListener('click',function(e){ e.preventDefault(); set(!body.classList.contains('header--menu-open')); });
+  });
+  /* close on link tap or Escape */
+  menus.forEach(function(m){ m.addEventListener('click',function(e){ if(e.target.closest('a')) set(false); }); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') set(false); });
+})();
+</script>
+
+<div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div></body></html>

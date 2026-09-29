@@ -491,6 +491,8 @@ PAGE_META = {
                 "Brief, scope, build, test, launch. Three product launches, five client accounts at once, six countries, and a scientist's eye for the technical bits."),
     "contact": ("Contact | Sabhyabacchi", "contact",
                 "Say hi: collaborations, commissions, or just strange little things you think I'd like."),
+    "analysis/rpg-playbook": ("Reverse-engineering Rapid Product Growth | Sabhyabacchi", "rpg",
+                "How a growth agency would run Rex Black's pipeline, week by week, rebuilt from 176 of its own videos, its sales page and its clients' live ads."),
 }
 
 def set_meta(page, slug):
@@ -510,23 +512,28 @@ def set_meta(page, slug):
         page = re.sub(pat, rep, page)
     return page
 
-def build(slug, title, content, active_href):
+def build(slug, title, content, active_href, noindex=False):
+    depth = slug.count("/") + 1
+    up = "../" * depth
     page = HEAD_AND_HEADER + COMMON_CSS + content + YT_JS + DECK_JS + FOOTER_AND_TAIL
     # relative asset/paths from a subdirectory
-    page = re.sub(r'(href|src)="assets/', r'\1="../assets/', page)
-    page = re.sub(r"url\((['\"]?)assets/", r"url(\1../assets/", page)
+    page = re.sub(r'(href|src)="assets/', r'\1="' + up + 'assets/', page)
+    page = re.sub(r"url\((['\"]?)assets/", r"url(\1" + up + "assets/", page)
     # nav links → relative
     for slug_ in ("about", "my-work", "project-management", "contact"):
-        page = page.replace(f'href="/{slug_}"', f'href="../{slug_}/"').replace(f'href="{slug_}/"', f'href="../{slug_}/"')
-    page = re.sub(r'href="/"', 'href="../"', page)
-    page = page.replace('href="index.html"', 'href="../"')
-    # active nav state
-    page = page.replace(f'<a href="{active_href}" data-animation-role="header-element">',
-                        f'<a href="{active_href}" data-animation-role="header-element" class="header-nav-item--active" aria-current="page">')
+        page = page.replace(f'href="/{slug_}"', f'href="{up}{slug_}/"').replace(f'href="{slug_}/"', f'href="{up}{slug_}/"')
+    page = re.sub(r'href="/"', f'href="{up}"', page)
+    page = page.replace('href="index.html"', f'href="{up}"')
+    # active nav state (None for unlisted pages)
+    if active_href:
+        page = page.replace(f'<a href="{active_href}" data-animation-role="header-element">',
+                            f'<a href="{active_href}" data-animation-role="header-element" class="header-nav-item--active" aria-current="page">')
     page = re.sub(r'<title>[^<]*</title>', f'<title>{title}</title>', page)
     page = set_meta(page, slug)
+    if noindex:
+        page = page.replace('<meta name="twitter:card"', '<meta name="robots" content="noindex,nofollow">\n<meta name="twitter:card"', 1)
     out = ROOT / slug / "index.html"
-    out.parent.mkdir(exist_ok=True)
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page)
     print("wrote", out.relative_to(ROOT), len(page)//1024, "KB")
 
@@ -534,6 +541,9 @@ build("about", "About | Sabhyabacchi", ABOUT, "../about/")
 build("my-work", "My work | Sabhyabacchi", MY_WORK, "../my-work/")
 build("project-management", "Project management | Sabhyabacchi", PROJECT_MANAGEMENT, "../project-management/")
 build("contact", "Contact | Sabhyabacchi", CONTACT, "../contact/")
+# unlisted analysis pages live in pages/<name>.html (too long to keep inline here)
+RPG_PLAYBOOK = (ROOT / "pages" / "rpg-playbook.html").read_text()
+build("analysis/rpg-playbook", "Reverse-engineering Rapid Product Growth | Sabhyabacchi", RPG_PLAYBOOK, None, noindex=True)
 
 # make home nav links relative too so everything works from file:// and any host
 h2 = home.replace('href="/about"', 'href="about/"').replace('href="/my-work"', 'href="my-work/"').replace('href="/contact"', 'href="contact/"').replace('href="/project-management"', 'href="project-management/"')
