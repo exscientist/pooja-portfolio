@@ -1,3 +1,9 @@
 .DS_Store
 .playwright-mcp/
 .vercel
+.env
+.env.*
+!.env.example
+node_modules/
+lead-engine/data/out/
+lead-engine/data/browser-profile/
